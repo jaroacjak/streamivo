@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="sk">
 <head>
@@ -6,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#090b12">
 <title>Streamio | Slovenská televízia</title>
+
 <style>
 :root {
   color-scheme: dark;
@@ -68,7 +68,7 @@ nav button.active, nav button:hover {
   flex: 1 1 180px;
   max-width: 340px;
 }
-input[type="search"] {
+.search input {
   width: 100%;
   padding: 12px;
   border-radius: 11px;
@@ -137,11 +137,7 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
   overflow: hidden;
   margin-top: 20px;
 }
-.video-wrap {
-  position: relative;
-  background: #000;
-  overflow: hidden;
-}
+.video-wrap { position: relative; background: #000; }
 .video-wrap video {
   display: block;
   width: 100%;
@@ -163,18 +159,12 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
   font-size: 13px;
   pointer-events: none;
 }
-.live-badge {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  font-weight: 900;
-}
+.live-badge { display: flex; align-items: center; gap: 7px; font-weight: 900; }
 .live-badge span {
   width: 9px;
   height: 9px;
   background: var(--red);
   border-radius: 50%;
-  box-shadow: 0 0 12px var(--red);
 }
 .video-center {
   position: absolute;
@@ -192,7 +182,6 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
   background: #805cffed;
   color: white;
   font-size: 26px;
-  box-shadow: 0 4px 30px #0009;
 }
 .video-bottom {
   position: absolute;
@@ -202,17 +191,9 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
   padding: 38px 16px 12px;
   background: linear-gradient(transparent, #000f 30%);
 }
-.now-program {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-bottom: 12px;
-}
+.now-program { display: flex; flex-direction: column; gap: 4px; margin-bottom: 12px; }
 .now-program strong { font-size: 15px; }
-.now-program span {
-  font-size: 12px;
-  color: #c0c3d0;
-}
+.now-program span { font-size: 12px; color: #c0c3d0; }
 .timeline-row {
   display: flex;
   align-items: center;
@@ -220,12 +201,7 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
   font-size: 12px;
   font-variant-numeric: tabular-nums;
 }
-#timeline {
-  flex: 1;
-  min-width: 0;
-  accent-color: #9275ff;
-  cursor: pointer;
-}
+#timeline { flex: 1; min-width: 0; accent-color: #9275ff; }
 .player-controls {
   display: flex;
   align-items: center;
@@ -250,10 +226,7 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
 }
 .player-controls .go-live.is-live { background: #b51d35; }
 .controls-spacer { flex: 1; }
-#volume {
-  width: 80px;
-  accent-color: #9275ff;
-}
+#volume { width: 80px; accent-color: #9275ff; }
 .player-status {
   margin-top: 8px;
   min-height: 16px;
@@ -263,12 +236,7 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
 }
 .player-info { padding: 14px; background: var(--panel); }
 .player-info h3 { margin: 0; }
-.filters {
-  display: flex;
-  gap: 7px;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
-}
+.filters { display: flex; gap: 7px; flex-wrap: wrap; margin-bottom: 15px; }
 .chip {
   background: var(--panel);
   border: 1px solid #ffffff20;
@@ -286,18 +254,14 @@ h2 { font-size: clamp(21px, 3vw, 28px); margin-bottom: 0; }
   border-radius: 12px;
   padding: 15px;
 }
-.program-time {
-  color: #c6b8ff;
-  font-weight: 800;
-  min-width: 65px;
-}
+.program-time { color: #c6b8ff; font-weight: 800; min-width: 65px; }
 .archive-item {
   background: var(--panel);
   padding: 16px;
   border-radius: 13px;
   margin-bottom: 10px;
 }
-.btn {
+.primary-button {
   border: 0;
   border-radius: 10px;
   background: var(--accent);
@@ -341,6 +305,7 @@ footer {
 }
 </style>
 </head>
+
 <body>
 <header>
   <div class="head">
@@ -352,8 +317,8 @@ footer {
     </nav>
     <div class="search">
       <input id="search" type="search"
-             placeholder="Hľadať kanál alebo reláciu…"
-             aria-label="Vyhľadávanie">
+        placeholder="Hľadať kanál alebo reláciu…"
+        aria-label="Vyhľadávanie">
     </div>
   </div>
 </header>
@@ -361,7 +326,7 @@ footer {
 <main>
   <section id="tvPage" class="section">
     <div class="heading">
-      <h2>Slovenské televízie</h2>
+      <h2>Slovenská televízia</h2>
       <span class="muted">Živé vysielanie</span>
     </div>
 
@@ -369,7 +334,7 @@ footer {
 
     <div class="custom-player" id="customPlayer">
       <div class="video-wrap">
-        <video id="video" playsinline preload="auto"></video>
+        <video id="video" playsinline preload="none"></video>
 
         <div class="video-top">
           <span class="live-badge"><span></span> NAŽIVO</span>
@@ -383,40 +348,41 @@ footer {
         <div class="video-bottom">
           <div class="now-program">
             <strong id="nowProgram">Živé vysielanie</strong>
-            <span id="programTime">Čakám na programové údaje…</span>
+            <span id="programTime">Vyber kanál a spusti prehrávanie.</span>
           </div>
 
           <div class="timeline-row">
             <span id="elapsed">--:--</span>
             <input id="timeline" type="range" min="0" max="1000"
-                   value="1000" aria-label="Časová os vysielania" disabled>
+              value="1000" aria-label="Časová os vysielania" disabled>
             <span id="remaining">NAŽIVO</span>
           </div>
 
           <div class="player-controls">
-            <button id="back10" title="10 sekúnd dozadu" aria-label="10 sekúnd dozadu">↶ 10</button>
+            <button id="back10" title="10 sekúnd dozadu" aria-label="10 sekúnd dozadu">↶10</button>
             <button id="playPause" aria-label="Prehrať">▶</button>
-            <button id="forward10" title="10 sekúnd dopredu" aria-label="10 sekúnd dopredu">10 ↷</button>
+            <button id="forward10" title="10 sekúnd dopredu" aria-label="10 sekúnd dopredu">10↷</button>
             <button id="goLive" class="go-live">● NAŽIVO</button>
             <span class="controls-spacer"></span>
             <button id="mute" aria-label="Stlmiť zvuk">🔊</button>
             <input id="volume" type="range" min="0" max="1" step="0.05"
-                   value="1" aria-label="Hlasitosť">
+              value="1" aria-label="Hlasitosť">
             <button id="fullscreen" aria-label="Celá obrazovka">⛶</button>
           </div>
-          <div id="playerStatus" class="player-status">
+          <div id="playerStatus" class="player-status" aria-live="polite">
             Vyber kanál a spusti vysielanie.
           </div>
         </div>
       </div>
+
       <div class="player-info">
-        <h3 id="playerTitle">Vyber si televízny kanál</h3>
+        <h3 id="playerTitle">JOJ</h3>
       </div>
     </div>
 
     <p class="note">
-      Posúvanie dozadu a dopredu závisí od toho, či vysielateľ poskytuje
-      časové okno DVR. HLS.js nedokáže vytvoriť archív, ktorý stream neposkytuje.
+      Posúvanie závisí od dostupného časového okna streamu. HLS.js
+      nevytvára archív a neobchádza obmedzenia vysielateľa.
     </p>
   </section>
 
@@ -425,21 +391,19 @@ footer {
       <h2>TV program</h2>
       <span class="muted">Programový rozpis</span>
     </div>
-    <div class="filters" id="guideFilters"></div>
-    <div class="program-list" id="programList"></div>
-    <p class="note">
-      Skutočný program sa zobrazí po doplnení aktuálnych programových údajov.
-    </p>
+    <div id="guideFilters" class="filters"></div>
+    <div id="programList" class="program-list"></div>
+    <p class="note">Programové údaje zatiaľ nie sú pripojené.</p>
   </section>
 
   <section id="archivePage" class="section hidden">
     <div class="heading">
-      <h2>Archív relácií</h2>
+      <h2>Archív</h2>
       <span class="muted">Dostupné epizódy</span>
     </div>
     <div id="archiveList"></div>
     <p class="note">
-      Archív vyžaduje samostatné dostupné video odkazy. Samotný živý stream
+      Archív vyžaduje samostatné dostupné video odkazy. Živý stream
       automaticky nevytvára archív.
     </p>
   </section>
@@ -447,9 +411,7 @@ footer {
 
 <footer>Streamio · Responzívne pre mobil, tablet a počítač.</footer>
 
-<!-- Lokálny súbor hls.min.js musí byť v rovnakom priečinku ako index.html. -->
 <script src="./hls.min.js"></script>
-
 <script>
 "use strict";
 
@@ -462,12 +424,10 @@ const channels = [
   }
 ];
 
-// Príklad programovej položky:
-// {channel:"joj",time:"18:00",title:"Názov relácie",date:"2026-10-18"}
+// Doplň skutočné programové údaje, keď ich budeš mať.
 const programData = [];
 
-// Príklad archívnej položky:
-// {channel:"joj",title:"Názov relácie",date:"2026-10-18",video:"https://..."}
+// Doplň iba legálne dostupné archívne video odkazy.
 const archiveData = [];
 
 const $ = selector => document.querySelector(selector);
@@ -477,30 +437,27 @@ let currentPage = "tv";
 let currentChannel = "joj";
 let hlsPlayer = null;
 let draggingTimeline = false;
-let rangeStart = null;
-let rangeEnd = null;
-let clockTimer = null;
-
-function esc(value) {
-  return String(value ?? "").replace(/[&<>"']/g, character => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#39;"
-  })[character]);
-}
 
 function setStatus(message) {
   $("#playerStatus").textContent = message;
 }
 
+function escapeHTML(value) {
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
 function showPage(page) {
   currentPage = page;
 
-  ["tv", "guide", "archive"].forEach(name => {
-    $("#" + name + "Page").classList.toggle("hidden", name !== page);
-  });
+  $("#tvPage").classList.toggle("hidden", page !== "tv");
+  $("#guidePage").classList.toggle("hidden", page !== "guide");
+  $("#archivePage").classList.toggle("hidden", page !== "archive");
 
   document.querySelectorAll("[data-page]").forEach(button => {
     button.classList.toggle("active", button.dataset.page === page);
@@ -519,18 +476,18 @@ document.querySelector("nav").addEventListener("click", event => {
 function renderChannels() {
   const query = $("#search").value.trim().toLocaleLowerCase("sk");
 
-  const list = channels.filter(channel =>
+  const filtered = channels.filter(channel =>
     (channel.name + " " + channel.id)
       .toLocaleLowerCase("sk")
       .includes(query)
   );
 
-  $("#channels").innerHTML = list.length
-    ? list.map(channel => `
+  $("#channels").innerHTML = filtered.length
+    ? filtered.map(channel => `
       <button class="channel ${channel.id === currentChannel ? "active" : ""}"
-              data-channel="${esc(channel.id)}">
-        <div class="channel-logo">${esc(channel.logo || channel.name)}</div>
-        <strong><span class="dot"></span>${esc(channel.name)}</strong>
+        data-channel="${escapeHTML(channel.id)}">
+        <div class="channel-logo">${escapeHTML(channel.logo)}</div>
+        <strong><span class="dot"></span>${escapeHTML(channel.name)}</strong>
         <div class="muted">Živé vysielanie</div>
       </button>
     `).join("")
@@ -538,14 +495,17 @@ function renderChannels() {
 }
 
 function getSeekableRange() {
-  if (!video.seekable || video.seekable.length === 0) return null;
+  try {
+    if (!video.seekable || video.seekable.length === 0) return null;
 
-  const last = video.seekable.length - 1;
-
-  return {
-    start: video.seekable.start(last),
-    end: video.seekable.end(last)
-  };
+    const index = video.seekable.length - 1;
+    return {
+      start: video.seekable.start(index),
+      end: video.seekable.end(index)
+    };
+  } catch {
+    return null;
+  }
 }
 
 function formatTime(seconds) {
@@ -559,7 +519,6 @@ function formatTime(seconds) {
   if (hours > 0) {
     return `${hours}:${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
   }
-
   return `${minutes}:${String(secs).padStart(2, "0")}`;
 }
 
@@ -568,8 +527,6 @@ function updateTimeline() {
   const slider = $("#timeline");
 
   if (!range || range.end <= range.start) {
-    rangeStart = null;
-    rangeEnd = null;
     slider.disabled = true;
     $("#elapsed").textContent = "--:--";
     $("#remaining").textContent = "NAŽIVO";
@@ -577,10 +534,7 @@ function updateTimeline() {
     return;
   }
 
-  rangeStart = range.start;
-  rangeEnd = range.end;
   slider.disabled = false;
-
   const duration = range.end - range.start;
 
   if (!draggingTimeline && duration > 0) {
@@ -605,7 +559,7 @@ function seekTo(seconds) {
   const range = getSeekableRange();
 
   if (!range) {
-    setStatus("Tento stream neposkytuje posúvateľnú časovú os.");
+    setStatus("Stream zatiaľ neposkytuje dostupnú posúvateľnú časovú os.");
     return;
   }
 
@@ -613,9 +567,7 @@ function seekTo(seconds) {
 
   try {
     video.currentTime = target;
-    setStatus(target < range.end - 8
-      ? "Prehrávaš staršiu dostupnú časť vysielania."
-      : "Prehrávaš aktuálnu časť vysielania.");
+    setStatus("Mením pozíciu vysielania…");
   } catch {
     setStatus("Na túto časť vysielania sa nedá presunúť.");
   }
@@ -629,11 +581,10 @@ function goLive() {
     return;
   }
 
-  // HLS.js poskytne preferovanú živú pozíciu, ak je dostupná.
-  const hlsLivePosition = hlsPlayer && hlsPlayer.liveSyncPosition;
-  const target = Number.isFinite(hlsLivePosition)
-    ? hlsLivePosition
-    : range.end - 1;
+  const livePosition = hlsPlayer && hlsPlayer.liveSyncPosition;
+  const target = Number.isFinite(livePosition)
+    ? Math.min(livePosition, range.end)
+    : range.end - 0.5;
 
   seekTo(target);
 
@@ -650,7 +601,7 @@ function updatePlayButtons() {
   $("#playPause").textContent = paused ? "▶" : "Ⅱ";
   $("#playPause").setAttribute("aria-label", paused ? "Prehrať" : "Pauza");
 
-  $("#bigPlay").textContent = paused ? "▶" : "Ⅱ";
+  $("#bigPlay").textContent = "▶";
   $("#bigPlay").style.opacity = paused ? "1" : "0";
   $("#bigPlay").style.pointerEvents = paused ? "auto" : "none";
 }
@@ -675,28 +626,14 @@ function playStream(url, title) {
 
   $("#timeline").value = 1000;
   $("#timeline").disabled = true;
-  rangeStart = null;
-  rangeEnd = null;
 
-  if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    video.src = url;
-    video.play().then(() => {
-      setStatus("Vysielanie sa prehráva.");
-    }).catch(() => {
-      setStatus("Stlač Prehrať. Ak sa stream nespustí, môže byť obmedzený.");
-    });
-    return;
-  }
-
+  // HLS.js prehliadače, ktoré ho podporujú.
   if (window.Hls && Hls.isSupported()) {
     hlsPlayer = new Hls({
       enableWorker: true,
       maxBufferLength: 30,
       liveSyncDurationCount: 3
     });
-
-    hlsPlayer.loadSource(url);
-    hlsPlayer.attachMedia(video);
 
     hlsPlayer.on(Hls.Events.MANIFEST_PARSED, () => {
       setStatus("Vysielanie je pripravené.");
@@ -710,18 +647,30 @@ function playStream(url, title) {
     hlsPlayer.on(Hls.Events.ERROR, (event, data) => {
       if (!data.fatal) return;
 
-      if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
-        setStatus("Chyba siete alebo CORS. Skontroluj prístup k streamu.");
-        hlsPlayer.startLoad();
-      } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+      if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
         setStatus("Obnovujem prehrávač…");
         hlsPlayer.recoverMediaError();
+      } else if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+        setStatus("Stream sa nedá načítať. Skontroluj sieť alebo prístup servera.");
       } else {
-        setStatus("Stream sa nepodarilo prehrať.");
+        setStatus("Prehrávanie sa nepodarilo. Skús to neskôr.");
         destroyHls();
       }
     });
 
+    hlsPlayer.loadSource(url);
+    hlsPlayer.attachMedia(video);
+    return;
+  }
+
+  // Natívne HLS, napríklad v Safari na iPhone.
+  if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src = url;
+    video.play().then(() => {
+      setStatus("Vysielanie sa prehráva.");
+    }).catch(() => {
+      setStatus("Stlač Prehrať alebo skontroluj dostupnosť streamu.");
+    });
     return;
   }
 
@@ -740,21 +689,16 @@ $("#channels").addEventListener("click", event => {
   playStream(channel.stream, channel.name);
 });
 
-$("#playPause").addEventListener("click", () => {
+function togglePlayback() {
   if (video.paused) {
     video.play().catch(() => setStatus("Prehrávanie sa nepodarilo spustiť."));
   } else {
     video.pause();
   }
-});
+}
 
-$("#bigPlay").addEventListener("click", () => {
-  if (video.paused) {
-    video.play().catch(() => setStatus("Prehrávanie sa nepodarilo spustiť."));
-  } else {
-    video.pause();
-  }
-});
+$("#playPause").addEventListener("click", togglePlayback);
+$("#bigPlay").addEventListener("click", togglePlayback);
 
 $("#back10").addEventListener("click", () => {
   seekTo(video.currentTime - 10);
@@ -771,33 +715,36 @@ $("#timeline").addEventListener("pointerdown", () => {
 });
 
 $("#timeline").addEventListener("input", () => {
-  if (rangeStart === null || rangeEnd === null) return;
+  const range = getSeekableRange();
+  if (!range) return;
 
-  const target = rangeStart +
-    (Number($("#timeline").value) / 1000) * (rangeEnd - rangeStart);
+  const target = range.start +
+    (Number($("#timeline").value) / 1000) * (range.end - range.start);
 
-  $("#elapsed").textContent = formatTime(target - rangeStart);
-  $("#remaining").textContent = target >= rangeEnd - 8
-    ? "NAŽIVO"
-    : `−${formatTime(rangeEnd - target)}`;
+  $("#elapsed").textContent = formatTime(target - range.start);
 });
 
-$("#timeline").addEventListener("change", () => {
-  if (rangeStart !== null && rangeEnd !== null) {
-    const target = rangeStart +
-      (Number($("#timeline").value) / 1000) * (rangeEnd - rangeStart);
-    seekTo(target);
-  }
-
+function finishTimelineDrag() {
+  if (!draggingTimeline) return;
   draggingTimeline = false;
-  updateTimeline();
-});
 
-window.addEventListener("pointerup", () => {
-  if (draggingTimeline) {
-    draggingTimeline = false;
-    updateTimeline();
-  }
+  const range = getSeekableRange();
+  if (!range) return;
+
+  const target = range.start +
+    (Number($("#timeline").value) / 1000) * (range.end - range.start);
+
+  seekTo(target);
+}
+
+$("#timeline").addEventListener("pointerup", finishTimelineDrag);
+$("#timeline").addEventListener("change", finishTimelineDrag);
+$("#timeline").addEventListener("pointercancel", finishTimelineDrag);
+
+$("#mute").addEventListener("click", () => {
+  video.muted = !video.muted;
+  $("#mute").textContent = video.muted ? "🔇" : "🔊";
+  $("#mute").setAttribute("aria-label", video.muted ? "Zapnúť zvuk" : "Stlmiť zvuk");
 });
 
 $("#volume").addEventListener("input", () => {
@@ -816,9 +763,11 @@ $("#fullscreen").addEventListener("click", async () => {
       await player.requestFullscreen();
     } else if (video.webkitEnterFullscreen) {
       video.webkitEnterFullscreen();
+    } else {
+      setStatus("Celá obrazovka nie je v tomto prehliadači dostupná.");
     }
   } catch {
-    setStatus("Celú obrazovku sa nepodarilo otvoriť.");
+    setStatus("Nepodarilo sa zapnúť celú obrazovku.");
   }
 });
 
@@ -826,96 +775,69 @@ video.addEventListener("play", updatePlayButtons);
 video.addEventListener("pause", updatePlayButtons);
 video.addEventListener("timeupdate", updateTimeline);
 video.addEventListener("progress", updateTimeline);
-video.addEventListener("loadedmetadata", updateTimeline);
 video.addEventListener("durationchange", updateTimeline);
 video.addEventListener("seeked", updateTimeline);
-
+video.addEventListener("playing", () => setStatus("Vysielanie sa prehráva."));
+video.addEventListener("waiting", () => setStatus("Načítavam vysielanie…"));
 video.addEventListener("error", () => {
-  if (!hlsPlayer) {
-    setStatus("Video sa nepodarilo načítať. Skontroluj dostupnosť streamu.");
-  }
+  if (!hlsPlayer) setStatus("Video sa nepodarilo načítať. Stream môže byť nedostupný.");
 });
 
 function renderGuide() {
   const query = $("#search").value.trim().toLocaleLowerCase("sk");
-
-  $("#guideFilters").innerHTML = channels.map(channel => `
-    <button class="chip" data-guide="${esc(channel.id)}">${esc(channel.name)}</button>
-  `).join("");
-
-  const list = programData.filter(item => {
-    const channel = channels.find(c => c.id === item.channel);
-    return (item.title + " " + (channel?.name || item.channel) + " " + (item.date || ""))
-      .toLocaleLowerCase("sk").includes(query);
-  });
-
-  renderProgramItems(list);
-}
-
-function renderProgramItems(list) {
-  $("#programList").innerHTML = list.length ? list.map(item => {
-    const channel = channels.find(c => c.id === item.channel);
-
-    return `<div class="program-item">
-      <div class="program-time">${esc(item.time || "")}</div>
-      <div>
-        <strong>${esc(item.title)}</strong>
-        <div class="muted">${esc(channel?.name || item.channel)} · ${esc(item.date || "")}</div>
-      </div>
-    </div>`;
-  }).join("") : '<div class="empty">Programové údaje zatiaľ nie sú pridané.</div>';
-}
-
-$("#guideFilters").addEventListener("click", event => {
-  const button = event.target.closest("[data-guide]");
-  if (!button) return;
-
-  const query = $("#search").value.trim().toLocaleLowerCase("sk");
-  const list = programData.filter(item =>
-    item.channel === button.dataset.guide &&
-    (item.title + " " + (item.date || "")).toLocaleLowerCase("sk").includes(query)
+  const items = programData.filter(item =>
+    `${item.title} ${item.channel} ${item.time}`
+      .toLocaleLowerCase("sk").includes(query)
   );
 
-  renderProgramItems(list);
-});
+  $("#guideFilters").innerHTML = channels.map(channel => `
+    <button class="chip" data-guide-channel="${escapeHTML(channel.id)}">
+      ${escapeHTML(channel.name)}
+    </button>
+  `).join("");
+
+  $("#programList").innerHTML = items.length
+    ? items.map(item => `
+      <div class="program-item">
+        <div class="program-time">${escapeHTML(item.time)}</div>
+        <div>
+          <strong>${escapeHTML(item.title)}</strong>
+          <div class="muted">${escapeHTML(item.channel || "")}</div>
+        </div>
+      </div>
+    `).join("")
+    : '<div class="empty">Programové údaje zatiaľ nie sú dostupné.</div>';
+}
 
 function renderArchive() {
   const query = $("#search").value.trim().toLocaleLowerCase("sk");
-
-  const list = archiveData.filter(item =>
-    (item.title + " " + (item.date || "") + " " + (item.channel || ""))
+  const items = archiveData.filter(item =>
+    `${item.title} ${item.channel || ""} ${item.date || ""}`
       .toLocaleLowerCase("sk").includes(query)
   );
 
-  $("#archiveList").innerHTML = list.length ? list.map((item, index) => {
-    const channel = channels.find(c => c.id === item.channel);
-
-    return `<div class="archive-item">
-      <h3>${esc(item.title)}</h3>
-      <div class="muted">${esc(channel?.name || item.channel)} · ${esc(item.date || "")}</div>
-      <p><button class="btn" data-archive="${index}">▶ Prehrať</button></p>
-    </div>`;
-  }).join("") : '<div class="empty">Archív zatiaľ nemá pridané relácie.</div>';
+  $("#archiveList").innerHTML = items.length
+    ? items.map(item => `
+      <div class="archive-item">
+        <strong>${escapeHTML(item.title)}</strong>
+        <p class="muted">${escapeHTML(item.channel || "")} ${escapeHTML(item.date || "")}</p>
+        <button class="primary-button" data-archive-url="${escapeHTML(item.video)}">
+          Prehrať
+        </button>
+      </div>
+    `).join("")
+    : '<div class="empty">Archívne videá zatiaľ nie sú pridané.</div>';
 }
 
 $("#archiveList").addEventListener("click", event => {
-  const button = event.target.closest("[data-archive]");
+  const button = event.target.closest("[data-archive-url]");
   if (!button) return;
 
-  const query = $("#search").value.trim().toLocaleLowerCase("sk");
-  const list = archiveData.filter(item =>
-    (item.title + " " + (item.date || "") + " " + (item.channel || ""))
-      .toLocaleLowerCase("sk").includes(query)
-  );
-
-  const item = list[Number(button.dataset.archive)];
-
-  if (item?.video) {
+  const url = button.dataset.archiveUrl;
+  const item = archiveData.find(entry => entry.video === url);
+  if (item && url) {
     showPage("tv");
-    playStream(item.video, item.title);
-  } else {
-    setStatus("Táto relácia nemá dostupný video odkaz.");
-    showPage("tv");
+    playStream(url, item.title);
   }
 });
 
@@ -926,16 +848,15 @@ $("#search").addEventListener("input", () => {
 });
 
 $("#liveClock").textContent = new Date().toLocaleTimeString("sk-SK");
-clockTimer = setInterval(() => {
+setInterval(() => {
   $("#liveClock").textContent = new Date().toLocaleTimeString("sk-SK");
-  updateTimeline();
 }, 1000);
 
 renderChannels();
 renderGuide();
 renderArchive();
-showPage("tv");
 updatePlayButtons();
+showPage("tv");
 </script>
 </body>
 </html>
