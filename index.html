@@ -9,326 +9,348 @@
 
 <style>
 :root {
-  --bg: #080b12;
-  --panel: #111722;
-  --panel2: #182130;
-  --accent: #e50938;
-  --text: #f5f7fb;
-  --muted: #929cad;
-  --border: rgba(255,255,255,.08);
+  --bg:#080b12;
+  --panel:#111722;
+  --panel2:#182130;
+  --accent:#e50938;
+  --text:#f5f7fb;
+  --muted:#929cad;
+  --border:rgba(255,255,255,.08);
 }
 
-* {
-  box-sizing: border-box;
-}
+* { box-sizing:border-box; }
 
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: var(--bg);
-  color: var(--text);
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:var(--bg);
+  color:var(--text);
 }
 
-button, input {
-  font: inherit;
-}
-
-button {
-  cursor: pointer;
-}
+button,input,select { font:inherit; }
+button { cursor:pointer; }
 
 header {
-  height: 68px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 22px;
-  background: rgba(8,11,18,.95);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 20;
+  height:68px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 22px;
+  background:rgba(8,11,18,.95);
+  border-bottom:1px solid var(--border);
+  position:sticky;
+  top:0;
+  z-index:20;
 }
 
 .logo {
-  font-size: 25px;
-  font-weight: 900;
-  letter-spacing: -1px;
+  font-size:25px;
+  font-weight:900;
+  letter-spacing:-1px;
 }
 
-.logo span {
-  color: var(--accent);
-}
+.logo span { color:var(--accent); }
 
 nav {
-  display: flex;
-  gap: 8px;
+  display:flex;
+  gap:8px;
 }
 
 .nav-btn {
-  background: transparent;
-  color: var(--muted);
-  border: 0;
-  padding: 11px 14px;
-  border-radius: 9px;
+  background:transparent;
+  color:var(--muted);
+  border:0;
+  padding:11px 14px;
+  border-radius:9px;
 }
 
 .nav-btn.active,
 .nav-btn:hover {
-  color: white;
-  background: var(--panel2);
+  color:white;
+  background:var(--panel2);
 }
 
 .clock {
-  color: var(--muted);
-  font-size: 14px;
+  color:var(--muted);
+  font-size:14px;
 }
 
 main {
-  max-width: 1250px;
-  margin: auto;
-  padding: 22px;
+  max-width:1250px;
+  margin:auto;
+  padding:22px;
 }
 
-.page {
-  display: none;
-}
-
-.page.active {
-  display: block;
-}
+.page { display:none; }
+.page.active { display:block; }
 
 .section-title {
-  font-size: 23px;
-  font-weight: bold;
-  margin: 10px 0 18px;
+  font-size:23px;
+  font-weight:bold;
+  margin:10px 0 18px;
 }
 
 .layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 290px;
-  gap: 20px;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 290px;
+  gap:20px;
 }
 
 .player-card {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 15px;
-  overflow: hidden;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:15px;
+  overflow:hidden;
 }
 
 .video-wrap {
-  background: black;
-  position: relative;
-  aspect-ratio: 16 / 9;
+  background:#000;
+  position:relative;
+  aspect-ratio:16/9;
+  overflow:hidden;
 }
 
 video {
-  width: 100%;
-  height: 100%;
-  display: block;
-  background: black;
+  width:100%;
+  height:100%;
+  display:block;
+  background:#000;
+  object-fit:contain;
 }
 
 .player-overlay {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  display: flex;
-  gap: 8px;
-  pointer-events: none;
+  position:absolute;
+  top:14px;
+  left:14px;
+  display:flex;
+  gap:8px;
+  pointer-events:none;
+  z-index:2;
 }
 
 .live-badge {
-  background: var(--accent);
-  color: white;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 6px 9px;
-  border-radius: 5px;
+  background:var(--accent);
+  color:white;
+  font-size:11px;
+  font-weight:bold;
+  padding:6px 9px;
+  border-radius:5px;
 }
 
 .channel-badge {
-  background: rgba(0,0,0,.65);
-  padding: 6px 9px;
-  border-radius: 5px;
-  font-size: 12px;
+  background:rgba(0,0,0,.65);
+  padding:6px 9px;
+  border-radius:5px;
+  font-size:12px;
+}
+
+.center-play {
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  pointer-events:none;
+  opacity:0;
+  transition:opacity .2s;
+}
+
+.center-play.show {
+  opacity:1;
+}
+
+.center-play span {
+  width:65px;
+  height:65px;
+  display:grid;
+  place-items:center;
+  border-radius:50%;
+  background:rgba(0,0,0,.7);
+  font-size:28px;
 }
 
 .controls {
-  padding: 12px;
+  padding:12px;
+  background:var(--panel);
 }
 
 .timeline {
-  width: 100%;
-  accent-color: var(--accent);
-  margin: 4px 0 12px;
+  width:100%;
+  accent-color:var(--accent);
+  margin:4px 0 12px;
+  cursor:pointer;
 }
 
 .control-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
 }
 
 .control-btn {
-  border: 0;
-  background: var(--panel2);
-  color: white;
-  border-radius: 8px;
-  padding: 10px 13px;
+  border:0;
+  background:var(--panel2);
+  color:white;
+  border-radius:8px;
+  padding:10px 13px;
+  min-height:38px;
 }
 
-.control-btn:hover {
-  background: #293447;
-}
+.control-btn:hover { background:#293447; }
 
-.control-btn.primary {
-  background: var(--accent);
-}
+.control-btn.primary { background:var(--accent); }
 
 .control-btn:disabled {
-  opacity: .4;
-  cursor: not-allowed;
+  opacity:.4;
+  cursor:not-allowed;
 }
 
 .volume {
-  width: 90px;
-  accent-color: var(--accent);
+  width:90px;
+  accent-color:var(--accent);
+}
+
+.time-display {
+  font-size:12px;
+  color:var(--muted);
+  white-space:nowrap;
 }
 
 .status {
-  padding: 12px;
-  font-size: 13px;
-  color: var(--muted);
-  border-top: 1px solid var(--border);
+  padding:12px;
+  font-size:13px;
+  color:var(--muted);
+  border-top:1px solid var(--border);
 }
 
 .sidebar {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 15px;
-  padding: 15px;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:15px;
+  padding:15px;
 }
 
-.search {
-  width: 100%;
-  padding: 11px;
-  border-radius: 8px;
-  background: var(--bg);
-  border: 1px solid var(--border);
-  color: white;
-  margin-bottom: 14px;
+.search,
+.select {
+  width:100%;
+  padding:11px;
+  border-radius:8px;
+  background:var(--bg);
+  border:1px solid var(--border);
+  color:white;
+  margin-bottom:14px;
 }
 
 .channel {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px;
-  border: 1px solid transparent;
-  background: var(--panel2);
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 9px;
-  text-align: left;
+  width:100%;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px;
+  border:1px solid transparent;
+  background:var(--panel2);
+  color:white;
+  border-radius:10px;
+  margin-bottom:9px;
+  text-align:left;
 }
 
 .channel:hover,
 .channel.active {
-  border-color: var(--accent);
-  background: rgba(229,9,56,.1);
+  border-color:var(--accent);
+  background:rgba(229,9,56,.1);
 }
 
 .channel-logo {
-  width: 40px;
-  height: 40px;
-  border-radius: 9px;
-  display: grid;
-  place-items: center;
-  font-weight: bold;
-  background: #222c3b;
-  flex-shrink: 0;
+  width:40px;
+  height:40px;
+  border-radius:9px;
+  display:grid;
+  place-items:center;
+  font-weight:bold;
+  background:#222c3b;
+  flex-shrink:0;
 }
 
-.channel-info {
-  flex: 1;
-}
-
-.channel-name {
-  font-weight: bold;
-}
+.channel-info { flex:1; }
+.channel-name { font-weight:bold; }
 
 .channel-sub {
-  color: var(--muted);
-  font-size: 12px;
-  margin-top: 4px;
+  color:var(--muted);
+  font-size:12px;
+  margin-top:4px;
 }
 
 .empty {
-  color: var(--muted);
-  padding: 15px;
-  text-align: center;
+  color:var(--muted);
+  padding:15px;
+  text-align:center;
 }
 
 .content-card {
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 18px;
-  margin-bottom: 15px;
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:18px;
+  margin-bottom:15px;
+}
+
+.archive-grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.archive-item {
+  background:var(--panel2);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:14px;
+}
+
+.archive-item h4 { margin:0 0 8px; }
+.archive-item p {
+  color:var(--muted);
+  font-size:13px;
+}
+
+.guide-row {
+  display:grid;
+  grid-template-columns:90px 1fr;
+  gap:12px;
+  padding:13px;
+  border-bottom:1px solid var(--border);
+}
+
+.guide-time {
+  color:var(--accent);
+  font-weight:bold;
 }
 
 footer {
-  padding: 25px;
-  text-align: center;
-  color: var(--muted);
-  font-size: 12px;
-  border-top: 1px solid var(--border);
-  margin-top: 30px;
+  padding:25px;
+  text-align:center;
+  color:var(--muted);
+  font-size:12px;
+  border-top:1px solid var(--border);
+  margin-top:30px;
 }
 
 @media(max-width:850px) {
-  .layout {
-    grid-template-columns: 1fr;
-  }
-
-  header {
-    padding: 0 12px;
-  }
-
-  .clock {
-    display: none;
-  }
-
-  main {
-    padding: 13px;
-  }
+  .layout { grid-template-columns:1fr; }
+  header { padding:0 12px; }
+  .clock { display:none; }
+  main { padding:13px; }
 }
 
 @media(max-width:480px) {
-  .logo {
-    font-size: 21px;
-  }
-
-  nav {
-    gap: 2px;
-  }
-
-  .nav-btn {
-    padding: 9px 7px;
-    font-size: 12px;
-  }
-
-  .control-btn {
-    padding: 9px 10px;
-  }
-
-  .volume {
-    width: 65px;
-  }
+  .logo { font-size:21px; }
+  nav { gap:2px; }
+  .nav-btn { padding:9px 7px; font-size:12px; }
+  .control-btn { padding:9px 10px; }
+  .volume { width:65px; }
+  .archive-grid { grid-template-columns:1fr; }
 }
 </style>
 </head>
@@ -349,133 +371,87 @@ footer {
 
 <main>
 
-<!-- ŽIVÉ TELEVÍZIE -->
+<!-- ŽIVÉ TV -->
 <section class="page active" id="tvPage">
-
   <div class="section-title">Živé vysielanie</div>
 
   <div class="layout">
-
     <div class="player-card">
 
       <div class="video-wrap" id="videoWrap">
-
-        <video
-          id="video"
-          playsinline
-          autoplay
-          controls
-        ></video>
+        <video id="video" playsinline autoplay></video>
 
         <div class="player-overlay">
-          <span class="live-badge">● LIVE</span>
+          <span class="live-badge" id="liveBadge">● LIVE</span>
           <span class="channel-badge" id="playerChannel">JOJ</span>
         </div>
 
+        <div class="center-play" id="centerPlay">
+          <span id="centerPlayIcon">▶</span>
+        </div>
       </div>
 
       <div class="controls">
-
-        <input
-          type="range"
-          class="timeline"
-          id="timeline"
-          min="0"
-          max="100"
-          value="100"
-          aria-label="Časová os"
-        >
+        <input type="range" class="timeline" id="timeline"
+          min="0" max="100" value="100">
 
         <div class="control-row">
-
           <button class="control-btn" id="playBtn">▶</button>
-
           <button class="control-btn" id="backBtn">−10 s</button>
-
           <button class="control-btn" id="forwardBtn">+10 s</button>
-
           <button class="control-btn primary" id="liveBtn">● ŽIVÉ</button>
-
           <button class="control-btn" id="muteBtn">🔊</button>
 
-          <input
-            type="range"
-            class="volume"
-            id="volume"
-            min="0"
-            max="1"
-            step="0.05"
-            value="1"
-            aria-label="Hlasitosť"
-          >
+          <input type="range" class="volume" id="volume"
+            min="0" max="1" step="0.05" value="1">
 
+          <span class="time-display" id="timeDisplay">LIVE</span>
           <button class="control-btn" id="fullscreenBtn">⛶</button>
-
         </div>
-
       </div>
 
       <div class="status" id="status">
         Vyber televízny kanál.
       </div>
-
     </div>
 
     <aside class="sidebar">
-
-      <input
-        class="search"
-        id="search"
-        type="search"
-        placeholder="🔍 Hľadať TV..."
-      >
+      <input class="search" id="search" type="search"
+        placeholder="🔍 Hľadať TV...">
 
       <div id="channelList"></div>
-
     </aside>
-
   </div>
-
 </section>
 
 <!-- TV PROGRAM -->
 <section class="page" id="guidePage">
-
   <div class="section-title">TV program</div>
 
   <div class="content-card">
-
-    <h3>Program televízií</h3>
-
-    <p style="color:var(--muted)">
-      Program bude zobrazený po pridaní aktuálnych programových
-      údajov pre jednotlivé televízne stanice.
-    </p>
+    <select class="select" id="guideChannel"></select>
+    <input class="select" type="date" id="guideDate">
 
     <div id="guideList"></div>
-
   </div>
-
 </section>
 
 <!-- ARCHÍV -->
 <section class="page" id="archivePage">
-
   <div class="section-title">TV archív</div>
 
   <div class="content-card">
+    <h3>Vyhľadávanie archívnych relácií</h3>
 
-    <h3>Archív relácií</h3>
+    <select class="select" id="archiveChannel"></select>
 
-    <p style="color:var(--muted)">
-      Archívne relácie sa zobrazia po pridaní dostupných archívnych
-      odkazov.
-    </p>
+    <input class="search" type="date" id="archiveDate">
+
+    <input class="search" type="search" id="archiveSearch"
+      placeholder="🔍 Hľadať reláciu...">
 
     <div id="archiveList"></div>
-
   </div>
-
 </section>
 
 </main>
@@ -484,38 +460,76 @@ footer {
   Streamivo · Online TV prehrávač
 </footer>
 
-<!-- Lokálna HLS knižnica -->
 <script src="./hls.min.js"></script>
 
 <script>
 "use strict";
 
-/* ==========================================
-   TV KANÁLY
-========================================== */
+/* =========================================
+   KANÁLY
+========================================= */
 
 const channels = [
   {
-    id: "joj",
-    name: "JOJ",
-    logo: "JOJ",
-    stream: "https://live.cdn.joj.sk/live/andromeda/joj-1080.m3u8"
+    id:"joj",
+    name:"JOJ",
+    logo:"JOJ",
+    stream:"https://live.cdn.joj.sk/live/andromeda/joj-1080.m3u8"
   },
   {
-    id: "markiza",
-    name: "Markíza",
-    logo: "M",
-    stream: "https://cdnsk003.panaccess.com/local/Markiza/index.m3u8"
+    id:"markiza",
+    name:"Markíza",
+    logo:"M",
+    stream:"https://cdnsk003.panaccess.com/local/Markiza/index.m3u8"
   }
 ];
 
-/* ==========================================
-   ELEMENTY STRÁNKY
-========================================== */
+/*
+  ARCHÍVNE ODKAZY
+
+  Pridávaj skutočné archívne videá do tohto poľa.
+
+  Príklad:
+  {
+    channel:"joj",
+    date:"2026-11-19",
+    title:"Názov relácie",
+    url:"https://server.sk/video.m3u8"
+  }
+
+  Bez skutočných URL archívnych videí sa nedá
+  prehrávať archív automaticky.
+*/
+
+const archiveData = [];
+
+/*
+  TV PROGRAM
+
+  Programové údaje možno pridávať v tomto formáte.
+
+  Príklad:
+  {
+    channel:"joj",
+    date:"2026-11-19",
+    time:"20:30",
+    title:"Názov relácie",
+    description:"Opis relácie"
+  }
+*/
+
+const guideData = [];
+
+/* =========================================
+   ELEMENTY
+========================================= */
 
 const video = document.getElementById("video");
+const videoWrap = document.getElementById("videoWrap");
+
 const channelList = document.getElementById("channelList");
 const searchInput = document.getElementById("search");
+
 const statusElement = document.getElementById("status");
 const playerChannel = document.getElementById("playerChannel");
 const timeline = document.getElementById("timeline");
@@ -528,19 +542,24 @@ const muteBtn = document.getElementById("muteBtn");
 const volumeSlider = document.getElementById("volume");
 const fullscreenBtn = document.getElementById("fullscreenBtn");
 
+const centerPlay = document.getElementById("centerPlay");
+const centerPlayIcon = document.getElementById("centerPlayIcon");
+const liveBadge = document.getElementById("liveBadge");
+const timeDisplay = document.getElementById("timeDisplay");
+
 let hls = null;
 let currentChannel = null;
+let currentMode = "live";
 let isSeeking = false;
-let currentStreamIsLive = true;
 
-/* ==========================================
+/* =========================================
    NAVIGÁCIA
-========================================== */
+========================================= */
 
 const pages = {
-  tv: document.getElementById("tvPage"),
-  guide: document.getElementById("guidePage"),
-  archive: document.getElementById("archivePage")
+  tv:document.getElementById("tvPage"),
+  guide:document.getElementById("guidePage"),
+  archive:document.getElementById("archivePage")
 };
 
 document.querySelectorAll(".nav-btn").forEach(button => {
@@ -552,40 +571,35 @@ document.querySelectorAll(".nav-btn").forEach(button => {
 
     button.classList.add("active");
 
-    Object.entries(pages).forEach(([key, element]) => {
-      element.classList.toggle("active", key === page);
+    Object.entries(pages).forEach(([key,element]) => {
+      element.classList.toggle("active",key === page);
     });
   });
 });
 
-/* ==========================================
-   ZOBRAZENIE KANÁLOV
-========================================== */
+/* =========================================
+   KANÁLY
+========================================= */
 
-function renderChannels(filter = "") {
-  channelList.innerHTML = "";
+function renderChannels(filter="") {
+  channelList.innerHTML="";
 
-  const filtered = channels.filter(channel =>
+  const filtered=channels.filter(channel =>
     channel.name.toLowerCase().includes(filter.toLowerCase())
   );
 
-  if (!filtered.length) {
-    channelList.innerHTML =
-      '<div class="empty">Žiadny kanál sa nenašiel.</div>';
+  if(!filtered.length) {
+    channelList.innerHTML='<div class="empty">Kanál sa nenašiel.</div>';
     return;
   }
 
   filtered.forEach(channel => {
-    const button = document.createElement("button");
+    const button=document.createElement("button");
 
-    button.className = "channel";
-    button.dataset.id = channel.id;
+    button.className="channel";
+    if(currentChannel?.id===channel.id) button.classList.add("active");
 
-    if (currentChannel?.id === channel.id) {
-      button.classList.add("active");
-    }
-
-    button.innerHTML = `
+    button.innerHTML=`
       <div class="channel-logo">${escapeHTML(channel.logo)}</div>
       <div class="channel-info">
         <div class="channel-name">${escapeHTML(channel.name)}</div>
@@ -594,278 +608,462 @@ function renderChannels(filter = "") {
       <div>▶</div>
     `;
 
-    button.addEventListener("click", () => {
-      loadChannel(channel);
-    });
+    button.addEventListener("click",()=>loadLive(channel));
 
     channelList.appendChild(button);
   });
 }
 
-/* ==========================================
-   PREHRÁVANIE HLS
-========================================== */
+/* =========================================
+   HLS PREHRÁVAČ
+========================================= */
 
-function loadChannel(channel) {
-  currentChannel = channel;
-
-  playerChannel.textContent = channel.name;
-
-  renderChannels(searchInput.value);
-
-  statusElement.textContent =
-    "Načítavam kanál " + channel.name + "...";
-
-  playBtn.textContent = "⏸";
-
-  if (hls) {
+function destroyHLS() {
+  if(hls) {
     hls.destroy();
-    hls = null;
+    hls=null;
   }
+}
+
+function loadSource(url) {
+  destroyHLS();
 
   video.pause();
   video.removeAttribute("src");
   video.load();
 
-  if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    // Natívne HLS, napríklad Safari.
-    video.src = channel.stream;
+  if(video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src=url;
+    video.play().catch(()=>{});
+    return;
+  }
 
-    video.addEventListener("loadedmetadata", function onLoaded() {
-      video.removeEventListener("loadedmetadata", onLoaded);
-      video.play().catch(() => {
-        statusElement.textContent =
-          "Stream je pripravený. Stlač Play.";
-      });
+  if(window.Hls && Hls.isSupported()) {
+    hls=new Hls({
+      enableWorker:true,
+      lowLatencyMode:true
     });
 
-  } else if (window.Hls && Hls.isSupported()) {
-
-    hls = new Hls({
-      enableWorker: true,
-      lowLatencyMode: true
-    });
-
-    hls.loadSource(channel.stream);
+    hls.loadSource(url);
     hls.attachMedia(video);
 
-    hls.on(Hls.Events.MANIFEST_PARSED, () => {
-      video.play().catch(() => {
-        statusElement.textContent =
-          "Stream je pripravený. Stlač Play.";
+    hls.on(Hls.Events.MANIFEST_PARSED,()=>{
+      video.play().catch(()=>{
+        statusElement.textContent="Stream pripravený. Stlač Play.";
       });
     });
 
-    hls.on(Hls.Events.ERROR, (event, data) => {
-      if (!data.fatal) return;
+    hls.on(Hls.Events.ERROR,(event,data)=>{
+      if(!data.fatal) return;
 
-      statusElement.textContent =
-        "Chyba streamu: " + (data.details || data.type);
+      statusElement.textContent=
+        "Chyba streamu: "+(data.details || data.type);
 
-      if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+      if(data.type===Hls.ErrorTypes.NETWORK_ERROR) {
         hls.startLoad();
-      } else if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+      } else if(data.type===Hls.ErrorTypes.MEDIA_ERROR) {
         hls.recoverMediaError();
       } else {
-        hls.destroy();
-        hls = null;
+        destroyHLS();
       }
     });
 
   } else {
-    statusElement.textContent =
-      "Tento prehliadač nepodporuje HLS prehrávanie.";
+    statusElement.textContent=
+      "Prehliadač nepodporuje prehrávanie HLS.";
   }
 }
 
-/* ==========================================
+function loadLive(channel) {
+  currentChannel=channel;
+  currentMode="live";
+
+  playerChannel.textContent=channel.name;
+  liveBadge.style.display="";
+  liveBtn.style.display="";
+  timeDisplay.textContent="LIVE";
+
+  renderChannels(searchInput.value);
+
+  statusElement.textContent="Načítavam "+channel.name+"...";
+
+  loadSource(channel.stream);
+}
+
+/* =========================================
+   ARCHÍV PREHRÁVANIE
+========================================= */
+
+function loadArchive(item) {
+  currentMode="archive";
+  currentChannel=channels.find(c=>c.id===item.channel) || null;
+
+  playerChannel.textContent=item.title;
+  liveBadge.style.display="none";
+  liveBtn.style.display="none";
+
+  statusElement.textContent="Načítavam archív: "+item.title;
+
+  loadSource(item.url);
+
+  document.querySelector('[data-page="tv"]').click();
+}
+
+/* =========================================
    PLAY / PAUSE
-========================================== */
+========================================= */
 
-playBtn.addEventListener("click", () => {
-  if (!currentChannel) {
-    loadChannel(channels[0]);
-    return;
-  }
+playBtn.addEventListener("click",togglePlayback);
 
-  if (video.paused) {
-    video.play().catch(() => {
-      statusElement.textContent =
-        "Prehrávanie sa nepodarilo spustiť.";
+video.addEventListener("click",togglePlayback);
+
+function togglePlayback() {
+  if(video.paused) {
+    video.play().catch(()=>{
+      statusElement.textContent="Prehrávanie sa nepodarilo spustiť.";
     });
   } else {
     video.pause();
   }
-});
-
-video.addEventListener("play", () => {
-  playBtn.textContent = "⏸";
-  statusElement.textContent =
-    "Prehráva sa: " + (currentChannel?.name || "");
-});
-
-video.addEventListener("pause", () => {
-  playBtn.textContent = "▶";
-});
-
-/* ==========================================
-   POSUN VIDEA
-========================================== */
-
-backBtn.addEventListener("click", () => {
-  if (video.seekable.length) {
-    video.currentTime = Math.max(
-      video.seekable.start(0),
-      video.currentTime - 10
-    );
-  }
-});
-
-forwardBtn.addEventListener("click", () => {
-  if (video.seekable.length) {
-    video.currentTime = Math.min(
-      video.seekable.end(video.seekable.length - 1),
-      video.currentTime + 10
-    );
-  }
-});
-
-/* ==========================================
-   ČASOVÁ OS
-========================================== */
-
-function updateTimeline() {
-  if (isSeeking || !video.seekable.length) return;
-
-  const start = video.seekable.start(0);
-  const end = video.seekable.end(video.seekable.length - 1);
-
-  if (end <= start) return;
-
-  timeline.min = start;
-  timeline.max = end;
-  timeline.value = video.currentTime;
 }
 
-timeline.addEventListener("input", () => {
-  isSeeking = true;
+video.addEventListener("play",()=>{
+  playBtn.textContent="⏸";
+  centerPlayIcon.textContent="⏸";
+  centerPlay.classList.remove("show");
+
+  statusElement.textContent=
+    currentMode==="live"
+      ? "Prehráva sa: "+(currentChannel?.name || "")
+      : "Prehráva sa archív.";
 });
 
-timeline.addEventListener("change", () => {
-  if (video.seekable.length) {
-    video.currentTime = Number(timeline.value);
+video.addEventListener("pause",()=>{
+  playBtn.textContent="▶";
+  centerPlayIcon.textContent="▶";
+  centerPlay.classList.add("show");
+});
+
+video.addEventListener("waiting",()=>{
+  statusElement.textContent="Načítavam video...";
+});
+
+video.addEventListener("playing",()=>{
+  centerPlay.classList.remove("show");
+});
+
+/* =========================================
+   POSUN
+========================================= */
+
+backBtn.addEventListener("click",()=>{
+  if(video.duration && Number.isFinite(video.duration)) {
+    video.currentTime=Math.max(0,video.currentTime-10);
+  } else if(video.seekable.length) {
+    video.currentTime=Math.max(
+      video.seekable.start(0),
+      video.currentTime-10
+    );
+  }
+});
+
+forwardBtn.addEventListener("click",()=>{
+  if(video.duration && Number.isFinite(video.duration)) {
+    video.currentTime=Math.min(
+      video.duration,
+      video.currentTime+10
+    );
+  } else if(video.seekable.length) {
+    video.currentTime=Math.min(
+      video.seekable.end(video.seekable.length-1),
+      video.currentTime+10
+    );
+  }
+});
+
+/* =========================================
+   ČASOVÁ OS
+========================================= */
+
+function updateTimeline() {
+  if(isSeeking) return;
+
+  if(video.duration && Number.isFinite(video.duration)) {
+    timeline.min=0;
+    timeline.max=video.duration;
+    timeline.value=video.currentTime;
+    timeDisplay.textContent=
+      formatTime(video.currentTime)+" / "+formatTime(video.duration);
+    return;
   }
 
-  isSeeking = false;
+  if(video.seekable.length) {
+    const start=video.seekable.start(0);
+    const end=video.seekable.end(video.seekable.length-1);
+
+    timeline.min=start;
+    timeline.max=end;
+    timeline.value=video.currentTime;
+    timeDisplay.textContent="LIVE";
+  }
+}
+
+timeline.addEventListener("input",()=>{
+  isSeeking=true;
 });
 
-video.addEventListener("timeupdate", updateTimeline);
-video.addEventListener("progress", updateTimeline);
-video.addEventListener("loadedmetadata", updateTimeline);
-
-/* ==========================================
-   ŽIVÉ VYSIELANIE
-========================================== */
-
-liveBtn.addEventListener("click", () => {
-  if (!video.seekable.length) return;
-
-  const end = video.seekable.end(video.seekable.length - 1);
-
-  video.currentTime = end;
-
-  video.play().catch(() => {});
+timeline.addEventListener("change",()=>{
+  video.currentTime=Number(timeline.value);
+  isSeeking=false;
 });
 
-/* ==========================================
+video.addEventListener("timeupdate",updateTimeline);
+video.addEventListener("progress",updateTimeline);
+video.addEventListener("loadedmetadata",updateTimeline);
+video.addEventListener("durationchange",updateTimeline);
+
+/* =========================================
+   LIVE
+========================================= */
+
+liveBtn.addEventListener("click",()=>{
+  if(!video.seekable.length) return;
+
+  video.currentTime=video.seekable.end(
+    video.seekable.length-1
+  );
+
+  video.play().catch(()=>{});
+});
+
+/* =========================================
    HLASITOSŤ
-========================================== */
+========================================= */
 
-volumeSlider.addEventListener("input", () => {
-  video.volume = Number(volumeSlider.value);
-  video.muted = video.volume === 0;
-
+volumeSlider.addEventListener("input",()=>{
+  video.volume=Number(volumeSlider.value);
+  video.muted=video.volume===0;
   updateMuteButton();
 });
 
-muteBtn.addEventListener("click", () => {
-  video.muted = !video.muted;
+muteBtn.addEventListener("click",()=>{
+  video.muted=!video.muted;
   updateMuteButton();
 });
 
 function updateMuteButton() {
-  muteBtn.textContent =
-    video.muted || video.volume === 0 ? "🔇" : "🔊";
+  muteBtn.textContent=
+    video.muted || video.volume===0 ? "🔇" : "🔊";
 }
 
-video.addEventListener("volumechange", updateMuteButton);
+video.addEventListener("volumechange",updateMuteButton);
 
-/* ==========================================
+/* =========================================
    FULLSCREEN
-========================================== */
+========================================= */
 
-fullscreenBtn.addEventListener("click", async () => {
-  const target = document.getElementById("videoWrap");
-
+fullscreenBtn.addEventListener("click",async()=>{
   try {
-    if (!document.fullscreenElement) {
-      if (target.requestFullscreen) {
-        await target.requestFullscreen();
-      } else if (video.webkitEnterFullscreen) {
-        video.webkitEnterFullscreen();
-      }
+    if(!document.fullscreenElement) {
+      await videoWrap.requestFullscreen();
     } else {
       await document.exitFullscreen();
     }
-  } catch (error) {
-    statusElement.textContent =
-      "Fullscreen nie je dostupný.";
+  } catch(error) {
+    statusElement.textContent="Fullscreen nie je dostupný.";
   }
 });
 
-/* ==========================================
-   VYHĽADÁVANIE
-========================================== */
+/* =========================================
+   VYHĽADÁVANIE TV
+========================================= */
 
-searchInput.addEventListener("input", () => {
+searchInput.addEventListener("input",()=>{
   renderChannels(searchInput.value);
 });
 
-/* ==========================================
+/* =========================================
+   TV PROGRAM
+========================================= */
+
+const guideChannel=document.getElementById("guideChannel");
+const guideDate=document.getElementById("guideDate");
+const guideList=document.getElementById("guideList");
+
+function populateChannelSelect(select) {
+  select.innerHTML="";
+
+  channels.forEach(channel=>{
+    const option=document.createElement("option");
+    option.value=channel.id;
+    option.textContent=channel.name;
+    select.appendChild(option);
+  });
+}
+
+populateChannelSelect(guideChannel);
+
+guideDate.value=getToday();
+
+function renderGuide() {
+  const selectedChannel=guideChannel.value;
+  const selectedDate=guideDate.value;
+
+  const entries=guideData.filter(item=>
+    item.channel===selectedChannel &&
+    item.date===selectedDate
+  ).sort((a,b)=>a.time.localeCompare(b.time));
+
+  guideList.innerHTML="";
+
+  if(!entries.length) {
+    guideList.innerHTML=`
+      <div class="empty">
+        Program na tento deň zatiaľ nie je dostupný.
+      </div>
+    `;
+    return;
+  }
+
+  entries.forEach(item=>{
+    const row=document.createElement("div");
+    row.className="guide-row";
+
+    row.innerHTML=`
+      <div class="guide-time">${escapeHTML(item.time)}</div>
+      <div>
+        <strong>${escapeHTML(item.title)}</strong>
+        <p>${escapeHTML(item.description || "")}</p>
+      </div>
+    `;
+
+    guideList.appendChild(row);
+  });
+}
+
+guideChannel.addEventListener("change",renderGuide);
+guideDate.addEventListener("change",renderGuide);
+
+/* =========================================
+   ARCHÍV
+========================================= */
+
+const archiveChannel=document.getElementById("archiveChannel");
+const archiveDate=document.getElementById("archiveDate");
+const archiveSearch=document.getElementById("archiveSearch");
+const archiveList=document.getElementById("archiveList");
+
+populateChannelSelect(archiveChannel);
+
+archiveDate.value=getToday();
+
+function renderArchive() {
+  const channel=archiveChannel.value;
+  const date=archiveDate.value;
+  const query=archiveSearch.value.toLowerCase();
+
+  const items=archiveData.filter(item=>
+    item.channel===channel &&
+    (!date || item.date===date) &&
+    item.title.toLowerCase().includes(query)
+  );
+
+  archiveList.innerHTML="";
+
+  if(!items.length) {
+    archiveList.innerHTML=`
+      <div class="empty">
+        Pre tento kanál a dátum nie sú dostupné archívne relácie.
+      </div>
+    `;
+    return;
+  }
+
+  const grid=document.createElement("div");
+  grid.className="archive-grid";
+
+  items.forEach(item=>{
+    const card=document.createElement("div");
+    card.className="archive-item";
+
+    card.innerHTML=`
+      <h4>${escapeHTML(item.title)}</h4>
+      <p>${escapeHTML(item.date)} · ${escapeHTML(item.channel)}</p>
+      <button class="control-btn primary">▶ Prehrať</button>
+    `;
+
+    card.querySelector("button").addEventListener("click",()=>{
+      loadArchive(item);
+    });
+
+    grid.appendChild(card);
+  });
+
+  archiveList.appendChild(grid);
+}
+
+archiveChannel.addEventListener("change",renderArchive);
+archiveDate.addEventListener("change",renderArchive);
+archiveSearch.addEventListener("input",renderArchive);
+
+/* =========================================
    HODINY
-========================================== */
+========================================= */
 
 function updateClock() {
-  const now = new Date();
-
-  document.getElementById("clock").textContent =
-    now.toLocaleTimeString("sk-SK");
+  document.getElementById("clock").textContent=
+    new Date().toLocaleTimeString("sk-SK");
 }
 
 updateClock();
-setInterval(updateClock, 1000);
+setInterval(updateClock,1000);
 
-/* ==========================================
-   BEZPEČNÉ ZOBRAZENIE TEXTU
-========================================== */
+/* =========================================
+   POMOCNÉ FUNKCIE
+========================================= */
+
+function getToday() {
+  const now=new Date();
+  const y=now.getFullYear();
+  const m=String(now.getMonth()+1).padStart(2,"0");
+  const d=String(now.getDate()).padStart(2,"0");
+  return `${y}-${m}-${d}`;
+}
+
+function formatTime(seconds) {
+  if(!Number.isFinite(seconds)) return "00:00";
+
+  seconds=Math.floor(seconds);
+
+  const h=Math.floor(seconds/3600);
+  const m=Math.floor((seconds%3600)/60);
+  const s=seconds%60;
+
+  if(h>0) {
+    return `${h}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+  }
+
+  return `${m}:${String(s).padStart(2,"0")}`;
+}
 
 function escapeHTML(value) {
-  return String(value).replace(/[&<>"']/g, character => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#039;"
+  return String(value).replace(/[&<>"']/g,character=>({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#039;"
   }[character]));
 }
 
-/* ==========================================
+/* =========================================
    INICIALIZÁCIA
-========================================== */
+========================================= */
 
 renderChannels();
-
-loadChannel(channels[0]);
+renderGuide();
+renderArchive();
+loadLive(channels[0]);
 
 </script>
 
