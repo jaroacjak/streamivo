@@ -12,11 +12,51 @@
   "programs": [
     {
       "channel": "v1.cz",
+      "title": "Expres Pardubického kraje",
+      "description": "Pravidelné zpravodajství z Pardubického kraje Jsme televize z východních Čech a znát dění v Pardubickém kraji je pro nás samozřejmostí. Naše poznatky rádi sdílíme s našimi diváky, a proto v tomto pořadu naleznete to nejdůležit.",
+      "start": "20261120111100 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "V1.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "v1.cz",
       "title": "Počasí",
       "description": "Předpověď počasí pro východní Čechy Naše počasí nabízí divákovi vždy ten nejrychlejší přehled přímo z východočeských meteostanic. Náš regionální charakter nám poskytuje přesnost, aktuálnost a přehled.",
       "start": "20261120111000 +0000",
       "end": "20261120111100 +0000",
       "channelName": "V1.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "polar.cz",
+      "title": "Počasí",
+      "description": "Aktuální informace o počasí v Moravskoslezském kraji.",
+      "start": "20261120111000 +0000",
+      "end": "20261120111400 +0000",
+      "channelName": "POLAR.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "superrtl.cz",
+      "title": "Grizzy & die Lemminge 3",
+      "description": "Um an das Yummy-Glas zu kommen, überschütten die Lemminge Grizzy mit Flöhen, sodass dieser sich wie verrückt kratzen..",
+      "start": "20261120111000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "SUPERRTL.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "jimjam.cz",
+      "title": "Messyho skvělá dobrodružství",
+      "description": "",
+      "start": "20261120110700 +0000",
+      "end": "20261120111800 +0000",
+      "channelName": "JIMJAM.CZ",
       "archived": true,
       "videoAvailable": false
     },
@@ -151,6 +191,26 @@
       "videoAvailable": false
     },
     {
+      "channel": "joj",
+      "title": "Petronela Jabĺčková",
+      "description": "",
+      "start": "20261120110000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "JOJ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "óčko.cz",
+      "title": "PITBULL WEEK: TOP 3 HITY",
+      "description": "Dej si tři klipy od interpreta týdne.",
+      "start": "20261120110000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "ÓČKO.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "m2hu.cz",
       "title": "Panda és Kivi, műsor, élő adásban",
       "description": "A szaglás mestere. Az állatok bújócskáznak, de Kiki mindig megtalálja őket a jó szaglása miatt. Hihi fogad vele, hogy nem tudja megtalálni őt. A második körben Hihi átadja szagát Csumpinak és lemosakszik a folyóban, hogy ne legyen büdös és újra elbújik, de elkapja őt Morcos Sapi. Miközben Kiki Hihit keresi, rájön a cselre, és hogy Morcos elkapta a barátját, majd a pandabűz segítségével elűzik Morcos Sapit így Hihi kiszabadul.",
@@ -191,6 +251,26 @@
       "videoAvailable": false
     },
     {
+      "channel": "nicktoon.cz",
+      "title": "Hlasiťákovi",
+      "description": "S6 E25 — Fashion No Show/Doom Service\nMódní přehlídka / Prokletá dovolená Pracovní styly Leni a Carloty se střetnou, když obě absolvují stáž u slavné módní návrhářky Marielly Mossové. Hlasiťákovi si objednají pobyt v all-inclusive resortu, jen aby zjistili, že dovolená není taková, jakou si ji představovali (2021).",
+      "start": "20261120105500 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "NICKTOON.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "tv5monde.cz",
+      "title": "Discussions Avec Mes Parents",
+      "description": "Rollande devient cobaye pour un nouveau protocole médical afin de contrôler le diabete. Les pilules n'ont pas l'effet souhaité. Elle devient tres nerveuse a l'idée de rencontrer Sophie, la nouvelle copine de François, car cette derniere est hypnologue. Réalisation : Pascal L'Heureux (saison 3, Canada, 2020) D'apres le livre de François Morency Distribution : François Morency (François), Vincent Bilodeau (Jean-Pierre), Marie-Ginette Guay (Rollande), Blaise Tardif (Raynald), Caroline Bouchard... (Judith) Genre : comédie.",
+      "start": "20261120105300 +0000",
+      "end": "20261120111700 +0000",
+      "channelName": "TV5MONDE.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "jimjam.cz",
       "title": "Caillou: Nová dobrodružství",
       "description": "S1 E30 — Celebrations\nIt's fall and the back yard is covered in leaves. Caillou and Rosie have so much fun playing in the leaves that he doesn't want to go into the house. He asks Dad if he can help him rake the leaves into piles. When they've made piles of piles, Caillou pretends the piles of leaves are houses and cities.",
@@ -207,6 +287,16 @@
       "start": "20261120105100 +0000",
       "end": "20261120110000 +0000",
       "channelName": "ČT1.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "brazzerstv.cz",
+      "title": "Got Milkers?",
+      "description": "When Jordyn s bestie from college, Amari, visits she gets a little more than she bargained for. Amari happens to be lactating when she arrives, and the incident embarrasses her but intrigues Jordyn s boyfriend Kai. He can t help himself and ends up with a mouthful of Amari s milk in a sneaky encounter. Jordyn eventually wises up to their antics and decides to have a sip herself in a wild, wet & creamy threesome.",
+      "start": "20261120105100 +0000",
+      "end": "20261120111400 +0000",
+      "channelName": "BRAZZERSTV.CZ",
       "archived": true,
       "videoAvailable": false
     },
@@ -247,6 +337,26 @@
       "start": "20261120105000 +0000",
       "end": "20261120110000 +0000",
       "channelName": "V1.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "minimax.cz",
+      "title": "Zvědavý George",
+      "description": "",
+      "start": "20261120105000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "MINIMAX.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "nickelodeon.cz",
+      "title": "Nebezpečná síla",
+      "description": "S2 E23 — Class Action Heroes\nNebezpečná síla na Krásnovské střední válí, ale Rejovi se po pomocnících stýská, tak se je snaží ze školy různě dostat.",
+      "start": "20261120105000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "NICKELODEON.CZ",
       "archived": true,
       "videoAvailable": false
     },
@@ -367,6 +477,16 @@
       "start": "20261120104500 +0000",
       "end": "20261120110000 +0000",
       "channelName": "TVRIK.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "novalady.cz",
+      "title": "Teleshopping",
+      "description": "",
+      "start": "20261120104500 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "NOVALADY.CZ",
       "archived": true,
       "videoAvailable": false
     },
@@ -1291,6 +1411,36 @@
       "videoAvailable": false
     },
     {
+      "channel": "axn.cz",
+      "title": "Námořní vyšetřovací služba",
+      "description": "S19 E11 — Všichni na palubu\nTým NCIS je poslán na palubu civilní výzkumné lodi, kde se právě nalodilo komando týmu SEALS. Proč je jeden z členů SEALS zraněný a z jakého důvodu se nalodili na civilní loď? Po příletu na loď je navíc tým NCIS komandem zákeřně napaden. Tým NCIS je poslán na palubu civilní výzkumné lodi, kde se právě nalodilo komando týmu SEALS. NCIS dostalo hlášení, že jeden z členů komanda je zraněný, a oni mají událost včetně nalodění na civilní loď vyšetřit. Po příletu na loď je ale tým NCIS, který vede Parker, napaden údajnými SEALS. Ukáže se, že se vůbec nejedná o členy námořnictva, nýbrž o lupiče, teroristy. Ti se rozhodli ukradnout vrtulník a prodat ho zájemci. Parker se svými lidmi se brání, zatímco McGee, který na loď neodlétl, se... snaží týmu pomoct určením jejích souřadnic. Nakonec se v zajetí násilníků ocitnou Torres a Knightov á. Nicméně Parkerovi se podaří nepozorovaně proniknout do vrtulníku a tam se schovat. Odletí tak i s útočníky na jejich základnu. Torres a Knightová se osvobodí z místnosti, kam je zavřeli útočníci, a také si přivolají pomoc. Parker se na základně teroristů.",
+      "start": "20261120102000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "AXN.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "spektrumhome.cz",
+      "title": "Nejen chajdy drnové",
+      "description": "(Cabins in the Wild with Dick Strawbridge I) (2017). Z více než stovky kandidátů jich bylo vybráno osm. Dick a Will sledují, jakým výzvám musí čelit při uskutečňování svých mimořádně ambiciózních plánů, počínaje dračím okem a konče miniaturním uhelným dolem, od chaty tvaru klobouku až po chaloupku připomínající jeskyni, tady uvidíme jen samé novátorské a výstřední stavby.",
+      "start": "20261120102000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "SPEKTRUMHOME.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "viasatepicdrama.cz",
+      "title": "Detektiv Murdoch",
+      "description": "Detective Murdoch Mysteries je nová kanadská třídílná detektivní minisérie, jejíž děje jsou zasazeny do dob přelomu 19. a 20. století. Murdoch je detektiv bystrý, pohotový, v mnoha ohledech podobný Sherlocku Holmesovi. A stejně jako on musí řešit temné případy záhadných a brutálních vražd, které mohl spáchat kdokoliv. Čekají ho setkání s nejhorší spodinou i s členy elitních společenských vrstev. Kupodivu, nejvíce přátel nalézá v chudinských čtvrtích.. Je zima roku 1895 a v Torontu, v jedné ze zasněžených temných uliček, nalezla policie tělo zmrzlé mladé ženy. Celý případ je zpočátku vyšetřován jako náhodná smrt nějaké pouliční děvy. Jenže pak se na scéně objeví mladý detektiv William Murdoch, který má schopnost dokonale číst ze stop na místě činu a je přístupný každé nové vyšetřovací metodě, nad kterou jeho nadřízení ohrnují nos, jako jsou například otisky prstů. Je přesvědčen, že za smrtí mladé ženy je víc než jen pouhá náhoda a... rozhodne se o tom přesvědčit svého nadřízeného, inspektora Brackenreida. Jeho pomocnicí se stane koronerka, dr. Julie Ogdenová, jedna ze tří žen - lékařek ve městě, která se musí často potýkat s nedůvěrou a přehlížením mužů, přestože je bystrá, vzdělaná a dokonalá profesionálka. Vždyť i William ji považoval za vlezlou kolemjdoucí, když ji našel, jak se sklání nad mrtvým tělem. Teprve když se ji pokusil z místa činu vyhnat, vyšlo najevo kým je. Naštěstí není urážlivá a s pochopením přijímá detektivovu omluvu. S její pomocí vzápětí zjistí, že v krvi mrtvé ženy nebyla ani stopa po alkoholu, a další stopy vedou k přesvědčení, že šlo o vraždu. A protože tento tak trochu plachý mladý muž, který je současně pokud jde o ženy poněkud nešikovný, sám truchlí pro nedávnou smrt snoubenky, rozhodne se záhadu její smrti vyřešit za každou cenu. Zjistí, že obět se jmenovala Theresa Laporte a byla zaměstnaná jako služebná u jedné bohaté torontské rodiny. Také objeví v těle ženy stopy po opiu a zjistí, že byla těhotná. Během svého vyšetřování je stále více přesvědčen, že motivem vraždy byl strach ze skandálu a s každým dalším objevem, každou další stopou se dostává blíž ďábelskému plánu vedoucímu ke kruté vraždě mladé ženy. Vydává se znovu do temných uliček Toronta, sleduje krok za krokem osudy vystrašené dívky, od temných doupat zlodějů až po luxusní viktoriánské salóny torontské smetánky. Každý člověk jak se zdá, ukrývá nějaké to tajemství a Murdoch, čestný, zásadový ale současně soucitný člověk, se při řešení zločinu ocitá lapen mezi vlastním svědomím, pravdou a tlakem z vyšších míst.",
+      "start": "20261120102000 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "VIASATEPICDRAMA.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "euronews.cz",
       "title": "Euroverify",
       "description": "Journalists specialised in fact-checking and debunking the biggest stories and rumours targeting.",
@@ -1437,6 +1587,16 @@
       "start": "20261120101500 +0000",
       "end": "20261120110000 +0000",
       "channelName": "ČROJAZZ.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "viasattruecrime.cz",
+      "title": "V mysli sériového vraha",
+      "description": "",
+      "start": "20261120101500 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "VIASATTRUECRIME.CZ",
       "archived": true,
       "videoAvailable": false
     },
@@ -1747,6 +1907,16 @@
       "start": "20261120100400 +0000",
       "end": "20261120110000 +0000",
       "channelName": "ČRODVOJKA.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "djazz.cz",
+      "title": "Panorama do Choro - Da Pá Virada Sessions",
+      "description": "The Da Pá Virada Sessions series presents the best musicians of contemporary Brazilian jazz, and beyond. Panorama de Coro combines jazz and traditional Brazilian music, resulting in a festive atmosphere that calls to mind daily life in Brazil. The Da Pá Virada Sessions series presents the best musicians of contemporary Brazilian jazz, and beyond. Filmed in Sao Paulo, each session offers a unique experience by giving a fresh look into Brazil's music scene. The artists for each session are selected in consultation with Stingray DJAZZ's music editor. One of the bands taking part in this series is Panorama de Coro. This ensemble combines jazz and traditional Brazilian music. The resulting music has a festive, almost street-like... atmosphere. Panorama de Coro consists of Roberta Valente (pandeiro and percussion), Alexandre Ribeiro (cla rinet), Gian Correa (7-string guitar), Henrique Araujo (cavaquinho), Joao Poleto (flute and tenor saxophone) and Yves Finzetto (pandeiro and percussion).",
+      "start": "20261120100300 +0000",
+      "end": "20261120111600 +0000",
+      "channelName": "DJAZZ.CZ",
       "archived": true,
       "videoAvailable": false
     },
@@ -2971,6 +3141,16 @@
       "videoAvailable": false
     },
     {
+      "channel": "tv2séf.cz",
+      "title": "Hal a tortán",
+      "description": "Új részekkel tér vissza a képernyőre a Hal a tortán. Az egyik legismertebb gasztro-reality új háziasszonnyal, új szereplőkkel, új csatornán várja a nézőket. Gáspár Bea segítségével és fortélyaival, meg persze egy kis csavarral mérik össze főzőtudásukat a vállalkozó szellemű hírességek. 2008-ban láthatták először a nézők a Hal a tortán gasztro-realityt. Az azóta eltelt 13 évben rengeteg ismert embert ragadott fakanalat és okozott emlékezetes pillanatokat vacsoratársainak és a nézőknek. A TV2... Csoport saját gyártású műsorában új háziasszonyt köszönthetnek a nézők. Gáspár Bea a Hal a tortán de likátboltban várja az aznapi szakácsokat, ellátja őket jótanácsokkal, de meg is nehezíti a dolgukat..",
+      "start": "20261120095500 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "TV2SÉF.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "m2hu.cz",
       "title": "Mazsola és Tádé, műsor, élő adásban",
       "description": "A sárgarépa. Mazsola és Tádé szorgosan segédkeznek Manócska mellett a kerti munkában. A tízórai sárgarépát Mazsola hamar elfogyasztja, majd azon hisztizik, hogy Tádénak még van. Amikor Manócskától repetát kap, mindenkit meglep, hogy mire használja.",
@@ -4167,6 +4347,16 @@
       "start": "20261120092500 +0000",
       "end": "20261120093000 +0000",
       "channelName": "WELT.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "axnwhite.cz",
+      "title": "Eklektické Vánoce",
+      "description": "Majitelka obchodu se starožitnostmi zanechává ve své závěti pokyny, aby její inventář byl rozdělen jako vánoční dárky, a její neteř z jiného města musí vyhledat pomoc pohledného místního, aby na základě poskytnutých indicií identifikovala příjemce. Majitelka obchodu se starožitnostmi Frida odkázala krám i s inventářem své jediné neteři Kim pod podmínkou vyřešení písemné hádanky. Jinak se převod dědictví neuskuteční. Zároveň určila, že případný pozdější prodej musí zprostředkovat makléř Scott Collins, bývalý snoubenec, jehož Kim kvůli opuštění nesnáší. Hon za vyluštěním hádanky a splnění úkolů z ní vyplývajících začíná.",
+      "start": "20261120092500 +0000",
+      "end": "20261120111500 +0000",
+      "channelName": "AXNWHITE.CZ",
       "archived": true,
       "videoAvailable": false
     },
