@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080b12">
+<title>Streamivo – Online TV</title>
+<style>
+:root{--bg:#080b12;--panel:#111722;--panel2:#182130;--accent:#19c5c0;--red:#e50938;--text:#f5f7fb;--muted:#929cad;--border:rgba(255,255,255,.08)}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text)}
+button,input,select{font:inherit}button{cursor:pointer;color:inherit}
+header{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 22px;background:#080b12;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:20}
+.logo{font-size:25px;font-weight:900;letter-spacing:-1px;white-space:nowrap}.logo span{color:var(--red)}
+nav{display:flex;gap:6px}.nav-btn{background:transparent;color:var(--muted);border:0;padding:11px 14px;border-radius:9px}.nav-btn.active,.nav-btn:hover{color:white;background:var(--panel2)}
+.clock{color:var(--muted);font-size:14px;white-space:nowrap}main{max-width:1400px;margin:auto;padding:22px}.page{display:none}.page.active{display:block}
+.section-title{font-size:23px;font-weight:bold;margin:10px 0 18px}.layout{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:20px}
+.player-card,.sidebar,.content-card{background:var(--panel);border:1px solid var(--border);border-radius:15px;overflow:hidden}
+.video-wrap{background:black;position:relative;aspect-ratio:16/9;overflow:hidden}video{width:100%;height:100%;display:block;background:black;object-fit:contain}
+.player-overlay{position:absolute;top:15px;left:15px;display:flex;gap:8px;pointer-events:none;z-index:2}
+.live-badge{background:var(--red);font-size:11px;font-weight:bold;padding:6px 9px;border-radius:5px}.channel-badge{background:#000a;padding:6px 9px;border-radius:5px;font-size:12px}
+.center-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;opacity:0;transition:.2s;z-index:2}.center-play.show{opacity:1}.center-play span{width:65px;height:65px;display:grid;place-items:center;border-radius:50%;background:#000a;font-size:28px}
+.player-controls{position:absolute;left:0;right:0;bottom:0;z-index:5;padding:38px 14px 12px;background:linear-gradient(transparent,#000d 35%,#000e);opacity:1;transition:opacity .25s}
+.video-wrap.controls-hidden .player-controls{opacity:0;pointer-events:none}.timeline{width:100%;height:5px;accent-color:var(--accent);margin:4px 0 12px;cursor:pointer;display:none}.video-wrap.archive-mode .timeline{display:block}
+.control-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.control-btn{background:transparent;border:0;padding:5px;font-size:19px;min-width:30px;color:white}.control-btn:hover{color:var(--accent)}.control-btn.small{font-size:15px}
+.volume{width:90px;accent-color:var(--accent)}.player-clock{font-size:15px;font-variant-numeric:tabular-nums;white-space:nowrap}.live-text{font-size:13px;font-weight:bold;white-space:nowrap}
+.program-title{font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:240px}.player-spacer{flex:1}.archive-time{font-size:12px;color:#fff;white-space:nowrap;display:none;font-variant-numeric:tabular-nums}
+.video-wrap.archive-mode .archive-time{display:inline}.video-wrap.archive-mode #backBtn,.video-wrap.archive-mode #forwardBtn,.video-wrap.archive-mode #liveBtn{display:inline-flex}
+#backBtn,#forwardBtn,#liveBtn{display:none}#liveBtn{color:#fff;background:var(--red);font-size:11px;font-weight:bold;border-radius:5px;padding:6px 9px}
+.status{padding:10px 14px;font-size:12px;color:var(--muted);border-top:1px solid var(--border)}.program-now{padding:14px;border-top:1px solid var(--border);background:#0d131e}.program-now strong{display:block;margin-bottom:6px}.program-now small{display:block;color:var(--muted);margin-top:5px}
+.sidebar{padding:15px}.search,.select{width:100%;padding:11px;border-radius:8px;background:var(--bg);border:1px solid var(--border);color:white;margin-bottom:12px}
+.channel{width:100%;display:flex;align-items:center;gap:12px;padding:12px;border:1px solid transparent;background:var(--panel2);border-radius:10px;margin-bottom:9px;text-align:left}.channel:hover,.channel.active{border-color:var(--accent);background:#19c5c018}
+.channel-logo{width:40px;height:40px;border-radius:9px;display:grid;place-items:center;font-weight:bold;background:#222c3b;flex-shrink:0}.channel-info{flex:1}.channel-name{font-weight:bold}.channel-sub{color:var(--muted);font-size:12px;margin-top:4px}
+.empty{color:var(--muted);padding:15px;text-align:center}.content-card{padding:18px;margin-bottom:15px}
+.guide-row{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:14px;border-bottom:1px solid var(--border)}.guide-row.current{background:#19c5c010}.guide-time{color:var(--accent);font-weight:bold}.guide-row p{color:var(--muted);font-size:13px;margin:6px 0}.progress{height:4px;background:#303b4c;border-radius:5px;overflow:hidden;margin-top:8px}.progress span{display:block;height:100%;background:var(--accent)}
+.archive-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.archive-item{background:var(--panel2);border:1px solid var(--border);border-radius:10px;padding:14px}.archive-item h4{margin:0 0 8px}.archive-item p{color:var(--muted);font-size:13px;overflow-wrap:anywhere}.archive-play{background:var(--accent);color:#061111;border:0;padding:9px 13px;border-radius:7px;font-weight:bold}.archive-label{color:var(--muted);font-size:12px}
+footer{padding:25px;text-align:center;color:var(--muted);font-size:12px;border-top:1px solid var(--border);margin-top:30px}
+@media(max-width:850px){.layout{grid-template-columns:1fr}header{padding:0 12px;flex-wrap:wrap}.clock{display:none}main{padding:13px}}
+@media(max-width:480px){.logo{font-size:21px}nav{gap:2px}.nav-btn{padding:9px 7px;font-size:12px}.control-row{gap:5px}.player-clock{font-size:13px}.live-text,.program-title{font-size:11px}.volume{width:60px}.archive-grid{grid-template-columns:1fr}.guide-row{grid-template-columns:90px 1fr}.player-controls{padding:32px 8px 8px}.control-btn{min-width:26px;padding:3px;font-size:17px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">STREAM<span>IVO</span></div>
+  <nav>
+    <button class="nav-btn active" data-page="tv">Živé TV</button>
+    <button class="nav-btn" data-page="guide">TV program</button>
+    <button class="nav-btn" data-page="archive">Archív</button>
+  </nav>
+  <div class="clock" id="clock">--:--:--</div>
+</header>
+<main>
+<section class="page active" id="tvPage">
+  <div class="section-title">Živé vysielanie</div>
+  <div class="layout">
+    <div class="player-card">
+      <div class="video-wrap" id="videoWrap">
+        <video id="video" playsinline autoplay></video>
+        <div class="player-overlay"><span class="live-badge" id="liveBadge">● LIVE</span><span class="channel-badge" id="playerChannel">JOJ</span></div>
+        <div class="center-play" id="centerPlay"><span id="centerPlayIcon">▶</span></div>
+        <div class="player-controls" id="playerControls">
+          <input type="range" id="timeline" class="timeline" min="0" max="100" value="0" aria-label="Časová os archívu">
+          <div class="control-row">
+            <button class="control-btn" id="playBtn" title="Play/Pause">▶</button>
+            <button class="control-btn" id="muteBtn" title="Zvuk">🔊</button>
+            <input type="range" class="volume" id="volume" min="0" max="1" step="0.05" value="1" aria-label="Hlasitosť">
+            <span class="player-clock" id="playerClock">--:--:--</span>
+            <span class="live-text" id="liveText">● Naživo</span>
+            <span class="archive-time" id="archiveTime">00:00 / 00:00</span>
+            <span class="program-title" id="programTitle">TV program</span>
+            <span class="player-spacer"></span>
+            <button class="control-btn small" id="backBtn" title="10 sekúnd dozadu">−10</button>
+            <button class="control-btn small" id="forwardBtn" title="10 sekúnd dopredu">+10</button>
+            <button id="liveBtn" title="Vrátiť sa na živé vysielanie">LIVE</button>
+            <button class="control-btn" id="fitBtn" title="Zmeniť zobrazenie">▣</button>
+            <button class="control-btn" id="listBtn" title="Zoznam kanálov">☷</button>
+            <button class="control-btn" id="fullscreenBtn" title="Fullscreen">⛶</button>
+          </div>
+        </div>
+      </div>
+      <div class="status" id="status">Vyber kanál.</div>
+      <div class="program-now" id="programNow"><strong>TV program</strong><small>Načítavam programové údaje…</small></div>
+    </div>
+    <aside class="sidebar" id="sidebar">
+      <input class="search" id="search" type="search" placeholder="🔍 Hľadať TV...">
+      <div id="channelList"></div>
+    </aside>
+  </div>
+</section>
+<section class="page" id="guidePage">
+  <div class="section-title">TV program</div>
+  <div class="content-card"><select class="select" id="guideChannel"></select><input class="select" type="date" id="guideDate"><div id="guideList"></div></div>
+</section>
+<section class="page" id="archivePage">
+  <div class="section-title">TV archív</div>
+  <div class="content-card">
+    <h3>Archív relácií</h3>
+    <p style="color:var(--muted)">Odvysielané relácie z EPG a dostupné vlastné/licencované videá.</p>
+    <select class="select" id="archiveChannel"></select>
+    <input class="select" type="date" id="archiveDate">
+    <input class="search" type="search" id="archiveSearch" placeholder="🔍 Hľadať reláciu...">
+    <div id="archiveList"></div>
+  </div>
+</section>
+</main>
+<footer>Streamivo · Online TV</footer>
+<script src="./hls.min.js"></script>
+<script>
+"use strict";
+
+const channels=[
+  {id:"joj",name:"JOJ",logo:"JOJ",aliases:["joj","joj.sk","joj.cz"],stream:"https://live.cdn.joj.sk/live/andromeda/joj-1080.m3u8"},
+  {id:"markiza",name:"Markíza",logo:"M",aliases:["markiza","markíza","markiza.sk","markiza.cz"],stream:"https://cdnsk003.panaccess.com/local/Markiza/index.m3u8"}
+];
+const EPG_URL="./data/epg.json";
+const ARCHIVE_URL="./data/archive.json";
+let epgChannels=[],epgPrograms=[],epgLoaded=false,archiveData=[];
+
+const video=document.getElementById("video"),videoWrap=document.getElementById("videoWrap");
+const channelList=document.getElementById("channelList"),searchInput=document.getElementById("search");
+const statusElement=document.getElementById("status"),playerChannel=document.getElementById("playerChannel");
+const timeline=document.getElementById("timeline"),playBtn=document.getElementById("playBtn");
+const muteBtn=document.getElementById("muteBtn"),volumeSlider=document.getElementById("volume");
+const fullscreenBtn=document.getElementById("fullscreenBtn"),centerPlay=document.getElementById("centerPlay");
+const centerPlayIcon=document.getElementById("centerPlayIcon"),liveBadge=document.getElementById("liveBadge");
+const playerClock=document.getElementById("playerClock"),liveText=document.getElementById("liveText");
+const programTitle=document.getElementById("programTitle"),programNow=document.getElementById("programNow");
+const archiveTime=document.getElementById("archiveTime"),guideChannel=document.getElementById("guideChannel");
+const guideDate=document.getElementById("guideDate"),guideList=document.getElementById("guideList");
+const archiveChannel=document.getElementById("archiveChannel"),archiveDate=document.getElementById("archiveDate");
+const archiveSearch=document.getElementById("archiveSearch"),archiveList=document.getElementById("archiveList");
+
+let hls=null,currentChannel=null,currentMode="live",isSeeking=false,fitMode=0,hideControlsTimer=null;
+const pages={tv:document.getElementById("tvPage"),guide:document.getElementById("guidePage"),archive:document.getElementById("archivePage")};
+
+document.querySelectorAll(".nav-btn").forEach(btn=>{
+  btn.onclick=()=>{
+    document.querySelectorAll(".nav-btn").forEach(b=>b.classList.remove("active"));
+    btn.classList.add("active");
+    Object.entries(pages).forEach(([key,element])=>element.classList.toggle("active",key===btn.dataset.page));
+    if(btn.dataset.page==="guide")renderGuide();
+    if(btn.dataset.page==="archive")renderArchive();
+  };
+});
+function escapeHTML(value){return String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));}
+function formatTime(date){return date instanceof Date&&!isNaN(date)?date.toLocaleTimeString("sk-SK",{hour:"2-digit",minute:"2-digit"}):"--:--";}
+function localDateString(date){return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,"0")}-${String(date.getDate()).padStart(2,"0")}`;}
+function parseDate(value){
+  if(!value)return null;
+  if(value instanceof Date)return value;
+  if(typeof value==="number"){const d=new Date(value);return isNaN(d)?null:d;}
+  const str=String(value).trim();
+  const xmltv=str.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\s*([+-]\d{4})?$/);
+  if(xmltv){
+    const zone=xmltv[7]||"+0000";
+    const iso=`${xmltv[1]}-${xmltv[2]}-${xmltv[3]}T${xmltv[4]}:${xmltv[5]}:${xmltv[6]}${zone.slice(0,3)}:${zone.slice(3)}`;
+    const d=new Date(iso);return isNaN(d)?null:d;
+  }
+  const d=new Date(str);return isNaN(d)?null:d;
+}
+function normalizeText(value){
+  return String(value||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
+}
+function getChannelId(value){
+  const normalized=normalizeText(value);
+  if(!normalized)return null;
+  // Exact aliases first, then provider display names.
+  for(const channel of channels){
+    const aliases=[channel.id,...channel.aliases,channel.name].map(normalizeText);
+    if(aliases.includes(normalized))return channel.id;
+  }
+  if(normalized.includes("markiza")||normalized.includes("tv markiza"))return "markiza";
+  if(normalized==="joj"||normalized.startsWith("joj "))return "joj";
+  return null;
+}
+function resolveEPGChannel(raw){
+  let id=getChannelId(raw);
+  if(id)return id;
+  const meta=epgChannels.find(c=>String(c.id)===String(raw));
+  if(meta){
+    id=getChannelId(meta.name||meta["display-name"]||meta.id);
+    if(id)return id;
+  }
+  return null;
+}
+function setStatus(text){statusElement.textContent=text;}
+
+function renderChannels(filter=""){
+  channelList.innerHTML="";
+  const list=channels.filter(c=>c.name.toLowerCase().includes(filter.toLowerCase()));
+  if(!list.length){channelList.innerHTML='<div class="empty">Kanál sa nenašiel.</div>';return;}
+  list.forEach(channel=>{
+    const button=document.createElement("button");
+    button.className="channel"+(currentChannel?.id===channel.id?" active":"");
+    button.innerHTML=`<div class="channel-logo">${escapeHTML(channel.logo)}</div><div class="channel-info"><div class="channel-name">${escapeHTML(channel.name)}</div><div class="channel-sub">Živé vysielanie</div></div><div>▶</div>`;
+    button.onclick=()=>loadLive(channel);channelList.appendChild(button);
+  });
+}
+searchInput.oninput=()=>renderChannels(searchInput.value);
+function destroyHLS(){if(hls){hls.destroy();hls=null;}}
+function loadSource(url){
+  destroyHLS();video.pause();video.removeAttribute("src");video.load();
+  setStatus("Pripájam stream…");
+  if(video.canPlayType("application/vnd.apple.mpegurl")){
+    video.src=url;
+    video.play().catch(()=>setStatus("Stream je pripojený. Stlač Play, ak sa nespustí."));
+  }else if(window.Hls&&Hls.isSupported()){
+    hls=new Hls({enableWorker:true,lowLatencyMode:false,maxBufferLength:30,manifestLoadingTimeOut:20000,manifestLoadingMaxRetry:3,levelLoadingMaxRetry:3});
+    hls.loadSource(url);hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play().catch(()=>setStatus("Stream je nastavený. Stlač Play.")));
+    hls.on(Hls.Events.ERROR,(event,data)=>{
+      console.warn("HLS:",data);
+      if(!data.fatal){setStatus("HLS upozornenie: "+data.details);return;}
+      if(data.type===Hls.ErrorTypes.NETWORK_ERROR)setStatus("Stream nedostupný. Server môže obmedzovať prehrávanie na externých stránkach.");
+      else if(data.type===Hls.ErrorTypes.MEDIA_ERROR){setStatus("Chyba dekódovania videa.");hls.recoverMediaError();}
+      else{setStatus("Stream sa nepodarilo spustiť: "+data.details);destroyHLS();}
+    });
+  }else setStatus("Prehliadač nepodporuje HLS.");
+}
+function loadLive(channel){
+  currentChannel=channel;currentMode="live";
+  videoWrap.classList.remove("archive-mode");
+  playerChannel.textContent=channel.name;liveBadge.style.display="";liveText.style.display="";liveText.textContent="● Naživo";
+  renderChannels(searchInput.value);setStatus("Načítavam "+channel.name+"…");
+  loadSource(channel.stream);updateProgramNow();showControls();
+}
+function togglePlayback(){
+  if(!currentChannel){loadLive(channels[0]);return;}
+  if(video.paused)video.play().catch(()=>setStatus("Prehrávanie sa nepodarilo spustiť."));
+  else video.pause();
+}
+playBtn.onclick=togglePlayback;video.onclick=togglePlayback;
+video.addEventListener("play",()=>{playBtn.textContent="Ⅱ";centerPlay.classList.remove("show");setStatus("Prehráva sa: "+(currentMode==="archive"?"archív":currentChannel?.name||""));});
+video.addEventListener("pause",()=>{playBtn.textContent="▶";centerPlayIcon.textContent="▶";centerPlay.classList.add("show");});
+video.addEventListener("waiting",()=>setStatus("Načítavam video…"));
+video.addEventListener("playing",()=>centerPlay.classList.remove("show"));
+video.addEventListener("error",()=>{if(video.error)setStatus("Video sa nepodarilo načítať. Skontroluj zdroj videa.");});
+
+function updateTimeline(){
+  if(isSeeking||currentMode!=="archive")return;
+  if(Number.isFinite(video.duration)&&video.duration>0){timeline.min=0;timeline.max=video.duration;timeline.value=video.currentTime;}
+  updateArchiveTime();
+}
+video.addEventListener("timeupdate",updateTimeline);video.addEventListener("progress",updateTimeline);
+video.addEventListener("loadedmetadata",updateTimeline);video.addEventListener("durationchange",updateTimeline);
+timeline.oninput=()=>{isSeeking=true;};
+timeline.onchange=()=>{if(currentMode==="archive"&&Number.isFinite(video.duration))video.currentTime=Math.min(video.duration,Math.max(0,Number(timeline.value)));isSeeking=false;updateArchiveTime();};
+function timeLabel(seconds){if(!Number.isFinite(seconds)||seconds<0)return"00:00";const h=Math.floor(seconds/3600),m=Math.floor(seconds%3600/60),s=Math.floor(seconds%60);return h?`${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`:`${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;}
+function updateArchiveTime(){archiveTime.textContent=`${timeLabel(video.currentTime)} / ${timeLabel(video.duration)}`;}
+function seekBy(seconds){if(currentMode==="archive"&&Number.isFinite(video.duration))video.currentTime=Math.max(0,Math.min(video.duration,video.currentTime+seconds));}
+document.getElementById("backBtn").onclick=()=>seekBy(-10);document.getElementById("forwardBtn").onclick=()=>seekBy(10);
+document.getElementById("liveBtn").onclick=()=>loadLive(currentChannel||channels[0]);
+volumeSlider.oninput=()=>{video.volume=Number(volumeSlider.value);video.muted=video.volume===0;updateMute();};
+muteBtn.onclick=()=>{video.muted=!video.muted;updateMute();};video.addEventListener("volumechange",updateMute);
+function updateMute(){muteBtn.textContent=video.muted||video.volume===0?"🔇":"🔊";}
+fullscreenBtn.onclick=async()=>{try{if(!document.fullscreenElement)await videoWrap.requestFullscreen();else await document.exitFullscreen();}catch{setStatus("Fullscreen nie je dostupný.");}};
+document.getElementById("fitBtn").onclick=()=>{fitMode=(fitMode+1)%3;video.style.objectFit=["contain","cover","fill"][fitMode];setStatus("Zobrazenie: "+["prispôsobiť","vyplniť","roztiahnuť"][fitMode]+".");};
+document.getElementById("listBtn").onclick=()=>{const sidebar=document.getElementById("sidebar");sidebar.style.display=sidebar.style.display==="none"?"":"none";};
+function showControls(){videoWrap.classList.remove("controls-hidden");clearTimeout(hideControlsTimer);if(!video.paused)hideControlsTimer=setTimeout(()=>videoWrap.classList.add("controls-hidden"),3500);}
+["mousemove","touchstart","touchmove","click"].forEach(eventName=>videoWrap.addEventListener(eventName,showControls,{passive:true}));
+videoWrap.addEventListener("mouseleave",()=>{if(!video.paused)hideControlsTimer=setTimeout(()=>videoWrap.classList.add("controls-hidden"),900);});
+video.addEventListener("play",showControls);video.addEventListener("pause",()=>{clearTimeout(hideControlsTimer);videoWrap.classList.remove("controls-hidden");});
+
+async function loadEPG(){
+  try{
+    const response=await fetch(EPG_URL,{cache:"no-cache"});if(!response.ok)throw new Error("HTTP "+response.status);
+    const data=await response.json();
+    let raw=Array.isArray(data)?data:Array.isArray(data.program)?data.program:Array.isArray(data.programs)?data.programs:Array.isArray(data.epg)?data.epg:Array.isArray(data.entries)?data.entries:Array.isArray(data.data?.program)?data.data.program:[];
+    epgChannels=Array.isArray(data.channels)?data.channels:[];
+    epgPrograms=raw.map(p=>{
+      const channelValue=p.channel||p.channelId||p.channel_id||p.id||"";
+      return{channel:resolveEPGChannel(channelValue),rawChannel:String(channelValue),start:parseDate(p.start||p.startTime||p.start_time),stop:parseDate(p.stop||p.end||p.stopTime||p.end_time),title:p.title||p.name||"Bez názvu",description:p.description||p.desc||""};
+    }).filter(p=>p.start&&p.stop&&p.stop>p.start);
+    epgPrograms.sort((a,b)=>a.start-b.start);epgLoaded=true;
+    setStatus("EPG načítané: "+epgPrograms.length+" relácií.");renderGuide();updateProgramNow();renderArchive();
+  }catch(error){
+    epgLoaded=false;console.error("EPG:",error);
+    programNow.innerHTML="<strong>TV program</strong><small>Programové údaje sa nepodarilo načítať.</small>";
+    guideList.innerHTML='<div class="empty">TV program momentálne nie je dostupný.</div>';
+    archiveList.innerHTML='<div class="empty">EPG sa nenačítalo; archívny katalóg môže byť prázdny.</div>';
+  }
+}
+function getPrograms(channelId,date=null){return epgPrograms.filter(p=>p.channel===channelId).filter(p=>!date||localDateString(p.start)===localDateString(date)).sort((a,b)=>a.start-b.start);}
+function getCurrentProgram(channelId){const now=new Date();return getPrograms(channelId).find(p=>p.start<=now&&p.stop>now);}
+function getNextProgram(channelId){const now=new Date();return getPrograms(channelId).find(p=>p.start>now);}
+function updateProgramNow(){
+  if(!currentChannel){programNow.innerHTML="<strong>TV program</strong><small>Vyber kanál.</small>";return;}
+  const current=getCurrentProgram(currentChannel.id),next=getNextProgram(currentChannel.id);
+  if(!current&&!next){programTitle.textContent="Program nedostupný";programNow.innerHTML=`<strong>${escapeHTML(currentChannel.name)}</strong><small>Programové údaje pre tento kanál nie sú dostupné.</small>`;return;}
+  if(current){
+    programTitle.textContent=current.title;const total=current.stop-current.start,elapsed=Date.now()-current.start,progress=Math.max(0,Math.min(100,elapsed/total*100));
+    programNow.innerHTML=`<strong>Teraz: ${escapeHTML(current.title)}</strong><small>${formatTime(current.start)} – ${formatTime(current.stop)}</small><div class="progress"><span style="width:${progress}%"></span></div><small>${escapeHTML(current.description)}</small>${next?`<small>Ďalej: ${escapeHTML(next.title)} (${formatTime(next.start)})</small>`:""}`;
+  }else{programTitle.textContent=next.title;programNow.innerHTML=`<strong>Ďalej: ${escapeHTML(next.title)}</strong><small>${formatTime(next.start)} – ${formatTime(next.stop)}</small><small>${escapeHTML(next.description)}</small>`;}
+}
+function populateSelects(){
+  const options=channels.map(c=>`<option value="${c.id}">${escapeHTML(c.name)}</option>`).join("");
+  guideChannel.innerHTML=options;archiveChannel.innerHTML='<option value="all">Všetky kanály</option>'+options;
+}
+guideDate.value=localDateString(new Date());archiveDate.value="";
+guideChannel.onchange=renderGuide;guideDate.onchange=renderGuide;
+function renderGuide(){
+  if(!epgLoaded){guideList.innerHTML='<div class="empty">TV program sa načítava…</div>';return;}
+  const channelId=guideChannel.value,selectedDate=guideDate.value?new Date(guideDate.value+"T12:00:00"):new Date(),list=getPrograms(channelId,selectedDate);
+  if(!list.length){guideList.innerHTML='<div class="empty">Pre tento deň sa program nenašiel.</div>';return;}
+  const now=new Date();
+  guideList.innerHTML=list.map(p=>{const isCurrent=p.start<=now&&p.stop>now,duration=Math.round((p.stop-p.start)/60000);return`<div class="guide-row ${isCurrent?"current":""}"><div class="guide-time">${formatTime(p.start)} – ${formatTime(p.stop)}</div><div><strong>${escapeHTML(p.title)}</strong><p>${escapeHTML(p.description)}</p><p>${duration} min${isCurrent?" · Práve vysielané":""}</p></div></div>`;}).join("");
+}
+
+archiveChannel.onchange=renderArchive;archiveDate.onchange=renderArchive;archiveSearch.oninput=renderArchive;
+async function loadArchive(){
+  try{
+    const response=await fetch(ARCHIVE_URL,{cache:"no-cache"});
+    if(!response.ok)throw new Error("HTTP "+response.status);
+    const data=await response.json();
+    const raw=Array.isArray(data)?data:Array.isArray(data.programs)?data.programs:Array.isArray(data.program)?data.program:[];
+    archiveData=raw.map(item=>{
+      const start=parseDate(item.start||item.startTime);
+      const stop=parseDate(item.end||item.stop||item.endTime);
+      const channel=getChannelId(item.channel)||getChannelId(item.channelName)||getChannelId(item.channel_id);
+      return{...item,channel:channel||item.channel,title:item.title||item.name||"Bez názvu",description:item.description||item.desc||"",start,stop,date:item.date||(start?localDateString(start):""),url:item.url||item.videoUrl||item.video||null};
+    });
+    console.log("Archív načítaný:",archiveData.length);
+  }catch(error){console.warn("Archive:",error);archiveData=[];}
+  renderArchive();
+}
+function getArchiveEntries(){
+  const now=new Date();
+  const fromEPG=epgPrograms.filter(p=>p.channel&&p.stop<=now).map(p=>({channel:p.channel,title:p.title,description:p.description,date:localDateString(p.start),start:p.start,stop:p.stop,url:null,source:"epg"}));
+  const videos=archiveData.map(item=>({...item,channel:getChannelId(item.channel)||getChannelId(item.channelName)||item.channel,source:"video"}));
+  const keys=new Set(videos.map(v=>`${v.channel}|${String(v.title).toLowerCase()}|${v.date|| (v.start?localDateString(v.start):"")}`));
+  return [...videos,...fromEPG.filter(p=>!keys.has(`${p.channel}|${String(p.title).toLowerCase()}|${p.date}`))];
+}
+function renderArchive(){
+  const channel=archiveChannel.value,date=archiveDate.value,search=archiveSearch.value.trim().toLowerCase();
+  const list=getArchiveEntries().filter(item=>(channel==="all"||item.channel===channel)&&(!date||item.date===date)&&String(item.title||"").toLowerCase().includes(search)).sort((a,b)=>new Date(b.start||b.date||0)-new Date(a.start||a.date||0));
+  if(!list.length){archiveList.innerHTML='<div class="empty">Pre zvolený filter nie sú dostupné žiadne odvysielané relácie.</div>';return;}
+  archiveList.innerHTML=`<div class="archive-grid">${list.map((item,index)=>{const channelName=channels.find(c=>c.id===item.channel)?.name||item.channel||"TV";const time=item.start?formatTime(item.start instanceof Date?item.start:new Date(item.start)):"";return`<div class="archive-item"><h4>${escapeHTML(item.title)}</h4><p>${escapeHTML(channelName)} · ${escapeHTML(item.date||"")}${time?" · "+escapeHTML(time):""}</p><p>${escapeHTML(item.description||"")}</p>${item.url?`<button class="archive-play" data-index="${index}">▶ Prehrať</button>`:`<span class="archive-label">Programový záznam · video nie je dostupné</span>`}</div>`;}).join("")}</div>`;
+  archiveList.querySelectorAll(".archive-play").forEach(button=>button.onclick=()=>playArchive(list[Number(button.dataset.index)]));
+}
+function playArchive(item){
+  if(!item||!item.url)return;
+  currentMode="archive";currentChannel=null;destroyHLS();video.pause();video.removeAttribute("src");video.src=item.url;video.load();
+  videoWrap.classList.add("archive-mode");playerChannel.textContent="ARCHÍV";liveBadge.style.display="none";liveText.style.display="none";
+  document.querySelector('[data-page="tv"]').click();showControls();setStatus("Archív: "+item.title);
+  video.play().catch(()=>setStatus("Video je pripravené. Stlač Play."));updateArchiveTime();
+}
+function updateClock(){const now=new Date();document.getElementById("clock").textContent=now.toLocaleTimeString("sk-SK");playerClock.textContent=now.toLocaleTimeString("sk-SK");}
+setInterval(updateClock,1000);updateClock();setInterval(updateProgramNow,60000);
+renderChannels();populateSelects();renderGuide();renderArchive();loadEPG();loadArchive();
+</script>
+</body>
+</html>
