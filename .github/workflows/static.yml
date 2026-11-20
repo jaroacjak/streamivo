@@ -5,9 +5,11 @@ on:
     branches:
       - main
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -20,40 +22,75 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate JSON files
+      - name: Download EPG XML
+        run: |
+          mkdir -p data
+          curl -L --fail \
+            "https://iptv-epg.org/files/epg-cz.xml" \
+            -o data/epg.xml
+
+      - name: Convert XMLTV to JSON
         run: |
           python3 - <<'PY'
+          import xml.etree.ElementTree as ET
           import json
-          import os
+          from datetime import datetime
 
-          files = [
-              "data/epg.json",
-              "data/archive.json"
-          ]
+          tree = ET.parse("data/epg.xml")
+          root = tree.getroot()
 
-          for file in files:
-              if os.path.exists(file):
-                  with open(file, "r", encoding="utf-8") as f:
-                      json.load(f)
-                  print(f"OK: {file}")
-              else:
-                  print(f"INFO: {file} neexistuje, preskakujem")
+          channels = []
+          programmes = []
+
+          for channel in root.findall("channel"):
+              names = channel.findall("display-name")
+
+              channels.append({
+                  "id": channel.get("id"),
+                  "name": names[0].text if names else channel.get("id")
+              })
+
+          for programme in root.findall("programme"):
+              title = programme.find("title")
+              desc = programme.find("desc")
+
+              programmes.append({
+                  "channel": programme.get("channel"),
+                  "title": title.text if title is not None else "",
+                  "description": desc.text if desc is not None else "",
+                  "start": programme.get("start"),
+                  "end": programme.get("stop")
+              })
+
+          programmes.sort(
+              key=lambda p: p.get("start", "")
+          )
+
+          result = {
+              "channels": channels,
+              "program": programmes
+          }
+
+          with open("data/epg.json", "w", encoding="utf-8") as f:
+              json.dump(result, f, ensure_ascii=False, indent=2)
+
+          print(f"Channels: {len(channels)}")
+          print(f"Programmes: {len(programmes)}")
           PY
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
   deploy:
     needs: build
-
     runs-on: ubuntu-latest
 
     environment:
@@ -61,6 +98,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
