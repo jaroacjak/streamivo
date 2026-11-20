@@ -11,6 +11,146 @@
   ],
   "programs": [
     {
+      "channel": "dusktv.cz",
+      "title": "Candy Unlocked: Lulu Love & John Price",
+      "description": "Candy gets off while she watches her husband fuck another woman.",
+      "start": "20261120112700 +0000",
+      "end": "20261120112700 +0000",
+      "channelName": "dusktv.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "v1.cz",
+      "title": "Kam vyrazit v Královéhradeckém kraji",
+      "description": "Pořad propagující akce v Královéhradeckém kraji Staráme se o to, aby byly zajímavé akce vidět. Proto v Kam vyrazit propagujeme akce, které by vám neměly ujít. Nechte se námi inspirovat a vyrazte se s námi pobavit, zasportovat ne. Bo se něco nového naučit.",
+      "start": "20261120112500 +0000",
+      "end": "20261120112700 +0000",
+      "channelName": "v1.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "nova.cz",
+      "title": "Polední Počasí",
+      "description": "Přehled aktuálního počasí a předpověď na následující dny.",
+      "start": "20261120112400 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "nova.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "novaint.cz",
+      "title": "Polední Počasí",
+      "description": "Přehled aktuálního počasí a předpověď na následující dny.",
+      "start": "20261120112400 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "novaint.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "welt.cz",
+      "title": "WELT - Meinung am Mittag",
+      "description": "",
+      "start": "20261120112100 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "welt.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "nova.cz",
+      "title": "Polední Sportovní noviny",
+      "description": "Sportovní zpravodajství, které nabízí souhrn nejdůležitějších událostí doma i ve světě.",
+      "start": "20261120112000 +0000",
+      "end": "20261120112400 +0000",
+      "channelName": "nova.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "novaint.cz",
+      "title": "Polední Sportovní noviny",
+      "description": "Sportovní zpravodajství, které nabízí souhrn nejdůležitějších událostí doma i ve světě.",
+      "start": "20261120112000 +0000",
+      "end": "20261120112400 +0000",
+      "channelName": "novaint.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "tvrik.cz",
+      "title": "Hot Wheels autíčka",
+      "description": "V meste plnom slučiek, skokov a pretekov nie je núdza o chaos. Elliot a Chase sadajú za volant vždy, keď mestu hrozí nebezpečenstvo. Animované dobrodružstvá, ktoré deti naučia držať spolu a nebáť sa výziev.",
+      "start": "20261120112000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "tvrik.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "v1.cz",
+      "title": "Kam vyrazit v Pardubickém kraji",
+      "description": "Pořad propagující akce v Pardubickém kraji Staráme se o to, aby byly zajímavé akce vidět. Proto v Kam vyrazit propagujeme akce, které by vám neměly ujít. Nechte se námi inspirovat a vyrazte se s námi pobavit, zasportovat ne. Bo se něco nového naučit.",
+      "start": "20261120112000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "v1.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "minimax.cz",
+      "title": "Garfieldova show",
+      "description": "(The Garfield Show II) (2011). Garfield je líný, sobecký a tlustý oranžový mourek. K jeho hlavním koníčkům patří lenošení, spánek, sledování televize, pojídání pizzy a zábava… Ale jinak má srdce ze zlata. Přestože se vždy zpočátku chová svým obvyklým sobeckým způsobem, díky své vynalézavosti dokáže zachránit situaci a dokonce dostat i Odieho z nesnází.",
+      "start": "20261120111500 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "minimax.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "novalady.cz",
+      "title": "Tescoma s chutí",
+      "description": "VIP - Pilaf s kuřetem Originální zábavná cooking show, v níž nejlepší čeští odborníci radí a ukazují divákovi, co všechno nabízí voňavý a chutný svět gastronomie.",
+      "start": "20261120111500 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "novalady.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "superrtl.cz",
+      "title": "Grizzy & die Lemminge 3",
+      "description": "Grizzy wacht hungrig auf, doch alle Vorratsschränke sind leer. Während die Lemminge in der Nähe mit einem Elefanten..",
+      "start": "20261120111500 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "superrtl.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "v1.cz",
+      "title": "U nás v kraji",
+      "description": "Magazín zajímavostí z východních Čech Naši redaktoři mají východní Čechy perfektně zmapované a dobře vědí, kde se co zajímavého děje a kam stojí za to vyrazit. Jejich znalosti pomáhá sdílet tento pořad.",
+      "start": "20261120111500 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "v1.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "polar.cz",
+      "title": "Expres Ostrava-Poruba",
+      "description": "Zpravodajství z obvodu Poruba od redaktorky Jany Lipowské a kameramana Pavla Straky.",
+      "start": "20261120111400 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "polar.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "v1.cz",
       "title": "Expres Pardubického kraje",
       "description": "Pravidelné zpravodajství z Pardubického kraje Jsme televize z východních Čech a znát dění v Pardubickém kraji je pro nás samozřejmostí. Naše poznatky rádi sdílíme s našimi diváky, a proto v tomto pořadu naleznete to nejdůležit.",
@@ -51,6 +191,26 @@
       "videoAvailable": false
     },
     {
+      "channel": "tvrik.cz",
+      "title": "Jožinko a kamaráti",
+      "description": "Pán Gongo raz vyhrá a raz prehrá svoj súboj s domácimi spotrebičmi a Jožinko si zase vždy nájde vynaliezavé riešenie. Pokojné rozprávky zo zlatého fondu slovenskej animácie rozvíjajú fantáziu a zmysel pre humor.",
+      "start": "20261120111000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "tvrik.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "m2hu.cz",
+      "title": "Panda és Kivi, műsor, élő adásban",
+      "description": "Kimerítő kánikula. Nagyon meleg van a szigeten, ezért az állatok elhatározzak, hogy elmennek úszni, de a folyó kiszáradt. Elkezdenek felsétálni a víznyelőhöz, közben megállnak pihenni egy fánál. Morcos Sapi csapdát állít nekik hideg édességekből és elkapja az állatokat, kivéve Arisztódit. Rájönnek, hogy a robotok sem bírják a meleget és direkt tovább melegítik őket addig ameddig azok túlmelegednek és leállnak.",
+      "start": "20261120110900 +0000",
+      "end": "20261120112400 +0000",
+      "channelName": "m2hu.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "jimjam.cz",
       "title": "Messyho skvělá dobrodružství",
       "description": "",
@@ -77,6 +237,16 @@
       "start": "20261120110100 +0000",
       "end": "20261120110700 +0000",
       "channelName": "JIMJAM.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "m1hu.cz",
+      "title": "HÍRADÓ, műsor, élő adásban",
+      "description": "",
+      "start": "20261120110100 +0000",
+      "end": "20261120112600 +0000",
+      "channelName": "m1hu.cz",
       "archived": true,
       "videoAvailable": false
     },
@@ -221,6 +391,136 @@
       "videoAvailable": false
     },
     {
+      "channel": "cartoonnetwork.cz",
+      "title": "Čas na dobrodružství: Vedlejší výpravy",
+      "description": "S1 E2 — Dandy Bug\nFinn je zatažen do souboje mezi šlechtickými brouky a před velkým soubojem se musí naučit, jak se chovat ve vyšší společnosti.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "cartoonnetwork.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "csmystery.cz",
+      "title": "Konspirační teorie",
+      "description": "Jezuité - Řád plný tajemství? Český dokumentární seriál (2019). Režie: Jakub Bouček. Tovaryšstvo Ježíšovo neboli Jezuité. Řeholní řád známý zakládáním škol po celém světě i vzdělaností svých členů. Pro řadu lidí má ale slovo Jezuité úplně jiný význam. Právě s Jezuity je totiž spojeno snad nejvíc konspiračních teorií ze všech řeholních řádů. Uvidíte, jaké konspirační teorie se právě s Jezuity pojí v Čechách a kde jsou jejich kořeny. Vůbec poprvé vám tak představíme konspirační teorie, o kterých víc jak dvě stě let, nikdo neslyšel.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "csmystery.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "disneyjunior.cz",
+      "title": "Spidey and His Amazing Friends",
+      "description": "I superhrdina potřebuje krýt záda! Mladý Peter Parker a přátelé bojují se zloduchy.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "disneyjunior.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "englishclubtv.cz",
+      "title": "Life Around Kids",
+      "description": "Life Around Kids is a series of animated cartoons that will help children, along with the fun characters in the episodes, study basic phrases and vocabulary to describe everyday situations and objects around them, as well as learn the English sentence structure. In this episode, the characters head to the school canteen for a snack. Join them to learn lots of useful new vocabulary to describe such events.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "englishclubtv.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "fastandfunbox.cz",
+      "title": "Supercar TV",
+      "description": "The Journey Begins Tim Burton talks about his passion for supercars and how he built his own brand \"Shmee150\". The team prepares for the European tour and we participate in the first ever London Shmeeting.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "fastandfunbox.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "hbo2.cz",
+      "title": "Teorie velkého třesku",
+      "description": "S3 E11 — Mateřská shoda\nLeonardova matka přijíždí na Vánoce a jediný, kdo z toho má opravdu radost, je Sheldon. Leonard totiž nechce matince prozradit, s kým chodí. Jsou Vánoce a k Sheldonovi s Leonardem se chystá Leonardova matka. Penny je naštvaná, že ji Leonard nevaroval. Pak ji rozzuří i fakt, že máti dokonce ani neřekl, že spolu chodí. Leonard se dozvídá zásadní noviny o své rodině - umřel mu pes, oženil se bratr, rodiče se rozvádějí. O ničem neměl tušení. Informace ho velmi rozruší. Zvlášť když si uvědomí, že Sheldon o všem dávno věděl, protože je s jeho matkou ve stálém kontaktu. Večer veze Penny Leonardovu matku do hotelu a... rozhodne se, že ji naučí pít. Po pár skleničkách se upjatá dáma změní v rozvášněnou dračici. V té chvíli j í Penny sdělí, že spí s jejím synem. Dotyčnou zmíněný fakt ani trochu nezaskočí a jako psychiatrička se ihned začne zajímat o detaily. A tak s Penny vyrazí směrem k Leonardovu bytu.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "hbo2.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "jednotka.cz",
+      "title": "Správy",
+      "description": "Najdôležitejšie udalosti uplynulých hodín, aktuálne dianie doma aj vo svete. Slovenská republika (2026).",
+      "start": "20261120110000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "jednotka.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "nova.cz",
+      "title": "Polední Televizní noviny",
+      "description": "Aktuální zpravodajství TV Nova z domova i ze světa.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "nova.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "novaint.cz",
+      "title": "Polední Televizní noviny",
+      "description": "Aktuální zpravodajství TV Nova z domova i ze světa.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "novaint.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "pro7.cz",
+      "title": "The Big Bang Theory",
+      "description": "S10 E17 — Šaráda s Comic-Conem\nSheldon a Amy se poprvé pouští do profesionální spolupráce, ale kvůli jejich milostnému vztahu je kvalita výsledné práce velmi pochybná. Zjistí, že možnost navzájem se urážet povzbuzuje jejich kreativitu. Penny a Raj se mezitím sbližují, kvůli čemuž se Leonard cítí odstrčený. Blíži sa Comic-Con. Kamaráti by na neho radi vyrazili. Začínajú sa však objavova problémy. Rajesh na Comic-Con nemá peniaze, pretože sa práve finančne osamostatnil a musí šetri . Najal si Sheldona, aby spravoval jeho financie, a ten mu zakázal vyhadzova peniaze za hlúposti. Howard má malé die a a Bernadette sa moc nepáči, že by bol pä dní preč. A Penny s Leonardom majú síce v pláne ís spolu, ale nevedia, ako jedom druhému poveda , že sa im... do toho nechce. X. 18 Raj zháňa bývanie. Ponúknu mu ho hneď Howard s Bernadette aj Pe nny s Leonardom. Raj si vyberie, že bude býva u Penny s Leonardom. Z toho je celý nesvoj Sheldon, pretože ide o jeho bývalú izbu. Zavolá preto Leonardovej matke, aby mu ako psychologička povedala, prečo to vníma tak negatívne. X. 19 Sheldon a Amy sa prvýkrát púš ajú do profesionálnej spolupráce, ale kvôli ich milostnému vz ahu je kvalita ich výslednej práce veľmi pochybná. Zistia, že možnos navzájom sa uráža , povzbudzuje ich kreativitu. Penny a Raj sa medzitým zbližujú, kvôli čomu sa Leonard cíti odstrčený. X. 20 Sheldon sa prinúti k práci s Howardom a Leonardom na navádzacom systéme a na projekte s Amy v jeden deň, čo vyústi v nachladnutie a prebudenie bez spomienok na to, čo sa dialo po konzumácii liekov. Sheldon sa preto snaží zisti , čo v čase výpadku pamäti robil. Bernadette sa medzitým cíti previnilo kvôli svojmu skorému návratu do práce.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "pro7.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "ta3.cz",
+      "title": "Žurnál",
+      "description": "Rozšírené a aktualizované informácie z domova a zahraničia.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "ta3.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "čt1.cz",
+      "title": "Zprávy ve 12",
+      "description": "Nejdůležitější události dne v ČR i ve světě.",
+      "start": "20261120110000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "čt1.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "welt.cz",
+      "title": "Die Welt am Mittag",
+      "description": "Aktuelle Themen und Entwicklungen aus Politik, Wirtschaft und Gesellschaft.",
+      "start": "20261120105900 +0000",
+      "end": "20261120112100 +0000",
+      "channelName": "welt.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "m2hu.cz",
       "title": "Panda és Kivi, műsor, élő adásban",
       "description": "A szaglás mestere. Az állatok bújócskáznak, de Kiki mindig megtalálja őket a jó szaglása miatt. Hihi fogad vele, hogy nem tudja megtalálni őt. A második körben Hihi átadja szagát Csumpinak és lemosakszik a folyóban, hogy ne legyen büdös és újra elbújik, de elkapja őt Morcos Sapi. Miközben Kiki Hihit keresi, rájön a cselre, és hogy Morcos elkapta a barátját, majd a pandabűz segítségével elűzik Morcos Sapit így Hihi kiszabadul.",
@@ -267,6 +567,26 @@
       "start": "20261120105500 +0000",
       "end": "20261120111500 +0000",
       "channelName": "NICKTOON.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "primacool.cz",
+      "title": "Jmenuju se Earl",
+      "description": "S4 E20 — Odpalte!\nMalý Dodge se touží dostat na tábor pro malé astronauty, a připomíná tak Earlovi mladá léta, kdy neskonale obdivoval vesmírnou akademii. Vedl ji totiž skutečný americký hrdina.. Dodge se touží dostat na tábor pro malé astronauty, a připomíná tak Earlovi jeho vlastní mladá léta a neskonalý obdiv k vesmírné akademii vedené astronautem Chazem Daltonem, skutečným americkým hrdinou. Když se pak Earl pokouší odčinit dávnou krádež Daltonova skafandru, ukazuje se, že všechno je trochu jinak a že skutečný hrdina možná nebude tak skutečný, jak se na první pohled zdá. Za slavného astronauta se jen vydává, pravý Chaz Dalton žije v ústraní. Když se setkají tváří v tvář, zjistí,... že se znají. Pracovali spolu v NASA a v různých situacích se \"zastupovali\". Když však vesmírnou aka demii vede pravý Chaz Dalton, nic v ní nefunguje.",
+      "start": "20261120105500 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "primacool.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "shorts.cz",
+      "title": "Everest",
+      "description": "Nevšední výprava se vydává k vrcholu nejvyšší hory světa. Jeden člen nemá nohy, druhý trpí závratěmi, další má v těle spoustu šroubů. Dojdou až k cíli, nebo nad nimi Mount Everest zvítězí. Série o expedicích na Mount Everest žánrově mezi dokumentem a reality show. Každá sezóna zachycuje výstupy jednotlivých expedic po severní straně z roku 2006, 2007 a 2009, všechny pod taktovkou novozélandského horského vůdce Russella Bricee. Díky všudypřítomné kameře a speciálním kamerám umístěnm na helmách šerpů, můžeme být svědky napínavého boje horolezců (jak profesionálů, tak amatérů) v drsném prostředí nejvyšší hory, který je často pouze zosobněním zápasu se sebou samým.",
+      "start": "20261120105500 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "shorts.cz",
       "archived": true,
       "videoAvailable": false
     },
@@ -367,6 +687,26 @@
       "start": "20261120105000 +0000",
       "end": "20261120111500 +0000",
       "channelName": "NICKELODEON.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "disneychannel.cz",
+      "title": "Kouzelná Beruška a Černý kocour",
+      "description": "",
+      "start": "20261120105000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "disneychannel.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "eroxxx.cz",
+      "title": "So Wet Beside Her",
+      "description": "SinfulXXX goes lesbian for the second time... 3 couples of girls are laying down in a pool of hot water, giving their bodies a beautiful moist glow and providing the perfect atmosphere to explore their female fantasies.",
+      "start": "20261120105000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "eroxxx.cz",
       "archived": true,
       "videoAvailable": false
     },
@@ -597,6 +937,16 @@
       "start": "20261120104000 +0000",
       "end": "20261120110000 +0000",
       "channelName": "ČTSPORT.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "zdfinfokanal.cz",
+      "title": "Feindbild Queer",
+      "description": "",
+      "start": "20261120104000 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "zdfinfokanal.cz",
       "archived": true,
       "videoAvailable": false
     },
@@ -1171,6 +1521,16 @@
       "videoAvailable": false
     },
     {
+      "channel": "automotorsport.cz",
+      "title": "Eastside Motors",
+      "description": "Dohodnutá porážka? Když se bláznivá auta setkají s trochou šílenství, může za tím stát pouze posádka Eastside Motors. Tento obchod s ojetinami není normální. Od ikonického Trabantu přes britskou suchozemskou jachtu Rolls Royce až po amerického válečného hřebce Hummer H1 – pokud hledáte vozidlo s charakterem, najdete ho pouze ve dvoře drážďanského Autodružstva.",
+      "start": "20261120103000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "automotorsport.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "brazzerstv.cz",
       "title": "New To Nuru",
       "description": "Madison Morgan knows she has a messy and sometimes loud job so when her new roommate Van Wylde gets curious after seeing a client leave oiled up and satisfied, he sneaks into her room to explore and finds a blow-up mattress and a lot of oil, he knows something freaky is going on and wants in whatever is going on.",
@@ -1287,6 +1647,16 @@
       "start": "20261120102500 +0000",
       "end": "20261120102700 +0000",
       "channelName": "V1.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "vox.cz",
+      "title": "CSI: Vegas",
+      "description": "",
+      "start": "20261120102500 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "vox.cz",
       "archived": true,
       "videoAvailable": false
     },
@@ -1447,6 +1817,26 @@
       "start": "20261120102000 +0000",
       "end": "20261120111500 +0000",
       "channelName": "VIASATEPICDRAMA.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "rtlgoldhu.cz",
+      "title": "Anikó Show",
+      "description": "(Anikó Show 2019 III) Életem a net! Magyar sorozat (2019). Nádai Anikó önálló talkshow-műsora, az Anikó Show, amely jelenleg hiányzó műfaj a magyar csatornák kínálatából. Anikó civil vendégekkel beszélget hétköznapi témákról, a klasszikus talkshow műfaji sajátosságaiból adódóan ugyanakkor itt sem hiányzik majd a dráma, az érzelem és persze az intrika sem. A műsorba folyamatosan várják a jelentkezőket a www.rtlgold.hu oldalon keresztül. Anikó Show mindennap az RTL Gold műsorán.",
+      "start": "20261120102000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "rtlgoldhu.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "viasatexplore.cz",
+      "title": "Opraváři vysněných aut",
+      "description": "",
+      "start": "20261120102000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "viasatexplore.cz",
       "archived": true,
       "videoAvailable": false
     },
@@ -3021,6 +3411,16 @@
       "videoAvailable": false
     },
     {
+      "channel": "markiza",
+      "title": "Dunaj, k vašim službám",
+      "description": "S16 E11\nKristína urobí osudnú chybu. Vilma sa dozvedá veci, ktoré by radšej nevedela. Lukáš má ambiciózny plán. Ktosi sa ocitá v úzkych a niekto iný zatiaľ bojuje o život. Dunaj vyplaví tragický nález. Helga postupne zisťuje znepokojivé skutočnosti. V nemocnici odznie smutná informácia a Albert sa dostáva do nečakaného ohrozenia.",
+      "start": "20261120100000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "Markíza",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "mdr.cz",
       "title": "MDR aktuell",
       "description": "Der Einstieg in den Nachrichtentag mit MDR aktuell. Ob international, national oder regional - Sie erfahren das Wichtigste der letzten Stunden und zugleich einen Ausblick auf weitere interessante Themen des Tages. Die Sendung enthält immer auch einen Querverweis auf ein spezielles Internet-Angebot unter mdraktuell.de.",
@@ -3771,6 +4171,16 @@
       "videoAvailable": false
     },
     {
+      "channel": "sundancetv.cz",
+      "title": "Jessica",
+      "description": "Dcera farmáře Jessica Bergmanová je dívka od rány. Když někdo zalže, nebojí se otevřít pusu, když se v okolí jejich farmy objeví hadi, nebojí se vzít do ruky pušku. Je pravým opakem své pokrytecké \"hodné\" sestry Meg. Právě tu však matka Hester nepokrytě upřednostňuje a chce ji dohodit synovi bohatého majitele pozemků Jacku Thomasovi. Potíž je v tom, že sympatický mladík si daleko víc rozumí s Jessicou. A tak se ke slovu dostávají nejhrubší intriky, jakých je Hester schopna.. Sestry Jessica a Meg Bergmanovy snad nemohou být ani rozdílnější. Živelná, otevřená Jessica miluje svého otce, pomáhá mu s hospodářstvím a hravě zvládá všechny mužské práce. Zato jediným cílem její krásné a zhýčkané sestry Meg je provdat se do bohaté rodiny. Proto Meg s matkou Hester už dlouho nadbíhají jedinému vhodnému majetnému nápadníkovi v okolí, pohlednému Jacku Thomasovi. Ten však o ni nestojí a má už od dětství oči jen pro Jessicu. Meg s matkou ale na mladíka vymyslí podlý plán,... jak ho k sňatku přimět. Netuší ovšem, že se mezi Jackem a Jessicou už naplno rozhořela láska. Jack Thomas píše z války dopisy Jessice, ale každé psaní skončí v rukou její nenávistné matky Hester. Zatímco Jessica nosí pod srdcem Jackovo dítě, její sestra Meg na nátlak matky těhotenství předstírala, aby donutila Jacka k sňatku. Hester se tak dostane k vytouženému bohatství. Jenže stále je tu Jessica, která zná pravdu a která v ústraní přivede na svět krásného chlapečka. To je pravá chvíle pro Hester, jež se ve svých intrikách nehodlá zastavit ani před \"krádeží\" dítěte. Bezmocná Jessica propadne hysterickému záchvatu, po kterém skončí v ústavu pro choromyslné. Je tu však ještě zkrachovalý právník Richard Runche, jenž chce nešťastné ženě pomoct... Pravdivý pozoruhodný příběh boje ženy, která byla neprávem umístěna do ústavu pro duševně nemocné a přišla tak o možnost pečovat o svého syna. Film zasazený do přelomu devatenáctého a dvacátého století se odehrává v nepřívětivé krajině australské buše. Natočen byl podle knižní předlohy jednoho z australských bestsellerových autorů Brycea Courtenaye, jehož román Hlavou a srdcem vyšel i v českém překladu.",
+      "start": "20261120093500 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "sundancetv.cz",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "čroplus.cz",
       "title": "Osobnost Plus",
       "description": "Rozhovory s významnými lidmi české společnosti.",
@@ -4207,6 +4617,16 @@
       "start": "20261120093000 +0000",
       "end": "20261120100000 +0000",
       "channelName": "ČTSPORT.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "joj",
+      "title": "FIS Svetový pohár slalom muži",
+      "description": "Levi, Fínsko - 2. kolo Záznam podujatia prestížnej lyžiarskej súťaže v slalome mužov.",
+      "start": "20261120093000 +0000",
+      "end": "20261120112000 +0000",
+      "channelName": "JOJ",
       "archived": true,
       "videoAvailable": false
     },
@@ -4787,6 +5207,16 @@
       "start": "20261120091500 +0000",
       "end": "20261120094000 +0000",
       "channelName": "ČROD-DUR.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
+      "channel": "tvpkultura.cz",
+      "title": "Retro kino",
+      "description": "Žokej Jack má nevyřízený účet s právě propuštěným gangsterem. Nějak se mu v zákulisí divadla podaří odrazit útok gangstera nožem a ten skončí mrtvý v pouzdře na kontrabas. O den později gangster záhadně zmizí. Ukázalo se ale, že měl u sebe sázkový tiket na dostih, který má nyní hodnotu přes milion. Začíná hon za penězi. Komedie, která je karikaturou na život v divadle a na policejní aparát. K mimořádnému tempu celé grotesky přispěl i razantní výkon nezapomenutelného francouzského komika Louise de Funése. Po jeho boku uvidíme Michela Serraulta coby basistu, který se považuje za génia a který už pět let hraje v jednom podřadném divadle zamilovaného a hudebně nadaného kozáckého důstojníka.",
+      "start": "20261120091500 +0000",
+      "end": "20261120112500 +0000",
+      "channelName": "tvpkultura.cz",
       "archived": true,
       "videoAvailable": false
     },
