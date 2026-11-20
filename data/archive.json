@@ -211,6 +211,16 @@
       "videoAvailable": false
     },
     {
+      "channel": "euronews.cz",
+      "title": "Europe Today",
+      "description": "Euronews' flagship morning TV show with the news and insights that drive Europe, live from.",
+      "start": "20261120110000 +0000",
+      "end": "20261120111900 +0000",
+      "channelName": "EURONEWS.CZ",
+      "archived": true,
+      "videoAvailable": false
+    },
+    {
       "channel": "m2hu.cz",
       "title": "Panda és Kivi, műsor, élő adásban",
       "description": "A szaglás mestere. Az állatok bújócskáznak, de Kiki mindig megtalálja őket a jó szaglása miatt. Hihi fogad vele, hogy nem tudja megtalálni őt. A második körben Hihi átadja szagát Csumpinak és lemosakszik a folyóban, hogy ne legyen büdös és újra elbújik, de elkapja őt Morcos Sapi. Miközben Kiki Hihit keresi, rájön a cselre, és hogy Morcos elkapta a barátját, majd a pandabűz segítségével elűzik Morcos Sapit így Hihi kiszabadul.",
