@@ -1,3 +1,4 @@
+
 name: Streamivo GitHub Pages
 
 on:
@@ -37,7 +38,6 @@ jobs:
           python3 - <<'PY'
           import xml.etree.ElementTree as ET
           import json
-          from datetime import datetime
 
           tree = ET.parse("data/epg.xml")
           root = tree.getroot()
@@ -65,9 +65,7 @@ jobs:
                   "end": programme.get("stop")
               })
 
-          programmes.sort(
-              key=lambda p: p.get("start", "")
-          )
+          programmes.sort(key=lambda p: p.get("start", ""))
 
           result = {
               "channels": channels,
@@ -80,6 +78,175 @@ jobs:
           print(f"Channels: {len(channels)}")
           print(f"Programmes: {len(programmes)}")
           PY
+
+      - name: Update Archive Catalogue
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timezone, timedelta
+
+          EPG_FILE = "data/epg.json"
+          ARCHIVE_FILE = "data/archive.json"
+
+          with open(EPG_FILE, encoding="utf-8") as f:
+              epg = json.load(f)
+
+          if os.path.exists(ARCHIVE_FILE):
+              with open(ARCHIVE_FILE, encoding="utf-8") as f:
+                  archive = json.load(f)
+          else:
+              archive = {"channels": [], "programs": []}
+
+          if isinstance(archive, list):
+              old_programs = archive
+              archive_channels = []
+          else:
+              old_programs = archive.get(
+                  "programs",
+                  archive.get("program", [])
+              )
+              archive_channels = archive.get("channels", [])
+
+          if not isinstance(old_programs, list):
+              old_programs = []
+
+          now = datetime.now(timezone.utc)
+
+          def parse_date(value):
+              if not value:
+                  return None
+
+              try:
+                  value = value.strip()
+
+                  if len(value) >= 14 and value[:14].isdigit():
+                      date = datetime.strptime(
+                          value[:14], "%Y%m%d%H%M%S"
+                      )
+
+                      offset = value[15:].strip()
+
+                      if offset:
+                          sign = 1 if offset[0] == "+" else -1
+                          hours = int(offset[1:3])
+                          minutes = int(offset[3:5])
+
+                          tz = timezone(
+                              sign * timedelta(
+                                  hours=hours,
+                                  minutes=minutes
+                              )
+                          )
+
+                          date = date.replace(tzinfo=tz)
+                      else:
+                          date = date.replace(tzinfo=timezone.utc)
+
+                      return date.astimezone(timezone.utc)
+
+                  return datetime.fromisoformat(
+                      value.replace("Z", "+00:00")
+                  ).astimezone(timezone.utc)
+
+              except Exception:
+                  return None
+
+          def normalize_channel(program):
+              channel = str(program.get("channel", "")).lower()
+              name = str(program.get("channelName", "")).lower()
+
+              text = channel + " " + name
+
+              if "markiza" in text:
+                  return "markiza"
+
+              if "joj" in text:
+                  return "joj"
+
+              return channel
+
+          existing = set()
+
+          for p in old_programs:
+              key = (
+                  str(p.get("channel", "")).lower(),
+                  str(p.get("title", "")).strip().lower(),
+                  str(p.get("start", ""))
+              )
+
+              existing.add(key)
+
+          added = 0
+
+          for p in epg.get("program", []):
+              end = parse_date(p.get("end"))
+
+              if not end or end > now:
+                  continue
+
+              channel = normalize_channel(p)
+              title = str(p.get("title", "")).strip()
+
+              if not title:
+                  continue
+
+              key = (
+                  channel.lower(),
+                  title.lower(),
+                  str(p.get("start", ""))
+              )
+
+              if key in existing:
+                  continue
+
+              old_programs.append({
+                  "channel": channel,
+                  "title": title,
+                  "description": p.get("description", ""),
+                  "start": p.get("start", ""),
+                  "end": p.get("end", ""),
+                  "channelName": channel.upper(),
+                  "archived": True,
+                  "videoAvailable": False
+              })
+
+              existing.add(key)
+              added += 1
+
+          old_programs.sort(
+              key=lambda p: p.get("start", ""),
+              reverse=True
+          )
+
+          result = {
+              "channels": archive_channels or [
+                  {"id": "joj", "name": "JOJ"},
+                  {"id": "markiza", "name": "Markíza"}
+              ],
+              "programs": old_programs
+          }
+
+          with open(ARCHIVE_FILE, "w", encoding="utf-8") as f:
+              json.dump(result, f, ensure_ascii=False, indent=2)
+
+          print(f"Archive entries added: {added}")
+          print(f"Total archive entries: {len(old_programs)}")
+          PY
+
+      - name: Save Archive Catalogue
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/archive.json
+
+          if git diff --cached --quiet; then
+            echo "Archive catalogue unchanged."
+          else
+            git commit -m "Update archive catalogue"
+            git push
+          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
