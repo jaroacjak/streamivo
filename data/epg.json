@@ -1,100 +1,9 @@
 {
-  "updatedAt": "2026-11-20T14:48:41.990634Z",
+  "updatedAt": "2026-11-20T23:37:14.949722Z",
   "channels": {
     "joj": {
       "name": "JOJ",
       "programmes": [
-        {
-          "start": "20261119230000 +0000",
-          "stop": "20261119233000 +0000",
-          "title": "Noviny TV JOJ",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261119230500 +0000",
-          "stop": "20261119231500 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261119231500 +0000",
-          "stop": "20261119232500 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
-          "category": ""
-        },
-        {
-          "start": "20261119232500 +0000",
-          "stop": "20261119234500 +0000",
-          "title": "Fidlivareška",
-          "description": "Dedele Kde bolo, tam bolo, za tromi horami jabĺk, za tromi vŕškami z tvarohu, kde sa mak lial a mlieko sypalo bola raz jedna vareška. Táto vareška mala čarovnú moc a každý, kto ju stretol, v okamihu vedel variť. Verte či neverte, Fidlikanti ju na svojich cestách stretli a ona ich naučila variť skvelé tradičné slovenské dobroty. Pozorne sledujte a naučte sa ich spolu s nimi. Dobru chuť, fidli-fidli. Slovenská hudobno-náučná relácia, 2021. (do 12 rokov).",
-          "category": ""
-        },
-        {
-          "start": "20261119233000 +0000",
-          "stop": "20261120001500 +0000",
-          "title": "Hrobári",
-          "description": "S1 E7 — Jánošík\nVďaka oživeniu výroby zázračnej bryndze zasiahne obec Haláš nová vlna spirituality. Ani rodina Pipasíkovcov nebude výnimkou. Vďaka oživeniu výroby zázračnej bryndze zasiahne obec Haláš nová vlna spirituality. Ani rodina Pipasíkovcov nebude výnimkou. V rodine Pipasíkovcov aj u psychológa Hunála panuje smútok, nakoľko po konzumácii zázračnej bryndze od ovečky Adriany všetci postupne strácajú kontakt s blízkymi osobami, ktoré sú po smrti. V prípade Pipasíkovcov je to nebohý otec Braňo a pre Hunála ovečka Adriana. Nič však nie je stratené. Akčná rodina na čele s Peťanom nájde baču, ktorý vlastní baranov. Všetci... sa môžu zachrániť, veď Adrianine dcéry môžu po stretnutí s baranmi produkovať rovnako zázračné mlie ko a bryndzu. Farár Lakatoš je z celej situácie výrazne nesvoj a apeluje na zdravý rozum všetkých prítomných. Po niekoľkých desiatkach hodín, dní až mesiacov prináša Hunál novú bryndzu. Rodina Pipasíkovcov poskytuje najlepšiu pohrebnú službu v kraji. Striehnu na každého nebožtíka, aby mali z čoho žiť. Keď majiteľ pohrebníctva Pipasík nečakane umrie, zanechá rodinu v náročnej situácii. Jeho pozostalí sa musia ujať hrobárskeho remesla, zabudnúť na ego a udržať pokope rodinný podnik. Lenže to vôbec nebude také jednoduché. Osemdielna miniséria čiernych komédií z prostredia rodinnej pohrebnej služby pochádza z pera scenáristu Petra Kolečka, autora úspešného seriálu Most.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261119233000 +0000",
-          "stop": "20261119234000 +0000",
-          "title": "Šport",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261119234000 +0000",
-          "stop": "20261119235000 +0000",
-          "title": "Najlepšie počasie",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261119234000 +0000",
-          "stop": "20261120003000 +0000",
-          "title": "Poldové v akci",
-          "description": "Seriál malých příběhů inspirovaných skutečnými policejními zásahy na základě reálných výjezdů. Polohraný seriál se inspiroval policejními zprávami o skutečných policejních zásazích. Policisté řeší od ukradených kol či souseda, kterého pokousal pes, až po podezření z trestných činů loupeže peněz na benzínové čerpací stanici či podvody na seniorech, rvačky a útoky na manžely nebo rodiče. Mnoho případů slouží jako výstraha, jak se nedat podvést či oklamat zloději a takzvanými profesionálními lháři, kteří denně připravují Slováky o majetek a úspory. Jsou příběhy, které vyvolají úsměv,... protože se končí relativně dobře a smírně, protože viník si přizná chybu, omluví se, prosí kamaráda, so useda, bratra o odpuštění a dostane jen blokovou pokutu. V seriálu uvidíme mnoho známých hereckých tváří, kteří se objeví v postavách policistů i okradených, zbitých či jinak poškozených občanů.",
-          "category": "Drama"
-        },
-        {
-          "start": "20261119234500 +0000",
-          "stop": "20261120003500 +0000",
-          "title": "Mýty a príšery",
-          "description": "S1 E6 — Konec všeho\nSmrt je zkouškou toho, co znamená být člověkem. A mýty odhalují, jak o ní přemýšlíme, čeho se bojíme i čemu věříme. Antigona brání úctu k mrtvým, Baldr připomíná, že smrti neuniknou ani bohové. Naše fascinace nemrtvými přetrvává. od upírských legend až po příběhy, které dokazují, že temnota přitahuje, stejně jako děsí.",
-          "category": "Dokument"
-        },
-        {
-          "start": "20261119234500 +0000",
-          "stop": "20261120000500 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
-          "category": ""
-        },
-        {
-          "start": "20261119235000 +0000",
-          "stop": "20261120001500 +0000",
-          "title": "Krimi",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261120000500 +0000",
-          "stop": "20261120022500 +0000",
-          "title": "Atletika - Gold Continental Tour",
-          "description": "Ostrava, Česko - 65th Ostrava Golden Spike Záznam z atletických pretekov World Gold Continental Tour.",
-          "category": ""
-        },
-        {
-          "start": "20261120000500 +0000",
-          "stop": "20261120002000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
         {
           "start": "20261120001500 +0000",
           "stop": "20261120005500 +0000",
@@ -12953,34 +12862,6 @@
       "name": "Markíza",
       "programmes": [
         {
-          "start": "20261119230500 +0000",
-          "stop": "20261119235500 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E1 — Auf gute Nachbarschaft\nV odpadní jímce na pozemku farmáře Karla Pirknera nalezeno mrtvé tělo nepříliš oblíbeného Erwina Merka, bývalého úředníka v pojišťovně. Merk byl urputným hledačem pokladů a pravidelně se svým detektorem kovů šmejdil po cizích pozemcích. Ukáže se, že do žumpy nespadl nešťastnou náhodou, někdo ho zavraždil. Výslech sousedů ale nikam nevede. Keď je v odpadovej nádrži na pozemku farmára Karla Pirknera nájdené mŕtve telo Erwina Merka, nikto ho neľutuje. Merk, bývalý úradník v poisťovni, teraz už rok v predčasnom dôchodku, bol urputným hľadačom pokladov a pravidelne so svojim detektorom kovov šmíroval po cudzích pozemkoch, rozkopával ich a hľadal drahé kovy. Merk ale do žumpy nespadol nešťastnou náhodou, niekto ho zavraždil, udrel ho rýľom alebo lopatou do zátylku a zlomil mu krčný stavec. Hodil ho do žumpy a tú zakryl poklopom.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261119232000 +0000",
-          "stop": "20261120001500 +0000",
-          "title": "Kobra 11",
-          "description": "S25 E7 — Dienstschluss\nSemir a Paul se v čase svého volna připletou k zásahu jednotky pro odhalování organizovaného zločinu, která podléhá policejní prezidentce Julii Dernhoffové. Zásah byl veden proti bandě motorkářů, kteří si říkají Carnivors a jsou ve válce s gangem Flamers. Při zásahu je zastřelen muž, který ale nebyl ozbrojen, Semir jasně viděl, že zbraň na útěku ztratil. Zastřelený má ale zbraň v ruce a Semirovi je jasné, že mu jí do něj vložil po smrti někdo z policistů a že se de facto jedná o vraždu.... Probíhá vyšetřování, ze kterého je Semir zklamaný, následně je spáchán atentát na policejní prezidentku Julii Dernhoffovou. Kdo za vším tedy stojí.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261119232500 +0000",
-          "stop": "20261120001000 +0000",
-          "title": "Horná Dolná",
-          "description": "S12 E2\nJedného rána sa Ďuro zobudí doma po opici s boľavým zadkom a nič si nepamätá. Do klebiet sa zakrátko dostane Erika.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261119235500 +0000",
-          "stop": "20261120003500 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E2 — Mord auf Raten\nNa stopě zločinu je v malebném Tyrolsku tým detektivů Lukas Roither, Nina Pokorny a starší zkušený kolega Kroisleitner. V proslulém turistickém centru není o zajímavé případy nouze. Damoklov meč visí nad Reinhardom Schattnerom. Jeho zdravotný stav sa čoraz viac zhoršuje a podnikateľ je presvedčený, že ho niekto z jeho okolia otrávil. V Schattnerovej krvi sa skutočne nájde vysoko jedovaté thalium, a tak tím SOKO začne konať. Dr. Stefanie Löckerová je následne nasadená ako tajná ošetrovateľka a odhalí niekoľko nezrovnalostí v Schattnerovej rodine. Čo však Stefanie zatiaľ netuší, je, že čoskoro sa sama ocitne v nebezpečenstve.",
-          "category": "Akční"
-        },
-        {
           "start": "20261120001000 +0000",
           "stop": "20261120005500 +0000",
           "title": "Aj múdry schybí",
@@ -13121,13 +13002,6 @@
           "category": "Drama"
         },
         {
-          "start": "20261120070000 +0000",
-          "stop": "20261120080000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120070500 +0000",
           "stop": "20261120074500 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -13170,13 +13044,6 @@
           "category": "Akční"
         },
         {
-          "start": "20261120080000 +0000",
-          "stop": "20261120090000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120084500 +0000",
           "stop": "20261120094000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13196,13 +13063,6 @@
           "title": "Sľub",
           "description": "S4 E54\nEva odmieta navštíviť syna. Natália kolabuje. Bude Andrea zásadová.",
           "category": "Komedie"
-        },
-        {
-          "start": "20261120090000 +0000",
-          "stop": "20261120100000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261120094000 +0000",
@@ -13226,24 +13086,10 @@
           "category": "Drama"
         },
         {
-          "start": "20261120100000 +0000",
-          "stop": "20261120110000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120104000 +0000",
           "stop": "20261120113500 +0000",
           "title": "Policajné prípady",
           "description": "Útok na úradníčku, Zákazník, Slepec, Útok Reálni strážcovia zákona, skutočné príbehy, autentické zásahy. Útok na úradníčku: Roman Paczer (24) videl František Holuba (42) ako nesie kabelku jeho mamy – úradníčky Eleny (57) a chcel ho zadržať, strhla sa medzi nimi bitka. Frantisek tvrdí, že je nevinný a že našiel kabelku na zemi, ale neďaleko leží zranená Elena, ktorá dosvedčí, že ju pán Holub napadol a okradol, lebo mu našla na úrade práce nelukratívnu pracovnú ponuku.\\n\\nNáročný zákazník: Polícia zasahuje v byte, kde je o radiátor pripútaný Milan Tičko (38). V byte je aj prostitútka Jolana (26),... ktorá sa ho pokúsila počas sexu okradnúť. Pán Tičko sa jej chce zbaviť kým príde jeho žena Karin (3 7), čo sa mu však nepodarí.\\n\\nFalošný slepec: Dôchodkyňa Hana (67) sa háda pred poštou so slečnou Klárou (29) a tvrdí, že ju okradla. Klára to popiera a zistí, že aj ju okradli. Polícia neďaleko nájde falošného slepca, ktorý obe ženy okradol.\\n\\nÚtok na spolubývajúcu: Študentka Radka (19) privolá políciu na svoju spolubývajúcu Veroniku (20), ktorá jej vyhadzuje veci z okna. Polícia zistí, že Veronika má žiarlivostný záchvat, lebo jej Radka prebrala frajera.",
-          "category": ""
-        },
-        {
-          "start": "20261120110000 +0000",
-          "stop": "20261120120000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13268,13 +13114,6 @@
           "category": ""
         },
         {
-          "start": "20261120120000 +0000",
-          "stop": "20261120130000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120122500 +0000",
           "stop": "20261120133000 +0000",
           "title": "Kobra 11",
@@ -13294,13 +13133,6 @@
           "title": "V mene zákona",
           "description": "",
           "category": "Krimi"
-        },
-        {
-          "start": "20261120130000 +0000",
-          "stop": "20261120140000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261120133000 +0000",
@@ -13324,13 +13156,6 @@
           "category": ""
         },
         {
-          "start": "20261120140000 +0000",
-          "stop": "20261120150000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120140500 +0000",
           "stop": "20261120150500 +0000",
           "title": "Kosti",
@@ -13349,13 +13174,6 @@
           "stop": "20261120160000 +0000",
           "title": "Rodinné prípady",
           "description": "Zmrazené dedičstvo Skutočné príbehy ľudí, ktorým sa život vymkol z rúk. Zmrazené dedičstvo: Janka a Peter zomreli pri automobilovej nehode, príbuzní sa práve vrátili z ich pohrebu. Hoci tragická udalosť je pre všetkých ešte čerstvá, rodičia Petra začínajú riešiť dedičské záležitosti. Hlavne Petrova matka – Dáša si myslí, že všetok majetok by mal zostať im, pretože Janka s Petrom ho nadobudli vraj vďaka šikovnosti jej syna..",
-          "category": ""
-        },
-        {
-          "start": "20261120150000 +0000",
-          "stop": "20261120160000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13384,13 +13202,6 @@
           "stop": "20261120162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
-          "category": ""
-        },
-        {
-          "start": "20261120160000 +0000",
-          "stop": "20261120170000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13443,13 +13254,6 @@
           "category": "Akční"
         },
         {
-          "start": "20261120170000 +0000",
-          "stop": "20261120180000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120180000 +0000",
           "stop": "20261120185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13471,13 +13275,6 @@
           "category": ""
         },
         {
-          "start": "20261120180000 +0000",
-          "stop": "20261120190000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120185500 +0000",
           "stop": "20261120195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13496,13 +13293,6 @@
           "stop": "20261120191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
-          "category": ""
-        },
-        {
-          "start": "20261120190000 +0000",
-          "stop": "20261120200000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13548,25 +13338,11 @@
           "category": "Komedie"
         },
         {
-          "start": "20261120200000 +0000",
-          "stop": "20261120210000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261120210000 +0000",
           "stop": "20261120220500 +0000",
           "title": "Panda",
           "description": "S1 E4 — Mon nom est Panda\nPlameniak zastrelený guľkou a revolver nájdený v kanáli. Panda a Lola sa vydajú po jeho stope, ktorá ich zavedie na pozemky ranča Castan, kde vládne zákon mlčanlivosti. Napriek tomu čoskoro objavia možné miesto činu. Majiteľka ranča je na úteku a sezónny pracovník bez stopy zmizol. Stále však chýba to najdôležitejšie, telo obete.",
           "category": "Komedie"
-        },
-        {
-          "start": "20261120210000 +0000",
-          "stop": "20261120220000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261120213000 +0000",
@@ -13581,13 +13357,6 @@
           "title": "Liga spravodlivosti",
           "description": "Bruce Wayne je odhodlaný postarat se o to, aby Supermanova oběť nepřišla nazmar. V Lize spravedlnosti Zacka Snydera spojí síly s Dianou Prince a společně sestaví tým superhrdinů, aby zachránili svět před blížící se katastrofou. Bruce Wayne je odhodlaný postarat se o to, aby Supermanova oběť nepřišla nazmar. V Lize spravedlnosti Zacka Snydera spojí síly s Dianou Prince a společně sestaví tým superhrdinů, jehož posláním je zachránit svět před blížící se hrozbou katastrofických rozměrů. Tento úkol je však mnohem obtížnější, než si Bruce představoval, neboť každý z nováčků čelí vlastním démonům, které musí porazit, aby mohli dát dohromady jedinečnou ligu superhrdinů. Batman, Wonder Woman, Aquaman, Cyborg a Flash... doufají, že na záchranu planety před zloduchy jako jsou Steppenwolf, DeSaad a Darkseid ještě není příliš p ozdě.",
           "category": "Akční"
-        },
-        {
-          "start": "20261120220000 +0000",
-          "stop": "20261120230000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261120220500 +0000",
@@ -15053,6 +14822,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261123070000 +0000",
+          "stop": "20261123080000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123071500 +0000",
           "stop": "20261123075500 +0000",
           "title": "Susedia",
@@ -15081,6 +14857,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261123080000 +0000",
+          "stop": "20261123090000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123082500 +0000",
           "stop": "20261123093500 +0000",
           "title": "Panda",
@@ -15102,6 +14885,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261123090000 +0000",
+          "stop": "20261123100000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123093500 +0000",
           "stop": "20261123103500 +0000",
           "title": "Panda",
@@ -15120,6 +14910,13 @@
           "stop": "20261123103500 +0000",
           "title": "Rodinné prípady",
           "description": "Na dvojako Skutočné príbehy ľudí, ktorým sa život vymkol z rúk. Na dvojako: Tomáš bol obchodný zástupca, ktorý doma trávi málo času. Jeho partnerka Andrea si na túto skutočnosť postupne zvykla, ale jeho dcéra Nina to znáša čoraz ťažšie. To však ešte ani jedna z nich netuší, aká tajomstvo Tomáš ukrýva..",
+          "category": ""
+        },
+        {
+          "start": "20261123100000 +0000",
+          "stop": "20261123110000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15144,10 +14941,24 @@
           "category": ""
         },
         {
+          "start": "20261123110000 +0000",
+          "stop": "20261123120000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123113500 +0000",
           "stop": "20261123125000 +0000",
           "title": "Policajné prípady",
           "description": "Výtržníci, Tehotenstvo, Exhibicionista, Unesené dieťa Reálni strážcovia zákona, skutočné príbehy, autentické zásahy. Výtržníci pri fontáne: Polícia je privolaná k dvom anglicky hovoriacim turistom, ktorý robia hluk v parku a močia do fontány. Čoskoro vysvitne, že sú to len študenti bilinguálneho gymnázia Samuel (17) a Lukáš (17), keď príde ich učiteľka Laura (32), ktorej sa stratili.\\n\\nFalošné tehotenstvo: Vlado (29) sa ponáhľa do pôrodnice so svojou priateľkou Kamilou (27) a takmer zrazia na prechode doktorku Milenu (41). Polícia ich zastaví a Milena sa chce na tehotnú pozrieť, zistí však, že má len... falošné brucho. Vlado a Kamila auto ukradli.\\n\\nExhibicionista: Polícia odchytí exhibicionistu Martina ( 37), zistí však, že to je len dezorientovaný muž, ktorý sa vyzliekol, lebo mal šaty od krvi – má fóbiu z pohľadu na krv. Neďaleko leží jeho priateľka Jana (32), ktorá mala úraz na bicykli.\\n\\nUnesené dieťa: Mladá mamička Alexandra (16) privolá políciu lebo jej niekto uniesol dieťa. Polícia zistí, že dieťa malo byť ilegálne predané jej tete Ivete (36), Alexandra si to však rozmyslela a chce si ho nechať. Dieťa nakoniec nájdu s jeho biologickým otcom Mariánom (22), ktorý ho uniesol, aby ho ukázal svojej mame, tiež si ho chce nechať, dá sa s Alexandrov zase dokopy.",
+          "category": ""
+        },
+        {
+          "start": "20261123120000 +0000",
+          "stop": "20261123130000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15170,6 +14981,20 @@
           "title": "V mene zákona",
           "description": "",
           "category": "Krimi"
+        },
+        {
+          "start": "20261123130000 +0000",
+          "stop": "20261123140000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
+          "start": "20261123140000 +0000",
+          "stop": "20261123150000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261123140500 +0000",
@@ -15200,6 +15025,13 @@
           "category": ""
         },
         {
+          "start": "20261123150000 +0000",
+          "stop": "20261123160000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123160000 +0000",
           "stop": "20261123170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -15218,6 +15050,13 @@
           "stop": "20261123162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
+          "category": ""
+        },
+        {
+          "start": "20261123160000 +0000",
+          "stop": "20261123170000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15270,6 +15109,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261123170000 +0000",
+          "stop": "20261123180000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123180000 +0000",
           "stop": "20261123185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15291,6 +15137,13 @@
           "category": ""
         },
         {
+          "start": "20261123180000 +0000",
+          "stop": "20261123190000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123185500 +0000",
           "stop": "20261123195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15309,6 +15162,13 @@
           "stop": "20261123191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
+          "category": ""
+        },
+        {
+          "start": "20261123190000 +0000",
+          "stop": "20261123200000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15354,6 +15214,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261123200000 +0000",
+          "stop": "20261123210000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123205500 +0000",
           "stop": "20261123220000 +0000",
           "title": "Vraždy v Karibiku",
@@ -15375,11 +15242,25 @@
           "category": ""
         },
         {
+          "start": "20261123210000 +0000",
+          "stop": "20261123220000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261123220000 +0000",
           "stop": "20261123225500 +0000",
           "title": "Kosti",
           "description": "S4 E6 — On a ona\nRybáři najdou v moři torzo lidského těla. Podle plavek šlo o ženu. Zanedlouho policie najde druhou část těla s mužskou pánví a zároveň ženským ústrojím. Kůstka s Boothem mají jednu oběť se dvěma pohlavími.. Dva rybáři vytáhnou z moře část lidského těla okousaného od ryb a přeťatého v půlce páteře. Podle cárů dámských plavek tým Jeffersonova institutu usoudí, že jde o ženu. Při ohledání těla objeví rozdrcené kůstky u prstů roky a prsní implantát. Podle jeho čísla doktorka Temperance Kůstka Brennanová a agent Seeley Booth zjistí, že jde o farářku Patricii L., kterou její kongregace pohřešuje. Patricie neměla kreditní karty ani řidičský průkaz a úředně začala existovat teprve před pěti roky. Když... prohledávají její byt, najdou na telefonu vzkaz od jistého JP Grattona. Prý mu chybí a má se mu ozva t... Zanedlouho najde policie v moři dolní část těla. Podle pánve šlo o muže, má ovšem vaginu. Jde tedy o transsexuála, který si nechal změnit pohlaví. Kůstka s Boothem navštíví Patriciinu kongregaci. Její asistent Chuck Kennedy jim řekne, že Patricia přijímala do své církve narkomany, alkoholiky i prostitutky a dávala jejich životu směr. V kongregaci je také JP Gratton. Přizná se jim, že měl potíže s alkoholem, ale díky Patricii je překonal. Jeho žena Rita mu však prý stále nevěří. Gratton si Patricii oblíbil, i když věděl, že byla dříve mužem. Z portrétu zhotoveného podle lebky se ukáže, že by mohlo jít o známého kazatele Patricka Stephensona, který před šesti lety zmizel na světovém turné..",
           "category": "Komedie"
+        },
+        {
+          "start": "20261123220000 +0000",
+          "stop": "20261123230000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261123221000 +0000",
