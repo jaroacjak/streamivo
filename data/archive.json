@@ -1,0 +1,13 @@
+{
+  "channels": [
+    {
+      "id": "joj",
+      "name": "JOJ"
+    },
+    {
+      "id": "markiza",
+      "name": "Markíza"
+    }
+  ],
+  "programs": []
+}
