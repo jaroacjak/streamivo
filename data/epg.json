@@ -1,114 +1,9 @@
 {
-  "updatedAt": "2026-11-21T22:42:45.013006Z",
+  "updatedAt": "2026-11-22T04:48:11.274582Z",
   "channels": {
     "joj": {
       "name": "JOJ",
       "programmes": [
-        {
-          "start": "20261120230000 +0000",
-          "stop": "20261120233000 +0000",
-          "title": "Noviny TV JOJ",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261120230000 +0000",
-          "stop": "20261121003500 +0000",
-          "title": "Jackpot",
-          "description": "V nedaleké budoucnosti byla zavedena Velká loterie, kdo do západu slunce zabije výherce, může si legálně nárokovat jeho miliardový jackpot. V nepříliš daleké budoucnosti se začala pořádat Velká loterie, která má jeden zásadní háček: kdo před západem slunce zabije vítěze, může legálně převzít jeho miliardový jackpot. Majitelce výherního losu, Katie Kim, nezbývá nic jiného, než neochotně spojit síly s Noelem Cassidym, amatérským agentem na ochranu výherců, aby jí za podíl z výhry pomohl dožít se západu slunce.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261120230000 +0000",
-          "stop": "20261120235500 +0000",
-          "title": "Hitler: Osudová príťažlivosť Nemecka",
-          "description": "S1 E1 — Postupné začátky\nNěmecko - období po první světové válce. Ze světové velmoci se stal ponížený národ zmítající se v hospodářské krizi a strachu. Na scénu přichází Adolf Hitler a jeho nebezpečná iluze. Jeho metody jsou brutální. Nacistická ideologie proniká do každodenního života. Symboly, obrazy, hesla. vše slouží jedinému účelu - umlčet rozum a posílit poslušnost. Sledujte příběh o tom, jak propaganda a fanatismus ovládly celý národ a přivedly ho do nejničivější války v dějinách.",
-          "category": "Dokument"
-        },
-        {
-          "start": "20261120230500 +0000",
-          "stop": "20261121011000 +0000",
-          "title": "Atletika - Gold Continental Tour",
-          "description": "Hengelo, Holandsko - FBK Games Záznam z atletických pretekov World Gold Continental Tour.",
-          "category": ""
-        },
-        {
-          "start": "20261120230500 +0000",
-          "stop": "20261120231000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261120231000 +0000",
-          "stop": "20261120231500 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261120231500 +0000",
-          "stop": "20261120232500 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
-          "category": ""
-        },
-        {
-          "start": "20261120232500 +0000",
-          "stop": "20261120234500 +0000",
-          "title": "Fidlivareška",
-          "description": "Šošovicové polievky Kde bolo, tam bolo, za tromi horami jabĺk, za tromi vŕškami z tvarohu, kde sa mak lial a mlieko sypalo bola raz jedna vareška. Táto vareška mala čarovnú moc a každý, kto ju stretol, v okamihu vedel variť. Verte či neverte, Fidlikanti ju na svojich cestách stretli a ona ich naučila variť skvelé tradičné slovenské dobroty. Pozorne sledujte a naučte sa ich spolu s nimi. Dobru chuť, fidli-fidli. Slovenská hudobno-náučná relácia, 2021. (do 12 rokov).",
-          "category": ""
-        },
-        {
-          "start": "20261120233000 +0000",
-          "stop": "20261120234000 +0000",
-          "title": "Šport",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261120234000 +0000",
-          "stop": "20261120235000 +0000",
-          "title": "Najlepšie počasie",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261120234000 +0000",
-          "stop": "20261121002500 +0000",
-          "title": "Poldové v akci",
-          "description": "Seriál malých příběhů inspirovaných skutečnými policejními zásahy na základě reálných výjezdů. Polohraný seriál se inspiroval policejními zprávami o skutečných policejních zásazích. Policisté řeší od ukradených kol či souseda, kterého pokousal pes, až po podezření z trestných činů loupeže peněz na benzínové čerpací stanici či podvody na seniorech, rvačky a útoky na manžely nebo rodiče. Mnoho případů slouží jako výstraha, jak se nedat podvést či oklamat zloději a takzvanými profesionálními lháři, kteří denně připravují Slováky o majetek a úspory. Jsou příběhy, které vyvolají úsměv,... protože se končí relativně dobře a smírně, protože viník si přizná chybu, omluví se, prosí kamaráda, so useda, bratra o odpuštění a dostane jen blokovou pokutu. V seriálu uvidíme mnoho známých hereckých tváří, kteří se objeví v postavách policistů i okradených, zbitých či jinak poškozených občanů.",
-          "category": "Drama"
-        },
-        {
-          "start": "20261120234500 +0000",
-          "stop": "20261121000500 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
-          "category": ""
-        },
-        {
-          "start": "20261120235000 +0000",
-          "stop": "20261121001500 +0000",
-          "title": "Krimi",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261120235500 +0000",
-          "stop": "20261121004000 +0000",
-          "title": "Príbehy dvoch sestier",
-          "description": "(Tale of two sisters) Amelia Earhartová a Muriel Britský dokumentárny seriál (2018). Najznámejšia pilotka všetkých čias. Amelia Earhartová sa dokázala presadiť v mužskom svete letectva a stala sa inšpiráciou pre generácie žien, ktoré si trúfli ísť za svojimi snami. Nie všetky jej sny sa však naplnili.Pri pokuse obletieť svet záhadne zmizla a jej telo sa nikdy nenašlo. Jej príbeh však žije ďalej. Vďaka sestre Muriel, ktorá ju neúnavne podporovala. Svetu zanechala dojímavý portrét v knihe Cena za odvahu, kde sa Amelia stala symbolom odhodlania, slobody a viery v nemožné.",
-          "category": ""
-        },
-        {
-          "start": "20261121000000 +0000",
-          "stop": "20261121030000 +0000",
-          "title": "Padel",
-          "description": "Majstrovstvá Slovenska - Štvrťfinále Záznam padelových Majstrovstiev Slovenska 2026.",
-          "category": ""
-        },
         {
           "start": "20261121000500 +0000",
           "stop": "20261121002000 +0000",
@@ -1063,17 +958,17 @@
         },
         {
           "start": "20261121120000 +0000",
-          "stop": "20261121145000 +0000",
-          "title": "Krasokorčuľovanie ISU Grand Prix",
-          "description": "Helsinki, Fínsko - voľná jazda: ženy Priamy prenos krasokorčuliarskeho podujatia z ISU Grand Prix.",
-          "category": ""
-        },
-        {
-          "start": "20261121120000 +0000",
           "stop": "20261121121000 +0000",
           "title": "Sovička Odo",
           "description": "Sovička Otík a jeho vzletná lumpačení v hlubokém lese, který ukrývá nejedno překvapení.",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261121120000 +0000",
+          "stop": "20261121145000 +0000",
+          "title": "Krasokorčuľovanie ISU Grand Prix",
+          "description": "Helsinki, Fínsko - voľná jazda: ženy Priamy prenos krasokorčuliarskeho podujatia z ISU Grand Prix.",
+          "category": ""
         },
         {
           "start": "20261121121000 +0000",
@@ -1413,23 +1308,16 @@
         },
         {
           "start": "20261121175000 +0000",
-          "stop": "20261121202500 +0000",
-          "title": "Volejbal - Niké Extraliga ženy",
-          "description": "9. kolo: VK Nové Mesto nad Váhom - Volley project UKF Nitra Priamy prenos volejbalového zápasu ženskej extraligy.",
-          "category": ""
-        },
-        {
-          "start": "20261121175000 +0000",
           "stop": "20261121175500 +0000",
           "title": "Jojko oslávencom",
           "description": "Je tu skvelá príležitosť! Teraz môžete vidieť svoje deti v televízii a zaželať im spolu s JOJkom všetko najlepšie k narodeninám. Fotky alebo videá s najkrajšími momentmi svojich oslávencov môžete posielať na www.jojko.sk. Všetko najlepšie.",
           "category": ""
         },
         {
-          "start": "20261121175500 +0000",
-          "stop": "20261121210000 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo - predohrávka: HC Prešov - HC Slovan Bratislava Priamy prenos hokejového zápasu Tipsport ligy.",
+          "start": "20261121175000 +0000",
+          "stop": "20261121202500 +0000",
+          "title": "Volejbal - Niké Extraliga ženy",
+          "description": "9. kolo: VK Nové Mesto nad Váhom - Volley project UKF Nitra Priamy prenos volejbalového zápasu ženskej extraligy.",
           "category": ""
         },
         {
@@ -1438,6 +1326,13 @@
           "title": "Labková patrola",
           "description": "S6 E2 — Ultimate Rescue: Pups Stop a Meltdown/Ultimate Rescue: Pups and the Mystery of the Missing Cellphones\nV Advanture Bay je horký den a všechno se rozpouští! Tlapky potřebují požární sílu, aby všechno ochladily. Po celém Advanture Bay se ztrácejí mobilní telefony! Tlapky potřebují policejní sílu, aby vyřešily záhadu a zachránily den.",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261121175500 +0000",
+          "stop": "20261121210000 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo - predohrávka: HC Prešov - HC Slovan Bratislava Priamy prenos hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261121180000 +0000",
@@ -1693,17 +1588,17 @@
         },
         {
           "start": "20261121210000 +0000",
-          "stop": "20261121220000 +0000",
-          "title": "Krasokorčuľovanie ISU Grand Prix",
-          "description": "Helsinki, Fínsko - voľná jazda: muži Premiérový záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
-          "category": ""
-        },
-        {
-          "start": "20261121210000 +0000",
           "stop": "20261121211000 +0000",
           "title": "Kúzlovanie",
           "description": "S1 E5\nMáte radi kúzla, tajomstvá a čary? V novej kúzelníckej šou vám renomovaný kúzelník poodhalí tajomstvá svojich trikov. Slovenská zábavná relácia (2015).",
           "category": "Pro Děti"
+        },
+        {
+          "start": "20261121210000 +0000",
+          "stop": "20261121220000 +0000",
+          "title": "Krasokorčuľovanie ISU Grand Prix",
+          "description": "Helsinki, Fínsko - voľná jazda: muži Premiérový záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
+          "category": ""
         },
         {
           "start": "20261121211000 +0000",
@@ -1840,17 +1735,17 @@
         },
         {
           "start": "20261121231000 +0000",
-          "stop": "20261122014000 +0000",
-          "title": "Atletika - Gold Continental Tour",
-          "description": "Záhreb, Chorvátsko Záznam z atletických pretekov World Gold Continental Tour.",
-          "category": ""
-        },
-        {
-          "start": "20261121231000 +0000",
           "stop": "20261121231500 +0000",
           "title": "Zabi nudu!",
           "description": "",
           "category": "Pro Děti"
+        },
+        {
+          "start": "20261121231000 +0000",
+          "stop": "20261122014000 +0000",
+          "title": "Atletika - Gold Continental Tour",
+          "description": "Záhreb, Chorvátsko Záznam z atletických pretekov World Gold Continental Tour.",
+          "category": ""
         },
         {
           "start": "20261121231500 +0000",
@@ -1945,16 +1840,16 @@
         },
         {
           "start": "20261121235500 +0000",
-          "stop": "20261122020000 +0000",
-          "title": "Padel",
-          "description": "Majstrovstvá Slovenska - Semifinále Záznam padelových Majstrovstiev Slovenska 2026.",
+          "stop": "20261122001000 +0000",
+          "title": "Sníček",
+          "description": "Slovenská náučno-zábavná relácia (2016). Hugo deťom splní každý sen! Vždy v noci snové víly prinášajú deťom sny. Hugo sa však cez deň nudí a zmyslí si, že Luciu a Damiána navštívi aj cez deň. Nevie sa však v našom svete správať, a tak ho deti učia, ako byť vychovaný. On im za to vysvetlí a ukáže, ako fungujú najznámejšie hodiny na svete Big Ben, či ako žijú rôzne zvieratá. Vezme ich do džungle, pod morskú hladinu, do vesmíru, a tiež do svojho snového sveta, kde je možné naozaj všetko. Deti si s Hugom zaspievajú, zatancujú a naučia... sa vždy niečo nové.",
           "category": ""
         },
         {
           "start": "20261121235500 +0000",
-          "stop": "20261122001000 +0000",
-          "title": "Sníček",
-          "description": "Slovenská náučno-zábavná relácia (2016). Hugo deťom splní každý sen! Vždy v noci snové víly prinášajú deťom sny. Hugo sa však cez deň nudí a zmyslí si, že Luciu a Damiána navštívi aj cez deň. Nevie sa však v našom svete správať, a tak ho deti učia, ako byť vychovaný. On im za to vysvetlí a ukáže, ako fungujú najznámejšie hodiny na svete Big Ben, či ako žijú rôzne zvieratá. Vezme ich do džungle, pod morskú hladinu, do vesmíru, a tiež do svojho snového sveta, kde je možné naozaj všetko. Deti si s Hugom zaspievajú, zatancujú a naučia... sa vždy niečo nové.",
+          "stop": "20261122020000 +0000",
+          "title": "Padel",
+          "description": "Majstrovstvá Slovenska - Semifinále Záznam padelových Majstrovstiev Slovenska 2026.",
           "category": ""
         },
         {
@@ -2078,17 +1973,17 @@
         },
         {
           "start": "20261122014000 +0000",
-          "stop": "20261122045000 +0000",
-          "title": "Plážový volejbal",
-          "description": "Nations Cup: Budapešť, Maďarsko - Finále ženy Záznam tretieho dňa prestížneho európskeho turnaja v plážovom volejbale.",
-          "category": ""
-        },
-        {
-          "start": "20261122014000 +0000",
           "stop": "20261122015500 +0000",
           "title": "Kid Lucky",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261122014000 +0000",
+          "stop": "20261122045000 +0000",
+          "title": "Plážový volejbal",
+          "description": "Nations Cup: Budapešť, Maďarsko - Finále ženy Záznam tretieho dňa prestížneho európskeho turnaja v plážovom volejbale.",
+          "category": ""
         },
         {
           "start": "20261122015500 +0000",
@@ -2694,17 +2589,17 @@
         },
         {
           "start": "20261122090500 +0000",
-          "stop": "20261122111000 +0000",
-          "title": "Atletika - Diamantová liga",
-          "description": "Paríž, Francúzsko Záznam atletických podujatí sedemnásteho ročníka prestížnej Diamantovej ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261122090500 +0000",
           "stop": "20261122093500 +0000",
           "title": "Plamienok a štvorkolky",
           "description": "S1 E1 — Blaze of Glory\nPlamínek a jeho řidič AJ jsou uvedeni do světa závodů Čtyřkoláků. Ovšem když čtyřkolák jménem Bourák používá špinavé triky, aby vyhrál šampionát, Plamínek udělá cokoli, aby svým přátelům pomohl Bouráka v cílové rovince porazit.",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261122090500 +0000",
+          "stop": "20261122111000 +0000",
+          "title": "Atletika - Diamantová liga",
+          "description": "Paríž, Francúzsko Záznam atletických podujatí sedemnásteho ročníka prestížnej Diamantovej ligy.",
+          "category": ""
         },
         {
           "start": "20261122091500 +0000",
@@ -2827,17 +2722,17 @@
         },
         {
           "start": "20261122111000 +0000",
-          "stop": "20261122132000 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo - predohrávka: HC Prešov - HC Slovan Bratislava Záznam hokejového zápasu Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261122111000 +0000",
           "stop": "20261122112000 +0000",
           "title": "Štaflík a Špagetka",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261122111000 +0000",
+          "stop": "20261122132000 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo - predohrávka: HC Prešov - HC Slovan Bratislava Záznam hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261122112000 +0000",
@@ -2981,16 +2876,16 @@
         },
         {
           "start": "20261122132500 +0000",
-          "stop": "20261122161500 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo: HK Dukla Trenčín - HC Košice Priamy prenos hokejového zápasu Tipsport ligy.",
+          "stop": "20261122133500 +0000",
+          "title": "Rybičky Flip a Flap",
+          "description": "(FlipFlap II) Japonská animovaná rozprávka (2013). Spoznajte nové príbehy Flipa a Flapa, dvoch zábavných a šťastných rybičiek, ktoré žijú v malom akváriu. Život však pre ne nie je jednoduchý, stále totiž musia čeliť rôznym prekážkam. Každý z nich má ešte aj inú povahu: Flip je živší, má stále prebytok energie, zatiaľ čo Flap je uzavretejší a uprednostňuje čítanie alebo tvorenie vedeckých experimentov. Vždy sa však snažia navzájom si pomáhať.",
           "category": ""
         },
         {
           "start": "20261122132500 +0000",
-          "stop": "20261122133500 +0000",
-          "title": "Rybičky Flip a Flap",
-          "description": "(FlipFlap II) Japonská animovaná rozprávka (2013). Spoznajte nové príbehy Flipa a Flapa, dvoch zábavných a šťastných rybičiek, ktoré žijú v malom akváriu. Život však pre ne nie je jednoduchý, stále totiž musia čeliť rôznym prekážkam. Každý z nich má ešte aj inú povahu: Flip je živší, má stále prebytok energie, zatiaľ čo Flap je uzavretejší a uprednostňuje čítanie alebo tvorenie vedeckých experimentov. Vždy sa však snažia navzájom si pomáhať.",
+          "stop": "20261122161500 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo: HK Dukla Trenčín - HC Košice Priamy prenos hokejového zápasu Tipsport ligy.",
           "category": ""
         },
         {
@@ -3178,22 +3073,15 @@
         {
           "start": "20261122161500 +0000",
           "stop": "20261122162500 +0000",
-          "title": "Štúdio Hokej",
-          "description": "Tipsport liga - 21. kolo.",
-          "category": ""
-        },
-        {
-          "start": "20261122161500 +0000",
-          "stop": "20261122162500 +0000",
           "title": "Mojko a Kajka",
           "description": "",
           "category": "Rodinný"
         },
         {
-          "start": "20261122162500 +0000",
-          "stop": "20261122193000 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo: HK Dukla Michalovce - Vlci Žilina Priamy prenos hokejového zápasu Tipsport ligy.",
+          "start": "20261122161500 +0000",
+          "stop": "20261122162500 +0000",
+          "title": "Štúdio Hokej",
+          "description": "Tipsport liga - 21. kolo.",
           "category": ""
         },
         {
@@ -3202,6 +3090,13 @@
           "title": "Dora",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261122162500 +0000",
+          "stop": "20261122193000 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo: HK Dukla Michalovce - Vlci Žilina Priamy prenos hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261122165000 +0000",
@@ -3611,17 +3506,17 @@
         },
         {
           "start": "20261122222000 +0000",
-          "stop": "20261123004000 +0000",
-          "title": "Volejbal Slovenský pohár ženy",
-          "description": "Štvrťfinále - odveta: HIT UCM Trnava - Volley projekt UKF Nitra Záznam volejbalového zápasu Slovenského pohára žien.",
-          "category": ""
-        },
-        {
-          "start": "20261122222000 +0000",
           "stop": "20261122222500 +0000",
           "title": "Zabi nudu!",
           "description": "",
           "category": "Pro Děti"
+        },
+        {
+          "start": "20261122222000 +0000",
+          "stop": "20261123004000 +0000",
+          "title": "Volejbal Slovenský pohár ženy",
+          "description": "Štvrťfinále - odveta: HIT UCM Trnava - Volley projekt UKF Nitra Záznam volejbalového zápasu Slovenského pohára žien.",
+          "category": ""
         },
         {
           "start": "20261122222500 +0000",
@@ -3667,16 +3562,16 @@
         },
         {
           "start": "20261122230000 +0000",
-          "stop": "20261123013000 +0000",
-          "title": "Atletika - Gold Continental Tour",
-          "description": "Budapešť, Maďarsko - Hungarian Athletics Grand Prix: Gyulai István Memorial Záznam z atletických pretekov World Gold Continental Tour.",
+          "stop": "20261122231500 +0000",
+          "title": "Tani tani s Nely",
+          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
           "category": ""
         },
         {
           "start": "20261122230000 +0000",
-          "stop": "20261122231500 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
+          "stop": "20261123013000 +0000",
+          "title": "Atletika - Gold Continental Tour",
+          "description": "Budapešť, Maďarsko - Hungarian Athletics Grand Prix: Gyulai István Memorial Záznam z atletických pretekov World Gold Continental Tour.",
           "category": ""
         },
         {
@@ -3828,16 +3723,16 @@
         },
         {
           "start": "20261123004000 +0000",
-          "stop": "20261123022500 +0000",
-          "title": "Volejbal - ME 2026 ženy",
-          "description": "Francúzsko - Slovensko Záznam volejbalového zápasu Majstrovstiev Európy žien.",
+          "stop": "20261123005500 +0000",
+          "title": "Jojo, to vážne",
+          "description": "Ahojte, ja som Jojo. Mám osem rokov, celkom normálnu rodinu a život plný zábavných a vzrušujúcich príhod. Mama sa snaží byť prísna a učí ma pomáhať, upratať po sebe, nachystať si veci do školy či vybrať po tréningu karate úbor z tašky. Vždy mám tie najlepšie úmysly, ale situácia väčšinou vypáli inak, ako som chcel. Náš otec je nadšený vedátor. Neustále mi hovorí o výskumoch či zaujímavých faktoch. Mám aj malú sestru Olinku, ktorú občas s láskou volám Oliva. Pozývam vás na moju dobrodružnú... jazdu. S našou rodinou sa určite nudiť nebudete. Ahojte, ja som Jojo. Mám osem rokov, celkom normálnu rodinu a život plný zábavných a vzrušujúcich príhod. Mama sa snaží byť prísna a učí ma pomáhať, upratať po sebe, nachystať si veci do školy či vybrať po tréningu karate úbor z tašky. Vždy mám tie najlepšie úmysly, ale situácia väčšinou vypáli inak, ako som chcel. Náš otec je nadšený vedátor. Neustále mi hovorí o výskumoch či zaujímavých faktoch. Mám aj malú sestru Olinku, ktorú občas s láskou volám Oliva. Pozývam vás na moju dobrodružnú... jazdu. S našou rodinou sa určite nudiť nebudete.",
           "category": ""
         },
         {
           "start": "20261123004000 +0000",
-          "stop": "20261123005500 +0000",
-          "title": "Jojo, to vážne",
-          "description": "Ahojte, ja som Jojo. Mám osem rokov, celkom normálnu rodinu a život plný zábavných a vzrušujúcich príhod. Mama sa snaží byť prísna a učí ma pomáhať, upratať po sebe, nachystať si veci do školy či vybrať po tréningu karate úbor z tašky. Vždy mám tie najlepšie úmysly, ale situácia väčšinou vypáli inak, ako som chcel. Náš otec je nadšený vedátor. Neustále mi hovorí o výskumoch či zaujímavých faktoch. Mám aj malú sestru Olinku, ktorú občas s láskou volám Oliva. Pozývam vás na moju dobrodružnú... jazdu. S našou rodinou sa určite nudiť nebudete. Ahojte, ja som Jojo. Mám osem rokov, celkom normálnu rodinu a život plný zábavných a vzrušujúcich príhod. Mama sa snaží byť prísna a učí ma pomáhať, upratať po sebe, nachystať si veci do školy či vybrať po tréningu karate úbor z tašky. Vždy mám tie najlepšie úmysly, ale situácia väčšinou vypáli inak, ako som chcel. Náš otec je nadšený vedátor. Neustále mi hovorí o výskumoch či zaujímavých faktoch. Mám aj malú sestru Olinku, ktorú občas s láskou volám Oliva. Pozývam vás na moju dobrodružnú... jazdu. S našou rodinou sa určite nudiť nebudete.",
+          "stop": "20261123022500 +0000",
+          "title": "Volejbal - ME 2026 ženy",
+          "description": "Francúzsko - Slovensko Záznam volejbalového zápasu Majstrovstiev Európy žien.",
           "category": ""
         },
         {
@@ -3919,16 +3814,16 @@
         },
         {
           "start": "20261123013000 +0000",
-          "stop": "20261123055000 +0000",
-          "title": "Footgolf",
-          "description": "Feal Alux Open 2026 Záznam prestížneho footgolfového podujatia Feal Alux Open 2026.",
+          "stop": "20261123014000 +0000",
+          "title": "Knihy od Stonožky",
+          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
           "category": ""
         },
         {
           "start": "20261123013000 +0000",
-          "stop": "20261123014000 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
+          "stop": "20261123055000 +0000",
+          "title": "Footgolf",
+          "description": "Feal Alux Open 2026 Záznam prestížneho footgolfového podujatia Feal Alux Open 2026.",
           "category": ""
         },
         {
@@ -4213,17 +4108,17 @@
         },
         {
           "start": "20261123055000 +0000",
-          "stop": "20261123082000 +0000",
-          "title": "Hokej - Reprezentácia",
-          "description": "Nemecký pohár: Lotyšsko - Slovensko Záznam hokejového zápasu Nemeckého pohára.",
-          "category": ""
-        },
-        {
-          "start": "20261123055000 +0000",
           "stop": "20261123061500 +0000",
           "title": "Ronja, lúpežníkova dcéra",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123055000 +0000",
+          "stop": "20261123082000 +0000",
+          "title": "Hokej - Reprezentácia",
+          "description": "Nemecký pohár: Lotyšsko - Slovensko Záznam hokejového zápasu Nemeckého pohára.",
+          "category": ""
         },
         {
           "start": "20261123055500 +0000",
@@ -4374,17 +4269,17 @@
         },
         {
           "start": "20261123082000 +0000",
-          "stop": "20261123103500 +0000",
-          "title": "Basketbal Reprezentácia ženy",
-          "description": "Kvalifikácia na ME 2027 ženy: Slovensko - Srbsko Záznam kvalifikačného basketbalového zápasu ženskej reprezentácie na Majstrovstvá Európy 2027.",
-          "category": ""
-        },
-        {
-          "start": "20261123082000 +0000",
           "stop": "20261123085000 +0000",
           "title": "Lovci trolov: Príbehy Arkádie",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123082000 +0000",
+          "stop": "20261123103500 +0000",
+          "title": "Basketbal Reprezentácia ženy",
+          "description": "Kvalifikácia na ME 2027 ženy: Slovensko - Srbsko Záznam kvalifikačného basketbalového zápasu ženskej reprezentácie na Majstrovstvá Európy 2027.",
+          "category": ""
         },
         {
           "start": "20261123083500 +0000",
@@ -4514,17 +4409,17 @@
         },
         {
           "start": "20261123105000 +0000",
-          "stop": "20261123131500 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo - predohrávka: HC Prešov - HC Slovan Bratislava Záznam hokejového zápasu Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261123105000 +0000",
           "stop": "20261123110000 +0000",
           "title": "Cracké: Rodinné trampoty",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123105000 +0000",
+          "stop": "20261123131500 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo - predohrávka: HC Prešov - HC Slovan Bratislava Záznam hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261123110000 +0000",
@@ -4703,17 +4598,17 @@
         },
         {
           "start": "20261123131500 +0000",
-          "stop": "20261123153000 +0000",
-          "title": "FIBA Europe Cup",
-          "description": "Patrioti Levice - Zielona Gora Záznam basketbalového zápasu Európskeho pohára FIBA.",
-          "category": ""
-        },
-        {
-          "start": "20261123131500 +0000",
           "stop": "20261123133000 +0000",
           "title": "Zvierací ochrancovia",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123131500 +0000",
+          "stop": "20261123153000 +0000",
+          "title": "FIBA Europe Cup",
+          "description": "Patrioti Levice - Zielona Gora Záznam basketbalového zápasu Európskeho pohára FIBA.",
+          "category": ""
         },
         {
           "start": "20261123132000 +0000",
@@ -4731,17 +4626,17 @@
         },
         {
           "start": "20261123134000 +0000",
-          "stop": "20261123154500 +0000",
-          "title": "FIBA Europe Cup",
-          "description": "Landau Lions - BC Prievidza Záznam basketbalového zápasu Európskeho pohára FIBA.",
-          "category": ""
-        },
-        {
-          "start": "20261123134000 +0000",
           "stop": "20261123141000 +0000",
           "title": "Moe a jeho šou",
           "description": "",
           "category": "Rodinný"
+        },
+        {
+          "start": "20261123134000 +0000",
+          "stop": "20261123154500 +0000",
+          "title": "FIBA Europe Cup",
+          "description": "Landau Lions - BC Prievidza Záznam basketbalového zápasu Európskeho pohára FIBA.",
+          "category": ""
         },
         {
           "start": "20261123134500 +0000",
@@ -4850,17 +4745,17 @@
         },
         {
           "start": "20261123153000 +0000",
-          "stop": "20261123180500 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo: HK Dukla Trenčín - HC Košice Záznam hokejového zápasu Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261123153000 +0000",
           "stop": "20261123154500 +0000",
           "title": "Cracké: Rodinné trampoty",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123153000 +0000",
+          "stop": "20261123180500 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo: HK Dukla Trenčín - HC Košice Záznam hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261123154000 +0000",
@@ -4871,17 +4766,17 @@
         },
         {
           "start": "20261123154500 +0000",
-          "stop": "20261123165000 +0000",
-          "title": "Hokej - Zostrihy Tipsport ligy",
-          "description": "21. kolo Premiérový záznam highlightov hokejovej Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261123154500 +0000",
           "stop": "20261123160000 +0000",
           "title": "Pirátska akadémia",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123154500 +0000",
+          "stop": "20261123165000 +0000",
+          "title": "Hokej - Zostrihy Tipsport ligy",
+          "description": "21. kolo Premiérový záznam highlightov hokejovej Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261123155500 +0000",
@@ -5172,17 +5067,17 @@
         },
         {
           "start": "20261123194500 +0000",
-          "stop": "20261123215000 +0000",
-          "title": "Krasokorčuľovanie ISU Grand Prix",
-          "description": "Helsinki, Fínsko - rytmické tance Záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
-          "category": ""
-        },
-        {
-          "start": "20261123194500 +0000",
           "stop": "20261123200000 +0000",
           "title": "Zvierací ochrancovia",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123194500 +0000",
+          "stop": "20261123215000 +0000",
+          "title": "Krasokorčuľovanie ISU Grand Prix",
+          "description": "Helsinki, Fínsko - rytmické tance Záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
+          "category": ""
         },
         {
           "start": "20261123200000 +0000",
@@ -5298,17 +5193,17 @@
         },
         {
           "start": "20261123212500 +0000",
-          "stop": "20261124000500 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo: HK Dukla Michalovce - Vlci Žilina Záznam hokejového zápasu Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261123212500 +0000",
           "stop": "20261123214000 +0000",
           "title": "Moe a jeho šou",
           "description": "",
           "category": "Rodinný"
+        },
+        {
+          "start": "20261123212500 +0000",
+          "stop": "20261124000500 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo: HK Dukla Michalovce - Vlci Žilina Záznam hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261123213000 +0000",
@@ -5326,17 +5221,17 @@
         },
         {
           "start": "20261123215000 +0000",
-          "stop": "20261123235000 +0000",
-          "title": "Futsal - Liga majstrov",
-          "description": "FUTSAL KLUB Lučenec - Futsal Club Semey Záznam fustalového zápasu Ligy majstrov.",
-          "category": ""
-        },
-        {
-          "start": "20261123215000 +0000",
           "stop": "20261123221500 +0000",
           "title": "Ronja, lúpežníkova dcéra",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261123215000 +0000",
+          "stop": "20261123235000 +0000",
+          "title": "Futsal - Liga majstrov",
+          "description": "FUTSAL KLUB Lučenec - Futsal Club Semey Záznam fustalového zápasu Ligy majstrov.",
+          "category": ""
         },
         {
           "start": "20261123215500 +0000",
@@ -5515,17 +5410,17 @@
         },
         {
           "start": "20261124000500 +0000",
-          "stop": "20261124080500 +0000",
-          "title": "Automobilové preteky",
-          "description": "6 hodín v Imole - MS vo vytrvalostných pretekoch 2026 Záznam Majstrovstiev sveta vo vytrvalostných pretekoch 2026.",
-          "category": ""
-        },
-        {
-          "start": "20261124000500 +0000",
           "stop": "20261124001000 +0000",
           "title": "Zabi nudu!",
           "description": "",
           "category": "Pro Děti"
+        },
+        {
+          "start": "20261124000500 +0000",
+          "stop": "20261124080500 +0000",
+          "title": "Automobilové preteky",
+          "description": "6 hodín v Imole - MS vo vytrvalostných pretekoch 2026 Záznam Majstrovstiev sveta vo vytrvalostných pretekoch 2026.",
+          "category": ""
         },
         {
           "start": "20261124001000 +0000",
@@ -5676,17 +5571,17 @@
         },
         {
           "start": "20261124013500 +0000",
-          "stop": "20261124042000 +0000",
-          "title": "Volejbal - ME 2026 muži",
-          "description": "Fínsko - Dánsko Záznam volejbalového zápasu Majstrovstiev Európy mužov.",
-          "category": ""
-        },
-        {
-          "start": "20261124013500 +0000",
           "stop": "20261124014500 +0000",
           "title": "Máša a medveď",
           "description": "S1 E7 — Vesna prishla\nThe Bear wakes up from his sleep with the arrival of the spring. While running around the forest, he stumbles upon a beautiful female bear. He quickly falls in love and with a bouquet of snowdrops he runs back to invite her for a date. Of course, Masha ruins all of his plans. The Bear does his best to get rid of the girl. But Masha finds her way between the two bears every time. Finally the female friend notices her and demands an explanation. He tries to reason with her but is presented... with a choice - it is either the girl or his new female friend. The Bear can't make up his mind at once and his companion leaves with another bear.",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261124013500 +0000",
+          "stop": "20261124042000 +0000",
+          "title": "Volejbal - ME 2026 muži",
+          "description": "Fínsko - Dánsko Záznam volejbalového zápasu Majstrovstiev Európy mužov.",
+          "category": ""
         },
         {
           "start": "20261124014000 +0000",
@@ -6502,17 +6397,17 @@
         },
         {
           "start": "20261124130000 +0000",
-          "stop": "20261124153000 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "21. kolo: HK Dukla Michalovce - Vlci Žilina Záznam hokejového zápasu Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261124130000 +0000",
           "stop": "20261124131500 +0000",
           "title": "Coop Troop",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261124130000 +0000",
+          "stop": "20261124153000 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "21. kolo: HK Dukla Michalovce - Vlci Žilina Záznam hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261124130500 +0000",
@@ -6656,17 +6551,17 @@
         },
         {
           "start": "20261124153000 +0000",
-          "stop": "20261124163000 +0000",
-          "title": "Hokej je na JOJke - Extra Shift",
-          "description": "Relácia o Tipsport lige Záznam športovo-publicistickej relácie Extra Shift.",
-          "category": ""
-        },
-        {
-          "start": "20261124153000 +0000",
           "stop": "20261124154500 +0000",
           "title": "Cracké: Rodinné trampoty",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261124153000 +0000",
+          "stop": "20261124163000 +0000",
+          "title": "Hokej je na JOJke - Extra Shift",
+          "description": "Relácia o Tipsport lige Záznam športovo-publicistickej relácie Extra Shift.",
+          "category": ""
         },
         {
           "start": "20261124154500 +0000",
@@ -6768,17 +6663,17 @@
         },
         {
           "start": "20261124165500 +0000",
-          "stop": "20261124195000 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "22. kolo: HC Slovan Bratislava - HK 32 Liptovský Mikuláš Priamy prenos hokejového zápasu Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261124165500 +0000",
           "stop": "20261124172500 +0000",
           "title": "Jednorožec z mora",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261124165500 +0000",
+          "stop": "20261124195000 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "22. kolo: HC Slovan Bratislava - HK 32 Liptovský Mikuláš Priamy prenos hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261124170000 +0000",
@@ -6817,17 +6712,17 @@
         },
         {
           "start": "20261124175000 +0000",
-          "stop": "20261124204000 +0000",
-          "title": "Volejbal Challenge Cup",
-          "description": "Ženy: VK Slovan Bratislava - VK Lvi Praha Priamy prenos volejbalového zápasu Challenge Cup.",
-          "category": ""
-        },
-        {
-          "start": "20261124175000 +0000",
           "stop": "20261124182000 +0000",
           "title": "Labková patrola",
           "description": "S6 E5 — Pups Save the Honey/Pups Save Mayor Goodway's Purse\nLahodný Yumin med způsobí poprask, když med i její včelín zmizí z její farmy! Starostce Goodwayové se ztratí kabelka!Spolu se vzácným obsahem.",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261124175000 +0000",
+          "stop": "20261124204000 +0000",
+          "title": "Volejbal Challenge Cup",
+          "description": "Ženy: VK Slovan Bratislava - VK Lvi Praha Priamy prenos volejbalového zápasu Challenge Cup.",
+          "category": ""
         },
         {
           "start": "20261124180000 +0000",
@@ -7041,17 +6936,17 @@
         },
         {
           "start": "20261124204000 +0000",
-          "stop": "20261124231500 +0000",
-          "title": "Volejbal - Niké Extraliga ženy",
-          "description": "9. kolo: VK Nové Mesto nad Váhom - Volley project UKF Nitra Záznam volejbalového zápasu ženskej extraligy.",
-          "category": ""
-        },
-        {
-          "start": "20261124204000 +0000",
           "stop": "20261124210500 +0000",
           "title": "100%-ný vlk: Magická kniha",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261124204000 +0000",
+          "stop": "20261124231500 +0000",
+          "title": "Volejbal - Niké Extraliga ženy",
+          "description": "9. kolo: VK Nové Mesto nad Váhom - Volley project UKF Nitra Záznam volejbalového zápasu ženskej extraligy.",
+          "category": ""
         },
         {
           "start": "20261124205000 +0000",
@@ -7244,16 +7139,16 @@
         },
         {
           "start": "20261124231500 +0000",
-          "stop": "20261125011500 +0000",
-          "title": "Futsal - Liga majstrov",
-          "description": "Futsal Club Semey - FC Barcelona Záznam fustalového zápasu Ligy majstrov.",
+          "stop": "20261124232500 +0000",
+          "title": "Knihy od Stonožky",
+          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
           "category": ""
         },
         {
           "start": "20261124231500 +0000",
-          "stop": "20261124232500 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
+          "stop": "20261125011500 +0000",
+          "title": "Futsal - Liga majstrov",
+          "description": "Futsal Club Semey - FC Barcelona Záznam fustalového zápasu Ligy majstrov.",
           "category": ""
         },
         {
@@ -7286,16 +7181,16 @@
         },
         {
           "start": "20261124234500 +0000",
-          "stop": "20261125051500 +0000",
-          "title": "Automobilové preteky",
-          "description": "6 hodín v Spa - MS vo vytrvalostných pretekoch 2026 Záznam Majstrovstiev sveta vo vytrvalostných pretekoch 2026.",
+          "stop": "20261125000000 +0000",
+          "title": "Tani tani s Nely",
+          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
           "category": ""
         },
         {
           "start": "20261124234500 +0000",
-          "stop": "20261125000000 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
+          "stop": "20261125051500 +0000",
+          "title": "Automobilové preteky",
+          "description": "6 hodín v Spa - MS vo vytrvalostných pretekoch 2026 Záznam Majstrovstiev sveta vo vytrvalostných pretekoch 2026.",
           "category": ""
         },
         {
@@ -7433,16 +7328,16 @@
         },
         {
           "start": "20261125011500 +0000",
-          "stop": "20261125025000 +0000",
-          "title": "Volejbal - ME 2026 ženy",
-          "description": "Taliansko - Čierna Hora Záznam volejbalového zápasu Majstrovstiev Európy žien.",
+          "stop": "20261125012000 +0000",
+          "title": "Rapotáčik",
+          "description": "Slovenská náučno-zábavná relácia nakrútená pod odborným dohľadom logopéda (2017). Neposlúchajú vás niektoré hlásky? Vykrúcate jazýček div si ho nezauzlíte? Nič to, ani Rapotáčik ešte všetky hlásky nevie, a tak sa ich spoločne naučíte. Porozprávajte si s ním príbehy a zaspievajte milé pesničky. Určite vám to pôjde jedna radosť. Rapotáčik, pomáhaj.",
           "category": ""
         },
         {
           "start": "20261125011500 +0000",
-          "stop": "20261125012000 +0000",
-          "title": "Rapotáčik",
-          "description": "Slovenská náučno-zábavná relácia nakrútená pod odborným dohľadom logopéda (2017). Neposlúchajú vás niektoré hlásky? Vykrúcate jazýček div si ho nezauzlíte? Nič to, ani Rapotáčik ešte všetky hlásky nevie, a tak sa ich spoločne naučíte. Porozprávajte si s ním príbehy a zaspievajte milé pesničky. Určite vám to pôjde jedna radosť. Rapotáčik, pomáhaj.",
+          "stop": "20261125025000 +0000",
+          "title": "Volejbal - ME 2026 ženy",
+          "description": "Taliansko - Čierna Hora Záznam volejbalového zápasu Majstrovstiev Európy žien.",
           "category": ""
         },
         {
@@ -7860,17 +7755,17 @@
         },
         {
           "start": "20261125065500 +0000",
-          "stop": "20261125085500 +0000",
-          "title": "Atletika - Diamantová liga",
-          "description": "Londýn, Veľká Británia Záznam atletických podujatí sedemnásteho ročníka prestížnej Diamantovej ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261125065500 +0000",
           "stop": "20261125070500 +0000",
           "title": "Odvážne zajačiky",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261125065500 +0000",
+          "stop": "20261125085500 +0000",
+          "title": "Atletika - Diamantová liga",
+          "description": "Londýn, Veľká Británia Záznam atletických podujatí sedemnásteho ročníka prestížnej Diamantovej ligy.",
+          "category": ""
         },
         {
           "start": "20261125070000 +0000",
@@ -7923,17 +7818,17 @@
         },
         {
           "start": "20261125073000 +0000",
-          "stop": "20261125095000 +0000",
-          "title": "Hokej - Reprezentácia",
-          "description": "Nemecký pohár: Nemecko - Slovensko Záznam hokejového zápasu Nemeckého pohára.",
-          "category": ""
-        },
-        {
-          "start": "20261125073000 +0000",
           "stop": "20261125073500 +0000",
           "title": "Medzi nami zvieratkami",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261125073000 +0000",
+          "stop": "20261125095000 +0000",
+          "title": "Hokej - Reprezentácia",
+          "description": "Nemecký pohár: Nemecko - Slovensko Záznam hokejového zápasu Nemeckého pohára.",
+          "category": ""
         },
         {
           "start": "20261125073500 +0000",
@@ -8308,17 +8203,17 @@
         },
         {
           "start": "20261125131500 +0000",
-          "stop": "20261125142000 +0000",
-          "title": "Krasokorčuľovanie ISU Grand Prix",
-          "description": "Helsinki, Fínsko - voľná jazda: muži Záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
-          "category": ""
-        },
-        {
-          "start": "20261125131500 +0000",
           "stop": "20261125133000 +0000",
           "title": "Zvierací ochrancovia",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261125131500 +0000",
+          "stop": "20261125142000 +0000",
+          "title": "Krasokorčuľovanie ISU Grand Prix",
+          "description": "Helsinki, Fínsko - voľná jazda: muži Záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
+          "category": ""
         },
         {
           "start": "20261125133000 +0000",
@@ -8378,17 +8273,17 @@
         },
         {
           "start": "20261125142000 +0000",
-          "stop": "20261125153500 +0000",
-          "title": "Krasokorčuľovanie ISU Grand Prix",
-          "description": "Helsinki, Fínsko - voľné tance Záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
-          "category": ""
-        },
-        {
-          "start": "20261125142000 +0000",
           "stop": "20261125145000 +0000",
           "title": "Labková patrola",
           "description": "S6 E5 — Pups Save the Honey/Pups Save Mayor Goodway's Purse\nLahodný Yumin med způsobí poprask, když med i její včelín zmizí z její farmy! Starostce Goodwayové se ztratí kabelka!Spolu se vzácným obsahem.",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261125142000 +0000",
+          "stop": "20261125153500 +0000",
+          "title": "Krasokorčuľovanie ISU Grand Prix",
+          "description": "Helsinki, Fínsko - voľné tance Záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
+          "category": ""
         },
         {
           "start": "20261125143500 +0000",
@@ -8777,17 +8672,17 @@
         },
         {
           "start": "20261125194500 +0000",
-          "stop": "20261125212500 +0000",
-          "title": "Hokej - Zostrihy Tipsport ligy",
-          "description": "22. kolo Premiérový záznam highlightov hokejovej Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261125194500 +0000",
           "stop": "20261125200000 +0000",
           "title": "Zvierací ochrancovia",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261125194500 +0000",
+          "stop": "20261125212500 +0000",
+          "title": "Hokej - Zostrihy Tipsport ligy",
+          "description": "22. kolo Premiérový záznam highlightov hokejovej Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261125200000 +0000",
@@ -8889,17 +8784,17 @@
         },
         {
           "start": "20261125212500 +0000",
-          "stop": "20261125225500 +0000",
-          "title": "Magazín UEFA",
-          "description": "Záznam futbalového magazínu ligy UEFA.",
-          "category": ""
-        },
-        {
-          "start": "20261125212500 +0000",
           "stop": "20261125214000 +0000",
           "title": "Moe a jeho šou",
           "description": "",
           "category": "Rodinný"
+        },
+        {
+          "start": "20261125212500 +0000",
+          "stop": "20261125225500 +0000",
+          "title": "Magazín UEFA",
+          "description": "Záznam futbalového magazínu ligy UEFA.",
+          "category": ""
         },
         {
           "start": "20261125213000 +0000",
@@ -9113,17 +9008,17 @@
         },
         {
           "start": "20261126000500 +0000",
-          "stop": "20261126024000 +0000",
-          "title": "Volejbal - ME 2026 ženy",
-          "description": "Belgicko - Španielsko Záznam volejbalového zápasu Majstrovstiev Európy žien.",
-          "category": ""
-        },
-        {
-          "start": "20261126000500 +0000",
           "stop": "20261126001000 +0000",
           "title": "Zabi nudu!",
           "description": "",
           "category": "Pro Děti"
+        },
+        {
+          "start": "20261126000500 +0000",
+          "stop": "20261126024000 +0000",
+          "title": "Volejbal - ME 2026 ženy",
+          "description": "Belgicko - Španielsko Záznam volejbalového zápasu Majstrovstiev Európy žien.",
+          "category": ""
         },
         {
           "start": "20261126001000 +0000",
@@ -9442,16 +9337,16 @@
         },
         {
           "start": "20261126032000 +0000",
-          "stop": "20261126052000 +0000",
-          "title": "IIHF MS do 18 rokov 2026",
-          "description": "Lotyšsko - Slovensko Záznam zápasu hokejových Majstrovstiev sveta hráčov do 18 rokov.",
+          "stop": "20261126033500 +0000",
+          "title": "Malí fidlikanti",
+          "description": "Fujarka Slovenská hudobno-náučná relácia (2020). My sme malí fidlikanti! Zoznámte sa s Jožkom, Aďom a ich malými kamarátmi, ktorí vám predstavia slovenské ľudové hudobné nástroje. Poznáte Jánošikovu obľúbenú píšťalku koncovku? Alebo dvojačku či okarínu? Spoznajte ich s nami! A tiež sa dozviete viac o cimbale, ozembuchu či husličkách. Spolu sa zabavíme a zaspievame si veselé pesničky.",
           "category": ""
         },
         {
           "start": "20261126032000 +0000",
-          "stop": "20261126033500 +0000",
-          "title": "Malí fidlikanti",
-          "description": "Fujarka Slovenská hudobno-náučná relácia (2020). My sme malí fidlikanti! Zoznámte sa s Jožkom, Aďom a ich malými kamarátmi, ktorí vám predstavia slovenské ľudové hudobné nástroje. Poznáte Jánošikovu obľúbenú píšťalku koncovku? Alebo dvojačku či okarínu? Spoznajte ich s nami! A tiež sa dozviete viac o cimbale, ozembuchu či husličkách. Spolu sa zabavíme a zaspievame si veselé pesničky.",
+          "stop": "20261126052000 +0000",
+          "title": "IIHF MS do 18 rokov 2026",
+          "description": "Lotyšsko - Slovensko Záznam zápasu hokejových Majstrovstiev sveta hráčov do 18 rokov.",
           "category": ""
         },
         {
@@ -9743,17 +9638,17 @@
         },
         {
           "start": "20261126073000 +0000",
-          "stop": "20261126083500 +0000",
-          "title": "Hokej - Zostrihy Tipsport ligy",
-          "description": "22. kolo Záznam highlightov hokejovej Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261126073000 +0000",
           "stop": "20261126073500 +0000",
           "title": "Medzi nami zvieratkami",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261126073000 +0000",
+          "stop": "20261126083500 +0000",
+          "title": "Hokej - Zostrihy Tipsport ligy",
+          "description": "22. kolo Záznam highlightov hokejovej Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261126073500 +0000",
@@ -9855,17 +9750,17 @@
         },
         {
           "start": "20261126090000 +0000",
-          "stop": "20261126112500 +0000",
-          "title": "Volejbal - Niké Extraliga muži",
-          "description": "6. kolo: VO TJ Spartak Myjava - Rieker UJS Komárno Záznam volejbalového zápasu mužskej extraligy.",
-          "category": ""
-        },
-        {
-          "start": "20261126090000 +0000",
           "stop": "20261126092500 +0000",
           "title": "100%-ný vlk: Magická kniha",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261126090000 +0000",
+          "stop": "20261126112500 +0000",
+          "title": "Volejbal - Niké Extraliga muži",
+          "description": "6. kolo: VO TJ Spartak Myjava - Rieker UJS Komárno Záznam volejbalového zápasu mužskej extraligy.",
+          "category": ""
         },
         {
           "start": "20261126090500 +0000",
@@ -10254,17 +10149,17 @@
         },
         {
           "start": "20261126151000 +0000",
-          "stop": "20261126163000 +0000",
-          "title": "PIVOT",
-          "description": "Basketbalový magazín Záznam športovo-publicistickej relácie Pivot.",
-          "category": ""
-        },
-        {
-          "start": "20261126151000 +0000",
           "stop": "20261126153000 +0000",
           "title": "Alvin svet",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261126151000 +0000",
+          "stop": "20261126163000 +0000",
+          "title": "PIVOT",
+          "description": "Basketbalový magazín Záznam športovo-publicistickej relácie Pivot.",
+          "category": ""
         },
         {
           "start": "20261126153000 +0000",
@@ -10359,17 +10254,17 @@
         },
         {
           "start": "20261126163500 +0000",
-          "stop": "20261126191500 +0000",
-          "title": "Volejbal Challenge Cup",
-          "description": "Ženy: VK Slovan Bratislava - VK Lvi Praha Záznam volejbalového zápasu Challenge Cup.",
-          "category": ""
-        },
-        {
-          "start": "20261126163500 +0000",
           "stop": "20261126165500 +0000",
           "title": "Coop Troop",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261126163500 +0000",
+          "stop": "20261126191500 +0000",
+          "title": "Volejbal Challenge Cup",
+          "description": "Ženy: VK Slovan Bratislava - VK Lvi Praha Záznam volejbalového zápasu Challenge Cup.",
+          "category": ""
         },
         {
           "start": "20261126165000 +0000",
@@ -10786,16 +10681,16 @@
         },
         {
           "start": "20261126223000 +0000",
-          "stop": "20261126232500 +0000",
-          "title": "Highlighty Európskej a Konferenčnej ligy UEFA",
-          "description": "Premiérový záznam highlightov futbalových zápasov UEFA.",
+          "stop": "20261126224500 +0000",
+          "title": "Malí fidlikanti",
+          "description": "Dvojačka Slovenská hudobno-náučná relácia (2020). My sme malí fidlikanti! Zoznámte sa s Jožkom, Aďom a ich malými kamarátmi, ktorí vám predstavia slovenské ľudové hudobné nástroje. Poznáte Jánošikovu obľúbenú píšťalku koncovku? Alebo dvojačku či okarínu? Spoznajte ich s nami! A tiež sa dozviete viac o cimbale, ozembuchu či husličkách. Spolu sa zabavíme a zaspievame si veselé pesničky.",
           "category": ""
         },
         {
           "start": "20261126223000 +0000",
-          "stop": "20261126224500 +0000",
-          "title": "Malí fidlikanti",
-          "description": "Dvojačka Slovenská hudobno-náučná relácia (2020). My sme malí fidlikanti! Zoznámte sa s Jožkom, Aďom a ich malými kamarátmi, ktorí vám predstavia slovenské ľudové hudobné nástroje. Poznáte Jánošikovu obľúbenú píšťalku koncovku? Alebo dvojačku či okarínu? Spoznajte ich s nami! A tiež sa dozviete viac o cimbale, ozembuchu či husličkách. Spolu sa zabavíme a zaspievame si veselé pesničky.",
+          "stop": "20261126232500 +0000",
+          "title": "Highlighty Európskej a Konferenčnej ligy UEFA",
+          "description": "Premiérový záznam highlightov futbalových zápasov UEFA.",
           "category": ""
         },
         {
@@ -10940,17 +10835,17 @@
         },
         {
           "start": "20261127000500 +0000",
-          "stop": "20261127023500 +0000",
-          "title": "Volejbal - ME 2026 ženy",
-          "description": "Slovensko - Švédsko Záznam volejbalového zápasu Majstrovstiev Európy žien.",
-          "category": ""
-        },
-        {
-          "start": "20261127000500 +0000",
           "stop": "20261127001000 +0000",
           "title": "Zabi nudu!",
           "description": "",
           "category": "Pro Děti"
+        },
+        {
+          "start": "20261127000500 +0000",
+          "stop": "20261127023500 +0000",
+          "title": "Volejbal - ME 2026 ženy",
+          "description": "Slovensko - Švédsko Záznam volejbalového zápasu Majstrovstiev Európy žien.",
+          "category": ""
         },
         {
           "start": "20261127001000 +0000",
@@ -11395,17 +11290,17 @@
         },
         {
           "start": "20261127051000 +0000",
-          "stop": "20261127071500 +0000",
-          "title": "IIHF MS do 18 rokov 2026",
-          "description": "Štvrťfinále: Slovensko - Dánsko Záznam štvrťfinálového zápasu hokejových Majstrovstiev sveta hráčov do 18 rokov.",
-          "category": ""
-        },
-        {
-          "start": "20261127051000 +0000",
           "stop": "20261127052500 +0000",
           "title": "Yakari",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261127051000 +0000",
+          "stop": "20261127071500 +0000",
+          "title": "IIHF MS do 18 rokov 2026",
+          "description": "Štvrťfinále: Slovensko - Dánsko Záznam štvrťfinálového zápasu hokejových Majstrovstiev sveta hráčov do 18 rokov.",
+          "category": ""
         },
         {
           "start": "20261127051500 +0000",
@@ -11654,17 +11549,17 @@
         },
         {
           "start": "20261127090000 +0000",
-          "stop": "20261127100000 +0000",
-          "title": "Krasokorčuľovanie ISU Grand Prix",
-          "description": "Tokyo, Japonsko - rytmické tance Premiérový záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
-          "category": ""
-        },
-        {
-          "start": "20261127090000 +0000",
           "stop": "20261127092500 +0000",
           "title": "100%-ný vlk: Magická kniha",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261127090000 +0000",
+          "stop": "20261127100000 +0000",
+          "title": "Krasokorčuľovanie ISU Grand Prix",
+          "description": "Tokyo, Japonsko - rytmické tance Premiérový záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
+          "category": ""
         },
         {
           "start": "20261127091000 +0000",
@@ -11675,17 +11570,17 @@
         },
         {
           "start": "20261127092500 +0000",
-          "stop": "20261127110500 +0000",
-          "title": "FIS Beh na lyžiach",
-          "description": "Ruka, Fínsko - 10 km intervalový štart, ženy Priamy prenos podujatia prestížnej súťaže v behu na lyžiach.",
-          "category": ""
-        },
-        {
-          "start": "20261127092500 +0000",
           "stop": "20261127095500 +0000",
           "title": "Plamienok a štvorkolky",
           "description": "S1 E6 — Stuntmania\nSmělík má jet na největší akrobatické dráze a každý čtyřkolák ve městě se přijde na tu show podívat. Ale když žárlivý Bourák pošle Smělíka hodně daleko, je na Plamínkovi a Ajovi ho zachránit, aby včas předvedl svou akrobacii.",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261127092500 +0000",
+          "stop": "20261127110500 +0000",
+          "title": "FIS Beh na lyžiach",
+          "description": "Ruka, Fínsko - 10 km intervalový štart, ženy Priamy prenos podujatia prestížnej súťaže v behu na lyžiach.",
+          "category": ""
         },
         {
           "start": "20261127095500 +0000",
@@ -11836,17 +11731,17 @@
         },
         {
           "start": "20261127114500 +0000",
-          "stop": "20261127125500 +0000",
-          "title": "Krasokorčuľovanie ISU Grand Prix",
-          "description": "Tokyo, Japonsko - krátky program: páry Premiérový záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
-          "category": ""
-        },
-        {
-          "start": "20261127114500 +0000",
           "stop": "20261127120000 +0000",
           "title": "Rodinka líšky a jazveca",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261127114500 +0000",
+          "stop": "20261127125500 +0000",
+          "title": "Krasokorčuľovanie ISU Grand Prix",
+          "description": "Tokyo, Japonsko - krátky program: páry Premiérový záznam krasokorčuliarskeho podujatia z ISU Grand Prix.",
+          "category": ""
         },
         {
           "start": "20261127115000 +0000",
@@ -11976,17 +11871,17 @@
         },
         {
           "start": "20261127134000 +0000",
-          "stop": "20261127162000 +0000",
-          "title": "Hokej - Tipos SHL",
-          "description": "19. kolo: HC Mušla Topoľčany - TSS Group Dubnica Záznam zápasu Slovenskej hokejovej ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261127134000 +0000",
           "stop": "20261127141000 +0000",
           "title": "Moe a jeho šou",
           "description": "",
           "category": "Rodinný"
+        },
+        {
+          "start": "20261127134000 +0000",
+          "stop": "20261127162000 +0000",
+          "title": "Hokej - Tipos SHL",
+          "description": "19. kolo: HC Mušla Topoľčany - TSS Group Dubnica Záznam zápasu Slovenskej hokejovej ligy.",
+          "category": ""
         },
         {
           "start": "20261127134500 +0000",
@@ -12200,17 +12095,17 @@
         },
         {
           "start": "20261127165500 +0000",
-          "stop": "20261127195500 +0000",
-          "title": "Hokej - Tipsport liga",
-          "description": "23. kolo: HKM Zvolen - HC 05 TAM Banská Bystrica Priamy prenos hokejového zápasu Tipsport ligy.",
-          "category": ""
-        },
-        {
-          "start": "20261127165500 +0000",
           "stop": "20261127172500 +0000",
           "title": "Jednorožec z mora",
           "description": "",
           "category": "Animovaný"
+        },
+        {
+          "start": "20261127165500 +0000",
+          "stop": "20261127195500 +0000",
+          "title": "Hokej - Tipsport liga",
+          "description": "23. kolo: HKM Zvolen - HC 05 TAM Banská Bystrica Priamy prenos hokejového zápasu Tipsport ligy.",
+          "category": ""
         },
         {
           "start": "20261127170000 +0000",
@@ -13058,27 +12953,6 @@
       "name": "Markíza",
       "programmes": [
         {
-          "start": "20261120230500 +0000",
-          "stop": "20261120234500 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E3 — Kein Weg zurĂĽck\nNa stopě zločinu je v malebném Tyrolsku tým detektivů Lukas Roither, Nina Pokorny a starší zkušený kolega Kroisleitner. V proslulém turistickém centru není o zajímavé případy nouze. Na úteku sa nachádzajúci bankový lupič Heiner Preetz sa ukryje v kempe, no krátko po svojom príchode je zastrelený a jeho telo následne spálené. Súčasne s Preetzom dorazí do kempu aj bývalý policajt Dieter Kovacs a na mieste sa zdržiava aj spočiatku nenápadná žena s dieťaťom. Lukas a Nina preto poveria Kroisleitnera a Hannesa, aby sa vydávali za dovolenkárov v kempe a zahájili nenápadné, no dôkladné vyšetrovanie.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261120233500 +0000",
-          "stop": "20261121004000 +0000",
-          "title": "Aj múdry schybí",
-          "description": "Zábavná relácia s Elenou Vacvalovou a Oliverom Andrásym. Úctyhodných jedenásť rokov nezabudnuteľná moderátorská dvojica Elena Vacvalová a Oliver Andrásy moderovala divácky veľmi obľúbenú televíznu šou Aj múdry schybí, ktorá zábavným spôsobom sondovala znalosti slovenského národa v rôznych oblastiach.\\n\\nRelácia, ktorá sa nakrúcala v bratislavskom, dnes už neexistujúcom Divadle West, odkrývala smiešno-smutnú nevedomosť ľudí, ktorých pôvabná reportérka či šarmantný reportér náhodne oslovili na ulici a kládli im v podstate veľmi jednoduché otázky,... občas striedané nejakým tým chytákom. Elena a Oliver potom spolu so svojimi hosťami sledovali zostrih tých najzábavnejších, najzaujímavejších a najneuveriteľnejších odpovedí - a samozrejme ich nemenej vtipným spôsobom komentovali.",
-          "category": ""
-        },
-        {
-          "start": "20261120234500 +0000",
-          "stop": "20261121003000 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E4 — Dunkle Wasser\nNa stopě zločinu je v malebném Tyrolsku tým detektivů Lukas Roither, Nina Pokorny a starší zkušený kolega Kroisleitner. V proslulém turistickém centru není o zajímavé případy nouze. Exilový Londýnčan Stefan Vandery je nájdený zabitý sekerou na brehu jazera. Chcel sa tam stretnúť so svojou priateľkou z detstva Jenny Grabnerovou, no tá na schôdzku neprišla, pretože sa jej násilnícky manžel Xaver zo žiarlivosti vyhrážal. Pri podrobnejšom vyšetrení miesta činu sa ukáže, že voda v jazere je kontaminovaná dioxínom, jedovatou látkou, ktorú mala susedná firma údajne likvidovať v Rumunsku.",
-          "category": "Akční"
-        },
-        {
           "start": "20261121003000 +0000",
           "stop": "20261121012000 +0000",
           "title": "Panda",
@@ -13338,13 +13212,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261121150000 +0000",
-          "stop": "20261121160000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261121151000 +0000",
           "stop": "20261121160000 +0000",
           "title": "Polícia Chicago",
@@ -13373,25 +13240,11 @@
           "category": "Akční"
         },
         {
-          "start": "20261121160000 +0000",
-          "stop": "20261121170000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261121165500 +0000",
           "stop": "20261121172000 +0000",
           "title": "Horná Dolná",
           "description": "S6 E1\nMedzi Zdenou a Starostom sa rozpúta boj na život, ale hlavne na smrť.",
           "category": "Komedie"
-        },
-        {
-          "start": "20261121170000 +0000",
-          "stop": "20261121180000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261121170500 +0000",
@@ -13436,13 +13289,6 @@
           "category": ""
         },
         {
-          "start": "20261121180000 +0000",
-          "stop": "20261121190000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261121185500 +0000",
           "stop": "20261121195000 +0000",
           "title": "Bez stopy",
@@ -13461,13 +13307,6 @@
           "stop": "20261121191000 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
-          "category": ""
-        },
-        {
-          "start": "20261121190000 +0000",
-          "stop": "20261121200000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13527,13 +13366,6 @@
           "category": "Krimi"
         },
         {
-          "start": "20261121200000 +0000",
-          "stop": "20261121210000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261121200500 +0000",
           "stop": "20261121204500 +0000",
           "title": "Susedia",
@@ -13553,13 +13385,6 @@
           "title": "Špecialisti",
           "description": "S1 E214 — Svázaný král\nŠachový trenér je nalezen mrtvý ve svém klubu. Byl zdrogovaný, svázaný a nakonec zemřel v agónii na podané sedativum. Podezřelým se rychle stane jeden z jeho žáků.",
           "category": "Krimi"
-        },
-        {
-          "start": "20261121210000 +0000",
-          "stop": "20261121220000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261121212000 +0000",
@@ -13588,13 +13413,6 @@
           "title": "Zmiznutí a zabití",
           "description": "",
           "category": "Dokument"
-        },
-        {
-          "start": "20261121220000 +0000",
-          "stop": "20261121230000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261121230000 +0000",
@@ -15319,6 +15137,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261124150000 +0000",
+          "stop": "20261124160000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261124160000 +0000",
           "stop": "20261124170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -15337,6 +15162,13 @@
           "stop": "20261124162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
+          "category": ""
+        },
+        {
+          "start": "20261124160000 +0000",
+          "stop": "20261124170000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15389,6 +15221,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261124170000 +0000",
+          "stop": "20261124180000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261124180000 +0000",
           "stop": "20261124185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15410,6 +15249,13 @@
           "category": ""
         },
         {
+          "start": "20261124180000 +0000",
+          "stop": "20261124190000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261124185500 +0000",
           "stop": "20261124195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15428,6 +15274,13 @@
           "stop": "20261124191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
+          "category": ""
+        },
+        {
+          "start": "20261124190000 +0000",
+          "stop": "20261124200000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15473,6 +15326,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261124200000 +0000",
+          "stop": "20261124210000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261124205500 +0000",
           "stop": "20261124220000 +0000",
           "title": "Vraždy v Karibiku",
@@ -15494,11 +15354,25 @@
           "category": ""
         },
         {
+          "start": "20261124210000 +0000",
+          "stop": "20261124220000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261124220000 +0000",
           "stop": "20261124225500 +0000",
           "title": "Kosti",
           "description": "S4 E8 — Podvodník v laboratoři\nPři cvičném policejním výbuchu je nalezeno tělo muže, který byl zastřelen. Podle zápisníku, který má ve větrovce, jde o vynálezce Paula. Ten však žije. Za agentem Boothem přijíždí jeho mladší bratr a způsobí mu značné problémy.. Zvláštní agent Seeley Booth úspěšně pracuje na vyřešení korupčního případu. Čeká, že dostane přidáno, a plánuje dovolenou na Havaji. Pak mu zavolá jeho mladší bratr, poručík námořnictva Jared, který pracuje v Pentagonu. Jared má sklony k alkoholismu jako jejich otec. Chystá se na oficiální párty, na níž ho nakonec doprovodí doktorka Temperance Kůstka Brennanová, která Jareda obdivuje. Boothovi se to nelíbí... Při výbuchu drogové varny, který je součástí cvičení kadetů státní policie,... vyletí do povětří i mrtvola muže. Bootha navštíví plukovník státní policie Ryan Wolchuck a žádá ho, aby před médii zapřel, že šlo o jejich výcvik. Booth odmítne... Jared v opilosti havaruje s autem a prosí Bootha, aby mu pomohl. Případ však vyšetřuje Wolchuck a Boothovi to vrátí. Nakonec se dohodnou, že Booth kvůli Jaredovi ponechá veškerou slávu z vyřešení korupčního skandálu státní policii. Kůstka Jareda obviní, že Bootha využil. Boothovi se omluví a řekne mu, aby Jaredovi přestal pomáhat... Muž z drogové varny byl zastřelen a na jeho tváři je otištěna mřížka. V zápisníku, který policie najde v jeho větrovce, jsou nákresy vynálezů a patentová přihláška, kterou podal Paul Stegman. Paul Stegman je však naživu, jeho větrovku si prý půjčil otec Jim, který ho po letech navštívil. Jim byl alkoholik, ale analýzou kostí oběti dojdou v Jeffersonově institutu k závěru, že zastřelený muž alkoholik nebyl. Doktorka Camille Saroyanová najde v databázi podvodníka Anthony Pongettiho, jehož DNA se shoduje s obětí. Pongetti se vydával za Jima. Jimovo tělo je náhodou nalezeno v chladírně institutu, kde je veden jako neznámý. Byl také zastřelen: čtyřmi výstřely a stylem, jako by z něho vrah chtěl dostat nějakou informaci..",
           "category": "Komedie"
+        },
+        {
+          "start": "20261124220000 +0000",
+          "stop": "20261124230000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261124220500 +0000",
