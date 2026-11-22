@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T13:57:37.113190Z",
+  "updatedAt": "2026-11-22T23:09:13.530715Z",
   "channels": {
     "joj": {
       "name": "JOJ",
@@ -13289,13 +13289,6 @@
           "category": "Krimi"
         },
         {
-          "start": "20261122070000 +0000",
-          "stop": "20261122080000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122072500 +0000",
           "stop": "20261122083000 +0000",
           "title": "Zmiznutí a zabití",
@@ -13310,25 +13303,11 @@
           "category": "Fantasy"
         },
         {
-          "start": "20261122080000 +0000",
-          "stop": "20261122090000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122083000 +0000",
           "stop": "20261122093000 +0000",
           "title": "Špecialisti",
           "description": "S1 E215 — Sám proti mafii\nNa knižním veletrhu v Praze je spáchán atentát na autora bestselleru o srbské mafii. Zpočátku vede stopa k osobním strážcům úspěšného autora. Strouhalův tým vypátrá nájemného vraha. Ale kdo ho objednal? Kdo ve skutečnosti spolupracuje s mafií? A kdo měl být vlastně oběť.",
           "category": "Krimi"
-        },
-        {
-          "start": "20261122090000 +0000",
-          "stop": "20261122100000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261122091000 +0000",
@@ -13343,13 +13322,6 @@
           "title": "Špecialisti",
           "description": "S1 E163 — Lehce nabyl\nSpecialisté pátrají po vrahovi noční uklízečky. Byl jím zloděj notebooků, je do vraždy zapleten její manžel, nebo někdo úplně jiný. Specialisté pátrají, kdo zabil uklízečku, Elišku Jarolímovou. Výpověď vedoucího noční směny Antonína Hasmana je přivede na stopu profesionálního zloděje notebooků. Specialisté zjistí, že manžel oběti tajně tisknul kopie klíčů od úřadů, na nichž Eliška uklízela, pro svého známého, zloděje a dealera Pedra. Pedro však, i přes Hasmanovu identifikaci, zabití Jarolímové popírá. Specialisté znovu navštíví Hasmana a ke svému překvapení zjistí, že neznají jeho pravou totožnost. Odhalí Specialisté... skutečného vraha.",
           "category": "Krimi"
-        },
-        {
-          "start": "20261122100000 +0000",
-          "stop": "20261122110000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261122101000 +0000",
@@ -13373,13 +13345,6 @@
           "category": "Drama"
         },
         {
-          "start": "20261122110000 +0000",
-          "stop": "20261122120000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122114000 +0000",
           "stop": "20261122130500 +0000",
           "title": "Vraždy v raji na konci sveta",
@@ -13401,13 +13366,6 @@
           "category": ""
         },
         {
-          "start": "20261122120000 +0000",
-          "stop": "20261122130000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122125000 +0000",
           "stop": "20261122153000 +0000",
           "title": "Probudím se včera",
@@ -13420,13 +13378,6 @@
           "title": "Susedia",
           "description": "S2 E13 — Švábi\nAko si poradia Susedia s nečakanými návštevníkmi v ich byte uvidíte v najnovšej časti seriálu. László a Ildikó majú v pláne romantickú nedeľu. Ako to už býva, plán im skrížia susedia František a Zuzana, ktorí vo svojej kuchyni objavili šváby. László berie na seba úlohu veliteľa likvidačnej jednotky. Podarí sa im zbaviť odporného hmyzu a nepokaziť si pritom zvyšok víkendu.",
           "category": "Komedie"
-        },
-        {
-          "start": "20261122130000 +0000",
-          "stop": "20261122140000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261122130500 +0000",
@@ -13450,13 +13401,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261122140000 +0000",
-          "stop": "20261122150000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122141500 +0000",
           "stop": "20261122151000 +0000",
           "title": "Polícia Chicago",
@@ -13469,13 +13413,6 @@
           "title": "Susedia",
           "description": "S2 E16 — Cestovní horečka\nPrípravy na dovolenku vrcholia. Ildikó hystericky balí. Zistí sa, že do Talianska sa nedostanú letecky, ale musia si zabezpečiť dopravu sami. Všetci rozmýšľajú, ako rozvrhnúť sedienie v dvoch autách počas dlhej cesty.",
           "category": "Komedie"
-        },
-        {
-          "start": "20261122150000 +0000",
-          "stop": "20261122160000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261122150500 +0000",
@@ -13513,13 +13450,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261122160000 +0000",
-          "stop": "20261122170000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122164500 +0000",
           "stop": "20261122180000 +0000",
           "title": "Pán profesor",
@@ -13532,13 +13462,6 @@
           "title": "Horná Dolná",
           "description": "S9 E8\nErika sa zraní práve vo chvíli, keď sa Horná Dolná zúčastňuje súťaže o najkrajšiu dedinu. A Lacko v sebe objaví nový talent.",
           "category": "Komedie"
-        },
-        {
-          "start": "20261122170000 +0000",
-          "stop": "20261122180000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261122170500 +0000",
@@ -13569,13 +13492,6 @@
           "category": ""
         },
         {
-          "start": "20261122180000 +0000",
-          "stop": "20261122190000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122185500 +0000",
           "stop": "20261122195000 +0000",
           "title": "Bez stopy",
@@ -13594,13 +13510,6 @@
           "stop": "20261122191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
-          "category": ""
-        },
-        {
-          "start": "20261122190000 +0000",
-          "stop": "20261122200000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13646,25 +13555,11 @@
           "category": "Krimi"
         },
         {
-          "start": "20261122200000 +0000",
-          "stop": "20261122210000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261122205500 +0000",
           "stop": "20261122220000 +0000",
           "title": "Špecialisti",
           "description": "S1 E164 — Jáma\nKovářova spolužačka Marie se znovu dostává do problémů. Tentokrát je hlavní podezřelou ze spáchání vraždy archeologa Daniela Balsera. Kovářova spolužačka a kamarádka Marie Dolanská se znovu dostává do problémů. Tentokrát je podezřelá z vraždy. Na její zahradě se v kompostové jámě najde mrtvola Daniela Balsera. Je to archeolog, manžel její kolegyně z práce. Marie jako architektka pracuje pro stavební firmu, která realizuje menší developerský projekt. Balserová Marii obviní z toho, že měla s jejím mužem vztah a plánoval kvůli ní opustit rodinu. Policie pojme podezření, že si to Daniel rozmyslel, vrátil se k manželce, Marie... to neunesla a svého milence v afektu zabila. Marie nechápe, co se kolem ní děje. Prosí o pomoc Kováře , ten je ale opatrný, protože ví, že Marie se lehce dostává do potíží díky své povaze. Jenomže v rámci vyšetřovaní se objevují i jiné motivy. Daniel jako archeolog narazil na známky Řivnáčské kultury ve výkopové jámě stavby, kterou realizuje firma jeho švagra a manželky. To ohrožuje stavbu i firmu samotnou. Kdo má větší motiv zbavit se Daniela.",
           "category": "Krimi"
-        },
-        {
-          "start": "20261122210000 +0000",
-          "stop": "20261122220000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261122220000 +0000",
@@ -13679,13 +13574,6 @@
           "title": "Ženích na odstrel",
           "description": "Fotograf psů Bryan je přinucen vzít si dceru chorvatského bosse, která potřebuje zelenou kartu. S tím se Bryan rychle smíří, když zjistí, jak jeho nastávající vypadá. Menší radost mu ale bude dělat její ramenatý nápadník, kterého si má v budoucnu skutečně vzít. Aby novomanželé přesvědčili imigrační úředníky, odjedou na líbánky, kde se, světe div se, něco stane. Bryan je newyorský fotograf, který se živí fotografováním zvířecích mazlíčků. Jednoho dne dojde v jeho ateliéru k nešťastné události, kdy je zmrzačen pejsek, který patří manželce srbského mafiána Vadika Nikitina. Ten využije situace a položí Bryanovi nůž na krk. Buď mu jeho pochopové dají cementové boty a odvezou ho k jezeru, nebo si okamžitě vezme jeho dceru Mashu, pro kterou se mu už dlouho nedaří získat zelenou kartu. Bryan pochopitelně zvolí druhou možnost. Ukáže se, že Masha je velice... půvabná. Bryan má ale přísný zákaz se jí dotknout, protože je zaslíbena otcově pravé ruce, Brickovi. Novomanželé odjíždějí na svatební cestu na Havaj. Bryan vezme Mashu na odlehlou pláž, a když se koupe v moři, je Masha unesena. Únosci požadují výkupné 10 milionů dolarů. Na scéně se objevuje Brick, který Vadikovi tvrdí, že Bryan je určitě do únosu zapleten. Dívce se podaří uprchnout a v džungli se setkává s Bryanem, který se vydal po jejích stopách. Dorazí do domorodé vesnice, kde společně stráví vášnivou noc. Ráno se vydávají na cestu a Bricka mají opět v patách. Ten únos zinscenoval, aby mohl udělat dojem na Vadika jako osvoboditel jeho dcery. Bryan mu to však překazil, a tak ho Brick nehodlá nechat naživu.",
           "category": "Akční"
-        },
-        {
-          "start": "20261122220000 +0000",
-          "stop": "20261122230000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261122220500 +0000",
@@ -15270,6 +15158,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261125070000 +0000",
+          "stop": "20261125080000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125070500 +0000",
           "stop": "20261125075000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -15298,6 +15193,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261125080000 +0000",
+          "stop": "20261125090000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125082500 +0000",
           "stop": "20261125090500 +0000",
           "title": "Susedia",
@@ -15310,6 +15212,13 @@
           "title": "NCIS - Námorný vyšetrovací úrad",
           "description": "S3 E22 — Jeopardy\nAgentům NCIS se povede husarský kousek. Podaří se jim zadržet velkou dodávku heroinu i s mladším bratrem šéfa dealerské organizace. Bohužel mladík při převozu záhadně zemře. Je podezření, že za jeho smrt může agentka Ziva. Mezitím však drogový mafián unese ředitelku NCIS a žádá výměnu. Gibbs je postaven před nelehký úkol - najít místo, kde jejich šéfku drží a osvobodit ji.",
           "category": "Akční"
+        },
+        {
+          "start": "20261125090000 +0000",
+          "stop": "20261125100000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261125090500 +0000",
@@ -15333,6 +15242,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261125100000 +0000",
+          "stop": "20261125110000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125101000 +0000",
           "stop": "20261125113000 +0000",
           "title": "Dunaj, k vašim službám",
@@ -15354,6 +15270,13 @@
           "category": ""
         },
         {
+          "start": "20261125110000 +0000",
+          "stop": "20261125120000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125112500 +0000",
           "stop": "20261125120500 +0000",
           "title": "Rodinné prípady",
@@ -15372,6 +15295,13 @@
           "stop": "20261125125500 +0000",
           "title": "Policajné prípady",
           "description": "Babka na strome, Falošné telefóny, Kradnúce dieťa, Nechcený nápadník Reálni strážcovia zákona, skutočné príbehy, autentické zásahy. Babka na strome: Chovankyňa hospica Terézia (71) vylezie na strom a odmieta zliezť, kým jej nesľúbia, že ju pustia domov. Jej syn ju tam zavrel, ale mal ju doopatrovať. Prichádza jej vnučka Lucia (26), ktorá dostala babkin byt, ale netušila, že jej otec takto babku upratal. Lucia si vezme babku do svojho bytu, aby ju doopatrovala.\\n\\nFalošné telefóny: Polícia prichytí teenagerku Kláru (13) a jej kamaráta Samuela (14) ako sa bijú na námestí. Klára má plný vak falošných mobilných telefónov a... peňazí. Predáva ich pre svoju mamu Karolínu (36), ktorá je drogovo závislá.\\n\\nKradnúce dieťa: Políci a prenasleduje žiaka Dominika (12), ktorý ukradol deku. Dominik mieri do kotolne, kde žije s bezdomovkyňou Miladou (54). Milada dostala zápal pľúc a preto Dominik pre ňu ukradol deku. Dominik s ňou žije, lebo doma má len despotického alkoholického otca.\\n\\nNechcený nápadník: Tunisan Ahmed Gharbi (23) je napadnutý mužom Jánom Pavlíkom (48). Ján tvrdí, že je to zlodej. V skutočnosti je to priateľ Jánovej dcéry Ingrid (19). Ján sa nedokáže zmieriť s tým, že Ingrid chodí s Ahmedom a preto jej zobral telefón a zamkol ju doma.",
+          "category": ""
+        },
+        {
+          "start": "20261125120000 +0000",
+          "stop": "20261125130000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15403,6 +15333,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261125130000 +0000",
+          "stop": "20261125140000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125133000 +0000",
           "stop": "20261125150000 +0000",
           "title": "Farma",
@@ -15414,6 +15351,13 @@
           "stop": "20261125150000 +0000",
           "title": "Farma",
           "description": "Reality šou, SR (2026). Moderuje Marek Fašiang. Najdlhšie vysielaná a najúspešnejšia slovenská reality šou otvára novú kapitolu. Televízia Markíza prináša už 18. sériu Farmy, ktorá divákov po prvý raz zavedie do sveta vinohradníctva a vinárstva. Dejiskom veľkolepého farmárskeho dobrodružstva sa stanú Malé Karpaty – región s bohatou vinohradníckou tradíciou, kde štrnásť súťažiacich čaká nielen boj o výhru až do výšky 100 000 eur, ale aj náročná cesta za záchranou starého vinohradu a výrobou vlastného vína.\\nTentoraz sa Farma presunie na... opustenú vinársku usadlosť v srdci Malých Karpát, kde sa farmári budú musieť naučiť remeslu, ktoré je neoddeliteľnou súčasťou slovenských tradícií. Ich úlohou nebude iba zvládnuť náročné podmienky a uspieť v hre, ale predovšetkým vdýchnuť nový život zanedbanému vinohradu. Počas celej série si osvoja vinárske postupy a na jej konci predstavia vlastné farmárske víno – výsledok mesiacov tvrdej práce, spolupráce aj odhodlania.\\nÚstredným motívom novej série bude pravda. Podtitul „Vo víne je pravda“ nebude iba odkazom na vinársku tematiku, ale stane sa jedným z kľúčových pilierov celej hry. Farmári budú opakovane čeliť situáciám, ktoré preveria ich úprimnosť, charakter, lojalitu aj odvahu postaviť sa pravde tvárou v tvár.\\nOsemnásta séria prinesie aj výrazné herné novinky. Farmári budú od začiatku rozdelení do dvoch skupín, pričom jedna získa výrazne lepšie podmienky na život a prácu, zatiaľ čo druhá bude musieť zvládať nielen náročné úlohy, ale aj podstatne skromnejšie zázemie. Samotné prostredie sa tak stane ďalšou skúškou ich odolnosti, vytrvalosti a schopnosti fungovať pod tlakom. Priebeh hry ovplyvnia aj nové mechanizmy, nečakané zvraty a strategické rozhodnutia, ktoré môžu zásadne zmeniť rozloženie síl aj podobu duelov.\\nSprievodcom novej série zostáva obľúbený herec a moderátor Marek Fašiang, na dodržiavanie farmárskeho poriadku bude opäť dohliadať skúsený hospodár Martin Bagar. Súčasťou Farmy zostáva aj umelá inteligencia Alica, ktorá bude aj v 18. sérii zohrávať dôležitú úlohu.\\nHistoricky prvýkrát zároveň dostane hospodár po svojom boku odborného garanta. Stane sa ním uznávaný vinár Tomáš Dudo, ktorý pochádza z vinárskej rodiny s viac ako 400-ročnou tradíciou. Počas celej série bude farmárov sprevádzať pri plnení vinárskych úloh, odovzdávať im svoje skúsenosti a dohliadať na to, aby zvládli jednotlivé postupy čo najlepšie.",
+          "category": ""
+        },
+        {
+          "start": "20261125140000 +0000",
+          "stop": "20261125150000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15445,6 +15389,13 @@
           "category": ""
         },
         {
+          "start": "20261125150000 +0000",
+          "stop": "20261125160000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125160000 +0000",
           "stop": "20261125170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -15463,6 +15414,13 @@
           "stop": "20261125162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
+          "category": ""
+        },
+        {
+          "start": "20261125160000 +0000",
+          "stop": "20261125170000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15515,6 +15473,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261125170000 +0000",
+          "stop": "20261125180000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125180000 +0000",
           "stop": "20261125185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15536,6 +15501,13 @@
           "category": ""
         },
         {
+          "start": "20261125180000 +0000",
+          "stop": "20261125190000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125185500 +0000",
           "stop": "20261125195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15554,6 +15526,13 @@
           "stop": "20261125191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
+          "category": ""
+        },
+        {
+          "start": "20261125190000 +0000",
+          "stop": "20261125200000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15599,6 +15578,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261125200000 +0000",
+          "stop": "20261125210000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261125205500 +0000",
           "stop": "20261125220500 +0000",
           "title": "Vraždy v Karibiku",
@@ -15617,6 +15603,20 @@
           "stop": "20261125221500 +0000",
           "title": "Jakub Zitron Ťapák: Ruku na srdce",
           "description": "Jakub Zitron Ťapák Stand-up comedy šou Jakuba Zitrona Ťapáka. Jeden z najznámejších slovenských stand-up komikov Jakub Zitron Ťapák rozochveje bránice divákov. Viac ako sedemročné skúseností so stand-upmi pretavil do špeciálu, v ktorom si diváci na obrazovkách TV Markíza môžu vychutnať jeho jedinečným humorom nabité, výnimočné predstavenie. Nevyhne sa ani témam ako sú rečové vady, verejné záchody, nevhodné myšlienky a čerstvé rodičovstvo. Jakub Zitron Ťapák totiž miluje hovoriť o veciach, ktoré nám často len napadnú, ale zo slušnosti ich nepovieme... nahlas. Bude to tvrdé a nekompromisné, ale aj citlivé a empatické. Skrátka, od srdiečka.",
+          "category": ""
+        },
+        {
+          "start": "20261125210000 +0000",
+          "stop": "20261125220000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
+          "start": "20261125220000 +0000",
+          "stop": "20261125230000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
