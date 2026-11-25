@@ -1,121 +1,9 @@
 {
-  "updatedAt": "2026-11-24T16:54:04.203246Z",
+  "updatedAt": "2026-11-25T01:51:46.200867Z",
   "channels": {
     "joj": {
       "name": "JOJ",
       "programmes": [
-        {
-          "start": "20261123230000 +0000",
-          "stop": "20261123233000 +0000",
-          "title": "Noviny TV JOJ",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261123230000 +0000",
-          "stop": "20261124000000 +0000",
-          "title": "Wild Return",
-          "description": "(Wild Return I) Mongolsko (Kôň Przewalského) Slovenský dokumentárny seriál (2025). Kôň Przewalského, ktorého naposledy videli vo voľnej prírode v roku 1969, sa dnes opäť preháňa nekonečnými pláňami mongolskej púšte Gobi. Vďaka úsiliu ochranárov a záchranným chovom v zoologických záhradách sa jeho návrat stal jedným z najväčších úspechov ochrany prírody. Z posledných 12 jedincov žijúcich v zajatí sa populácia rozrástla na viac ako tisíc koní, ktoré dnes čelia extrémnym podmienkam Gobi - mrazivým nociam, spaľujúcim dňom aj predátorom.",
-          "category": ""
-        },
-        {
-          "start": "20261123230500 +0000",
-          "stop": "20261123231000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261123231000 +0000",
-          "stop": "20261124000500 +0000",
-          "title": "Extrémní případy",
-          "description": "Cikánský střik Extrémní soudní případy ze Slovenska plné emocí, které jsou inspirovány skutečností (2012). Účinkují: J. Buršáková, R. Názlerová, P. Palevičová, A. Pavlíková, J. Benko, J. Maroše, M. Ďurech, Z. Šarmírová a další. Režie: B. Mišík. Rasová diskriminace je zřejmě taková stará, jako lidstvo samo. A přestože historie už dala mnoho poučení o nesmyslnosti rasových předsudků, diskriminaci se nepodařilo vymýtit. Naopak, v dnešní době nabyl tento druh xenofobie nové rozměry a Slovensko bohužel není výjimkou. Stačí, že má někdo tmavší pleť a už ho házejí do jednoho pytle s ostatními. A přesně to je i případ manželů Oláhových, které odmítli obsloužit v restauraci pouze proto, že jsou Cikáni.",
-          "category": ""
-        },
-        {
-          "start": "20261123231000 +0000",
-          "stop": "20261123231500 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261123231500 +0000",
-          "stop": "20261124003000 +0000",
-          "title": "Dr. Ludsky",
-          "description": "S1 E8 — Sterilná pravda\nDr. Ludsky, odborník na zanedbání lékařské péče, pomáhá policii objasňovat rozličné případy. Jeho neortodoxní metody a postoj k autoritám sice nejsou oblíbené, ale často jsou až nebezpečně úspěšné. Přestože podezření, že lékaři provádějí nelegální sterilizace Romů, se nikdy nepotvrdilo, mýtus přežívá dále. Tomuto obvinění čelí i lékař, který požádal o pomoc právě dr. Ludského. MUDr. Daniel Ludsky je odborník na diagnózy a zanedbání lékařské péče a jako soudní znalec často spolupracuje s policií. Není to klasický hrdina, je inteligentní, nekompromisní, arogantní a netrpělivý. Nesnáší lajdáctví a neschopnost, takže mezi kolegy mnoho přátel nemá. Ale věří v pravdu a v právo pacienta na slušné zacházení. Ani v soukromí není moc šťastný. Je rozvedený a při svém pracovním vytížení se snaží najít aspoň trochu času na svoji dospívající dceru... Přestože se... podezření, že lékaři provádějí nelegální sterilizace Romů nikdy nepotvrdilo, mýtus přežívá dál. Tomuto obvin ění čelí i jeden z lékařů nemocnice. Richard proto požádá Ludského o pomoc. Než Ludsky stihne něco zjistit, obviní lékaře další romská žena. Proti obviněnému hovoří i nesrovnalosti ve zdravotní dokumentaci sterilizovaných pacientek. Ludsky zjistí, že pravda není vždy jen jedna a že viníků může být mnohem víc.",
-          "category": "Drama"
-        },
-        {
-          "start": "20261123231500 +0000",
-          "stop": "20261123232500 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
-          "category": ""
-        },
-        {
-          "start": "20261123232500 +0000",
-          "stop": "20261123234500 +0000",
-          "title": "Fidlivareška",
-          "description": "Zmrzlina Kde bolo, tam bolo, za tromi horami jabĺk, za tromi vŕškami z tvarohu, kde sa mak lial a mlieko sypalo bola raz jedna vareška. Táto vareška mala čarovnú moc a každý, kto ju stretol, v okamihu vedel variť. Verte či neverte, Fidlikanti ju na svojich cestách stretli a ona ich naučila variť skvelé tradičné slovenské dobroty. Pozorne sledujte a naučte sa ich spolu s nimi. Dobru chuť, fidli-fidli. Slovenská hudobno-náučná relácia, 2021. (do 12 rokov).",
-          "category": ""
-        },
-        {
-          "start": "20261123233000 +0000",
-          "stop": "20261123234000 +0000",
-          "title": "Šport",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261123233000 +0000",
-          "stop": "20261124002000 +0000",
-          "title": "Profesionáli",
-          "description": "S6 E10 — Černá sanitka\nSouseda Bežná rozšiřuje fámu, že v městečku jezdí černá sanitka, která krade děti na orgány. Boborovský se v převlečení za dítě pokusí vyřešit tuto záhadu. Miňo ze své hospody odvysílá do místní televize přímý přenos rozhovoru, ve kterém Skarlet zpovídá Mikiho, převlečeného za odborníka na paranormální jevy, aby uklidnili rozrušené občany.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261123234000 +0000",
-          "stop": "20261123235000 +0000",
-          "title": "Najlepšie počasie",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261123234000 +0000",
-          "stop": "20261124013500 +0000",
-          "title": "Volejbal - ME 2026 ženy",
-          "description": "Taliansko - Chorvátsko Záznam volejbalového zápasu Majstrovstiev Európy žien.",
-          "category": ""
-        },
-        {
-          "start": "20261123234500 +0000",
-          "stop": "20261124000000 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
-          "category": ""
-        },
-        {
-          "start": "20261123235000 +0000",
-          "stop": "20261124001500 +0000",
-          "title": "Krimi",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261124000000 +0000",
-          "stop": "20261124005000 +0000",
-          "title": "Hviezdy strieborného plátna",
-          "description": "S15 E4 — Christian Bale\nChristian Bale patří k nejuznávanějším hercům své generace. Celosvětovou popularitu mu přinesla role Bruce Waynea v Nolanově trilogii o Batmanovi. Získal několik nominací na Oscara a za vedlejší roli ve filmu Fighter ho také dostal. Mezi jeho nejznámější filmy patří Americké Psycho, Dokonalý trik, Sázka na nejistotu či Le Mans ´66.",
-          "category": "Biografický"
-        },
-        {
-          "start": "20261124000000 +0000",
-          "stop": "20261124000500 +0000",
-          "title": "Naše prasiatko",
-          "description": "",
-          "category": "Animovaný"
-        },
         {
           "start": "20261124000500 +0000",
           "stop": "20261124004500 +0000",
@@ -13261,27 +13149,6 @@
       "name": "Markíza",
       "programmes": [
         {
-          "start": "20261123232500 +0000",
-          "stop": "20261124002500 +0000",
-          "title": "Hurikán",
-          "description": "Zábavná šou. Smršť nezabudnuteľnej televíznej zábavy s Petrom Marcinom a Andym Krausom!\\nLegendárna televízna šou, ktorá bola akýmsi prirodzeným pokračovaním obľúbeného Uragánu, z ktorej vzišiel napríklad aj azda najznámejší internacionálny, nedobrovoľne vtipný tandem, ktorý tvoria Slovák ako repa František Stromokocúr a jeho štíhlejšie maďarské druhé ja László Komárom! Okrem nekorunovaných majstrov skvelej televíznej zábavy Petra Marcina a Andyho Krausa divákov vtedy i dnes teší i množstvo zaujímavých... hostí z radov celebrít v zvyčajných i nezvyčajných úlohách..",
-          "category": ""
-        },
-        {
-          "start": "20261123233500 +0000",
-          "stop": "20261124002000 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E6 — Bis in alle Ewigkeit\nNa stopě zločinu je v malebném Tyrolsku tým detektivů Lukas Roither, Nina Pokorny a starší zkušený kolega Kroisleitner. V proslulém turistickém centru není o zajímavé případy nouze. Farmár Ignaz Moser je nájdený prebodnutý vidlami vo svojej stodole. Lukas a Nina okamžite podozrievajú poľovníka Erwina Pernera, keďže medzi ich rodinami prebieha už desaťročia trvajúca nevraživosť. Do centra vyšetrovania sa však dostáva aj hotelier Leo Grubinger, keďže zavraždený odmietol predať pozemok, čím prekazil jeho plány na rozšírenie hotela. Napriek tomu sa Ignazova vdova prekvapivo ukáže ako ochotná spolupracovať. Keď sa však do vyšetrovania vloží výbušný Moserov syn Zacharias,... zanecháva za sebou stopu násilia.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261123233500 +0000",
-          "stop": "20261124003500 +0000",
-          "title": "Kobra 11",
-          "description": "S25 E9 — Vermächtnis\nKim Krügerová se po smrti Julie Dernhoffové stala novou policejní prezidentkou. Dává právě interview v luxusním hotelu Bergmann, když tam dojde k vloupání a lupiči Lars a Wolf ji - přímo před očima Semira a Paula - vezmou jako rukojmí. Kim Krügerová se po smrti Julie Dernhoffové stala novou policejní prezidentkou. Dává právě interview v luxusním hotelu Bergmann, když tam dojde k vloupání a lupiči Lars a Wolf ji přímo před očima Semira a Paula vezmou jako rukojmí. Vykradou trezor v kanceláři ředitele, kde se v inkriminované době nachází ještě ředitelův syn Lars Bergmann a servírka Šania. Té se podaří uprchnout, únosci se ale zmocní ředitele, který chce mluvit se synem. Lars je totiž do loupeže zapleten, nejde mu ale o... peníze, v sejfu hledá deník své matky, která před 3 měsíci záhadně zmizela.",
-          "category": "Akční"
-        },
-        {
           "start": "20261124002000 +0000",
           "stop": "20261124010500 +0000",
           "title": "Vraždy v Karibiku",
@@ -13597,13 +13464,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261124150000 +0000",
-          "stop": "20261124160000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261124160000 +0000",
           "stop": "20261124170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -13622,13 +13482,6 @@
           "stop": "20261124162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
-          "category": ""
-        },
-        {
-          "start": "20261124160000 +0000",
-          "stop": "20261124170000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13681,13 +13534,6 @@
           "category": "Akční"
         },
         {
-          "start": "20261124170000 +0000",
-          "stop": "20261124180000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261124180000 +0000",
           "stop": "20261124185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13709,13 +13555,6 @@
           "category": ""
         },
         {
-          "start": "20261124180000 +0000",
-          "stop": "20261124190000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261124185500 +0000",
           "stop": "20261124195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13734,13 +13573,6 @@
           "stop": "20261124191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
-          "category": ""
-        },
-        {
-          "start": "20261124190000 +0000",
-          "stop": "20261124200000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13786,13 +13618,6 @@
           "category": "Krimi"
         },
         {
-          "start": "20261124200000 +0000",
-          "stop": "20261124210000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261124205500 +0000",
           "stop": "20261124220000 +0000",
           "title": "Vraždy v Karibiku",
@@ -13814,25 +13639,11 @@
           "category": ""
         },
         {
-          "start": "20261124210000 +0000",
-          "stop": "20261124220000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261124220000 +0000",
           "stop": "20261124225500 +0000",
           "title": "Kosti",
           "description": "S4 E8 — Podvodník v laboratoři\nPři cvičném policejním výbuchu je nalezeno tělo muže, který byl zastřelen. Podle zápisníku, který má ve větrovce, jde o vynálezce Paula. Ten však žije. Za agentem Boothem přijíždí jeho mladší bratr a způsobí mu značné problémy.. Zvláštní agent Seeley Booth úspěšně pracuje na vyřešení korupčního případu. Čeká, že dostane přidáno, a plánuje dovolenou na Havaji. Pak mu zavolá jeho mladší bratr, poručík námořnictva Jared, který pracuje v Pentagonu. Jared má sklony k alkoholismu jako jejich otec. Chystá se na oficiální párty, na níž ho nakonec doprovodí doktorka Temperance Kůstka Brennanová, která Jareda obdivuje. Boothovi se to nelíbí... Při výbuchu drogové varny, který je součástí cvičení kadetů státní policie,... vyletí do povětří i mrtvola muže. Bootha navštíví plukovník státní policie Ryan Wolchuck a žádá ho, aby před médii zapřel, že šlo o jejich výcvik. Booth odmítne... Jared v opilosti havaruje s autem a prosí Bootha, aby mu pomohl. Případ však vyšetřuje Wolchuck a Boothovi to vrátí. Nakonec se dohodnou, že Booth kvůli Jaredovi ponechá veškerou slávu z vyřešení korupčního skandálu státní policii. Kůstka Jareda obviní, že Bootha využil. Boothovi se omluví a řekne mu, aby Jaredovi přestal pomáhat... Muž z drogové varny byl zastřelen a na jeho tváři je otištěna mřížka. V zápisníku, který policie najde v jeho větrovce, jsou nákresy vynálezů a patentová přihláška, kterou podal Paul Stegman. Paul Stegman je však naživu, jeho větrovku si prý půjčil otec Jim, který ho po letech navštívil. Jim byl alkoholik, ale analýzou kostí oběti dojdou v Jeffersonově institutu k závěru, že zastřelený muž alkoholik nebyl. Doktorka Camille Saroyanová najde v databázi podvodníka Anthony Pongettiho, jehož DNA se shoduje s obětí. Pongetti se vydával za Jima. Jimovo tělo je náhodou nalezeno v chladírně institutu, kde je veden jako neznámý. Byl také zastřelen: čtyřmi výstřely a stylem, jako by z něho vrah chtěl dostat nějakou informaci..",
           "category": "Komedie"
-        },
-        {
-          "start": "20261124220000 +0000",
-          "stop": "20261124230000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261124220500 +0000",
@@ -15704,6 +15515,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261127150000 +0000",
+          "stop": "20261127160000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261127160000 +0000",
           "stop": "20261127170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -15722,6 +15540,13 @@
           "stop": "20261127162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
+          "category": ""
+        },
+        {
+          "start": "20261127160000 +0000",
+          "stop": "20261127170000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15774,6 +15599,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261127170000 +0000",
+          "stop": "20261127180000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261127180000 +0000",
           "stop": "20261127185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15792,6 +15624,13 @@
           "stop": "20261127185500 +0000",
           "title": "Televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
+          "category": ""
+        },
+        {
+          "start": "20261127180000 +0000",
+          "stop": "20261127190000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15820,6 +15659,13 @@
           "stop": "20261127190500 +0000",
           "title": "LOTO, LOTO 5 z 35, Joker, Všetko alebo nič, KENO 10, Keno Joker",
           "description": "",
+          "category": ""
+        },
+        {
+          "start": "20261127190000 +0000",
+          "stop": "20261127200000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15858,6 +15704,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261127200000 +0000",
+          "stop": "20261127210000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261127202500 +0000",
           "stop": "20261127211000 +0000",
           "title": "Rodinné prípady",
@@ -15872,6 +15725,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261127210000 +0000",
+          "stop": "20261127220000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261127211000 +0000",
           "stop": "20261127215500 +0000",
           "title": "Rodinné prípady",
@@ -15883,6 +15743,13 @@
           "stop": "20261127225500 +0000",
           "title": "Partička",
           "description": "Záruka najlepšej zábavy. Petra Polnišová, Lukáš Latinák, Marián Miezga, Robo Jakab a Roman Pomajbo sú absolútni profesionáli, ktorí bez väčších problémov - hoc aj o polnoci, poslepiačky či pospiatky - zahrajú... V podstate úplne čokoľvek! A presne o to v medzičasom už kultovej zábavnej šou Partička ide - nenechať sa zaskočiť hocako absurdne znejúcim zadaním diabolského moderátora Dana Dangla a na veľkú radosť divákov v štúdiu i pred obrazovkami improvizovať ako o život! To, že ide o kráľovsky zábavný test... invenčnosti a talentu všetkých zúčastnených, ale aj poriadny záber na ich nervy, napnuté na prasknutie, hádam ani netreba zvlášť zdôrazňovať. Nik si totiž nemôže byť istý tým, čo sa stane a ako celý večer dopadne, ani len oni sami nie.",
+          "category": ""
+        },
+        {
+          "start": "20261127220000 +0000",
+          "stop": "20261127230000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
