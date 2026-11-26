@@ -1,114 +1,9 @@
 {
-  "updatedAt": "2026-11-25T16:42:21.567570Z",
+  "updatedAt": "2026-11-26T01:28:46.283443Z",
   "channels": {
     "joj": {
       "name": "JOJ",
       "programmes": [
-        {
-          "start": "20261124230000 +0000",
-          "stop": "20261124233000 +0000",
-          "title": "Noviny TV JOJ",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261124230000 +0000",
-          "stop": "20261125005000 +0000",
-          "title": "Futsal - Liga majstrov",
-          "description": "Futsal Club Semey - FC Barcelona Záznam fustalového zápasu Ligy majstrov.",
-          "category": ""
-        },
-        {
-          "start": "20261124230500 +0000",
-          "stop": "20261124235000 +0000",
-          "title": "Mýty a príšery",
-          "description": "S1 E6 — Konec všeho\nSmrt je zkouškou toho, co znamená být člověkem. A mýty odhalují, jak o ní přemýšlíme, čeho se bojíme i čemu věříme. Antigona brání úctu k mrtvým, Baldr připomíná, že smrti neuniknou ani bohové. Naše fascinace nemrtvými přetrvává. od upírských legend až po příběhy, které dokazují, že temnota přitahuje, stejně jako děsí.",
-          "category": "Dokument"
-        },
-        {
-          "start": "20261124230500 +0000",
-          "stop": "20261124231000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261124231000 +0000",
-          "stop": "20261124231500 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261124231500 +0000",
-          "stop": "20261124232500 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
-          "category": ""
-        },
-        {
-          "start": "20261124232500 +0000",
-          "stop": "20261124234500 +0000",
-          "title": "Fidlivareška",
-          "description": "Mäsové guľôčky Kde bolo, tam bolo, za tromi horami jabĺk, za tromi vŕškami z tvarohu, kde sa mak lial a mlieko sypalo bola raz jedna vareška. Táto vareška mala čarovnú moc a každý, kto ju stretol, v okamihu vedel variť. Verte či neverte, Fidlikanti ju na svojich cestách stretli a ona ich naučila variť skvelé tradičné slovenské dobroty. Pozorne sledujte a naučte sa ich spolu s nimi. Dobru chuť, fidli-fidli. Slovenská hudobno-náučná relácia, 2021. (do 12 rokov).",
-          "category": ""
-        },
-        {
-          "start": "20261124233000 +0000",
-          "stop": "20261124234000 +0000",
-          "title": "Šport",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261124234000 +0000",
-          "stop": "20261124235000 +0000",
-          "title": "Najlepšie počasie",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261124234000 +0000",
-          "stop": "20261125004000 +0000",
-          "title": "Extrémní případy",
-          "description": "Cikánský tanec Extrémní soudní případy ze Slovenska plné emocí, které jsou inspirovány skutečností (2012). Účinkují: J. Buršáková, J. Hittnerová-Frličková, J. Štubniak, M. Oláh, A. Rigáňová, R. Bardová, K. Constantin, Z. Tvrdý a další. Režie: B. Mišík. Rodina měla kdysi v životě Romů velký význam, rozvod nebyl přípustný za žádných okolností. Dežo se cítí být moderní a nechce zůstat v manželství s Desanou, s níž není šťastný. Nový rozměr života našel v náručí 18leté Melindy. Své manželky se bojí, ale je odhodlán rozvést se. A to i přesto, že s Desanou má pět dětí a je dědečkem čtyř vnoučat. Z rodiny však nikdo nestojí na jeho straně a všichni brání matku. Jak rozhodne soud v dnešním případě žádosti Deža o rozvod.",
-          "category": ""
-        },
-        {
-          "start": "20261124234500 +0000",
-          "stop": "20261125000000 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
-          "category": ""
-        },
-        {
-          "start": "20261124234500 +0000",
-          "stop": "20261125051500 +0000",
-          "title": "Automobilové preteky",
-          "description": "6 hodín v Spa - MS vo vytrvalostných pretekoch 2026 Záznam Majstrovstiev sveta vo vytrvalostných pretekoch 2026.",
-          "category": ""
-        },
-        {
-          "start": "20261124235000 +0000",
-          "stop": "20261125001500 +0000",
-          "title": "Krimi",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261124235000 +0000",
-          "stop": "20261125004000 +0000",
-          "title": "Špionážne operácie",
-          "description": "S1 E6 — Operace Boží hněv 2/2\nMossad pokračuje v atentátech na palestinské vůdce pomocí obojživelných operací a bomb nastražených v autech.",
-          "category": "Dokument"
-        },
-        {
-          "start": "20261125000000 +0000",
-          "stop": "20261125000500 +0000",
-          "title": "Naše prasiatko",
-          "description": "",
-          "category": "Animovaný"
-        },
         {
           "start": "20261125000500 +0000",
           "stop": "20261125001000 +0000",
@@ -13268,27 +13163,6 @@
       "name": "Markíza",
       "programmes": [
         {
-          "start": "20261124231500 +0000",
-          "stop": "20261125001500 +0000",
-          "title": "Horná Dolná",
-          "description": "S12 E4\nSrdco: Starosta si nechtiac vypočuje rozhovor doktora so Zdenou a pochopí, že nadišla jeho posledná hodina. Rozhodne sa, že si dá do poriadku všetky záležitosti.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261124232000 +0000",
-          "stop": "20261125002000 +0000",
-          "title": "Kobra 11",
-          "description": "S26 E1 — Der Neue\nLars postřelil Kim a prchá, zmocní se automobilu a jeho řidičku opět vezme jako rukojmí, Paul a Semir ho pronásledují, Lars se nakonec zabije pádem v lomu. Zraněná Kim mezitím umírá. Případ je zdánlivě u konce, ale jen zdánlivě. Semir je už celé měsíce v Turecku a na policejní stanici je všechno jinak. Z původní osádky zbyla jenom Dana Gerkhanová. Kim, která byla zastřelena, nahradil přísný šéf Kramer, který je na vozíku, dvojici komisařů Semira a Paula plavovlasá amazonka Vicki a Max, přítel Dany. Řeší případ podivného únosu, který ohlásil Ital Alexandro Pezella, co tvrdí, že mu malého adoptivního syna unesla na nádraží nějaká dívka. Ukáže se, že tou dívkou je osmnáctiletá Larisa Grewe, která před pěti lety záhadně... zmizela. A právě tehdy se z Turecka vrací Semir. Přiváží svou matku Selmu, která tam byla ze zatím záhadných důvodů ve vězení. Semir se celou dobu neozval, nepožádal o prodloužení dovolené. Teď se ale uchází o to, aby byl přijat zpět. Kramer ho bere na zkoušku. Semir a Vicki hledají Larisu, která i s Flaviem prchá před Pezellou.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261124234000 +0000",
-          "stop": "20261125002500 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E8 — SchĂ?pfung\nNa stopě zločinu je v malebném Tyrolsku tým detektivů Lukas Roither, Nina Pokorny a starší zkušený kolega Kroisleitner. V proslulém turistickém centru není o zajímavé případy nouze. Študentku genetického inžinierstva Yasmin Stacklerovú nájdu zastrelenú. Pri pitve objaví Dr. Löcker v jej tele implantovaný mikročip. To privádza Lukasa a Ninu pri ich vyšetrovaní do sveta biohackerov. Ako sa ukáže, Stacklerová spolu so svojím priateľom Tommym a študijným kolegom Laurenzom viedla laboratórium genetického inžinierstva. Ich vzťah však prechádzal krízou a čoraz viac sa objavovali aj profesionálne nezhody.",
-          "category": "Akční"
-        },
-        {
           "start": "20261125001500 +0000",
           "stop": "20261125010000 +0000",
           "title": "Aj múdry schybí",
@@ -13604,13 +13478,6 @@
           "category": ""
         },
         {
-          "start": "20261125150000 +0000",
-          "stop": "20261125160000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261125160000 +0000",
           "stop": "20261125170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -13629,13 +13496,6 @@
           "stop": "20261125162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
-          "category": ""
-        },
-        {
-          "start": "20261125160000 +0000",
-          "stop": "20261125170000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13688,13 +13548,6 @@
           "category": "Akční"
         },
         {
-          "start": "20261125170000 +0000",
-          "stop": "20261125180000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261125180000 +0000",
           "stop": "20261125185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13716,13 +13569,6 @@
           "category": ""
         },
         {
-          "start": "20261125180000 +0000",
-          "stop": "20261125190000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261125185500 +0000",
           "stop": "20261125195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13741,13 +13587,6 @@
           "stop": "20261125191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
-          "category": ""
-        },
-        {
-          "start": "20261125190000 +0000",
-          "stop": "20261125200000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13793,13 +13632,6 @@
           "category": "Krimi"
         },
         {
-          "start": "20261125200000 +0000",
-          "stop": "20261125210000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261125205500 +0000",
           "stop": "20261125220500 +0000",
           "title": "Vraždy v Karibiku",
@@ -13818,20 +13650,6 @@
           "stop": "20261125221500 +0000",
           "title": "Jakub Zitron Ťapák: Ruku na srdce",
           "description": "Jakub Zitron Ťapák Stand-up comedy šou Jakuba Zitrona Ťapáka. Jeden z najznámejších slovenských stand-up komikov Jakub Zitron Ťapák rozochveje bránice divákov. Viac ako sedemročné skúseností so stand-upmi pretavil do špeciálu, v ktorom si diváci na obrazovkách TV Markíza môžu vychutnať jeho jedinečným humorom nabité, výnimočné predstavenie. Nevyhne sa ani témam ako sú rečové vady, verejné záchody, nevhodné myšlienky a čerstvé rodičovstvo. Jakub Zitron Ťapák totiž miluje hovoriť o veciach, ktoré nám často len napadnú, ale zo slušnosti ich nepovieme... nahlas. Bude to tvrdé a nekompromisné, ale aj citlivé a empatické. Skrátka, od srdiečka.",
-          "category": ""
-        },
-        {
-          "start": "20261125210000 +0000",
-          "stop": "20261125220000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
-          "start": "20261125220000 +0000",
-          "stop": "20261125230000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15648,6 +15466,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261128150000 +0000",
+          "stop": "20261128160000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261128151000 +0000",
           "stop": "20261128160000 +0000",
           "title": "Polícia Chicago",
@@ -15676,6 +15501,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261128160000 +0000",
+          "stop": "20261128170000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261128161500 +0000",
           "stop": "20261128172000 +0000",
           "title": "Horná Dolná",
@@ -15688,6 +15520,13 @@
           "title": "Polícia Chicago",
           "description": "S10 E14 — Trapped\nPo brutálnej streľbe zostanú Burgessová a Ruzek uväznení v preplnenom vlaku.",
           "category": "Akční"
+        },
+        {
+          "start": "20261128170000 +0000",
+          "stop": "20261128180000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261128172000 +0000",
@@ -15725,6 +15564,13 @@
           "category": ""
         },
         {
+          "start": "20261128180000 +0000",
+          "stop": "20261128190000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261128185500 +0000",
           "stop": "20261128195000 +0000",
           "title": "Bez stopy",
@@ -15743,6 +15589,13 @@
           "stop": "20261128191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
+          "category": ""
+        },
+        {
+          "start": "20261128190000 +0000",
+          "stop": "20261128200000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15788,6 +15641,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261128200000 +0000",
+          "stop": "20261128210000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261128200500 +0000",
           "stop": "20261128204500 +0000",
           "title": "Susedia",
@@ -15809,6 +15669,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261128210000 +0000",
+          "stop": "20261128220000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261128211500 +0000",
           "stop": "20261128215500 +0000",
           "title": "Susedia",
@@ -15828,6 +15695,13 @@
           "title": "Zmiznutí a zabití",
           "description": "",
           "category": "Dokument"
+        },
+        {
+          "start": "20261128220000 +0000",
+          "stop": "20261128230000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261128221000 +0000",
