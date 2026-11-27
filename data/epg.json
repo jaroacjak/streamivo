@@ -1,107 +1,9 @@
 {
-  "updatedAt": "2026-11-26T16:16:41.985838Z",
+  "updatedAt": "2026-11-27T01:26:57.694673Z",
   "channels": {
     "joj": {
       "name": "JOJ",
       "programmes": [
-        {
-          "start": "20261125230000 +0000",
-          "stop": "20261125233000 +0000",
-          "title": "Noviny TV JOJ",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261125230500 +0000",
-          "stop": "20261125231000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261125231000 +0000",
-          "stop": "20261125232000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261125232000 +0000",
-          "stop": "20261126002000 +0000",
-          "title": "Profesionáli",
-          "description": "S6 E12 — Šváby\nNa policejní stanici namontují signalizaci z banky, která se aktivuje v případě loupeže. Hospodský Miňo zamoří stanici šváby, a pak dělá \"dezinsekci\". Kontroluje ho Miki, který stále řeší falešné poplachy v bance a pije Miňův \"roztok proti švábům\", což je vlastně slivovice.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261125232000 +0000",
-          "stop": "20261125233000 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
-          "category": ""
-        },
-        {
-          "start": "20261125233000 +0000",
-          "stop": "20261125234000 +0000",
-          "title": "Šport",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261125233000 +0000",
-          "stop": "20261126002000 +0000",
-          "title": "Extrémní případy",
-          "description": "Utrpení pornoherečky Extrémní soudní případy ze Slovenska plné emocí, které jsou inspirovány skutečností (2012). Účinkují: J. Penc, P. Palevičová, I. Gontko, Z. Plačková, J. Valach, P. Kubinec, J. Hajdin a další. Režie: I. Predmerský. S trochou nadsázky lze konstatovat, že pornoprůmysl je průmysl jako každý jiný, i když určitě není pro náš stát takový přínosný jako třeba průmysl automobilový. Lidé z pornobranže však musí řešit stejné problémy, jaké jsou běžné i jinde. Vždyť i pornoherci přijdou k takzvaným \"úrazům z povolání\". A přesně to se přihodilo Miriam, která pod tlakem zaměstnavatele tak často měnila svou vizáž plastickými operacemi, až přišla o to nejpodstatnější - o zdraví. Proto se dnes ocitla na soudu a žádá... náhradu škody na svém zdraví.",
-          "category": ""
-        },
-        {
-          "start": "20261125233000 +0000",
-          "stop": "20261125235000 +0000",
-          "title": "Fidlivareška",
-          "description": "Bublanina Kde bolo, tam bolo, za tromi horami jabĺk, za tromi vŕškami z tvarohu, kde sa mak lial a mlieko sypalo bola raz jedna vareška. Táto vareška mala čarovnú moc a každý, kto ju stretol, v okamihu vedel variť. Verte či neverte, Fidlikanti ju na svojich cestách stretli a ona ich naučila variť skvelé tradičné slovenské dobroty. Pozorne sledujte a naučte sa ich spolu s nimi. Dobru chuť, fidli-fidli. Slovenská hudobno-náučná relácia, 2021. (do 12 rokov).",
-          "category": ""
-        },
-        {
-          "start": "20261125234000 +0000",
-          "stop": "20261125235000 +0000",
-          "title": "Najlepšie počasie",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261125234000 +0000",
-          "stop": "20261126004500 +0000",
-          "title": "Wild Return",
-          "description": "(Wild Return I) Maďarsko (Žeriav popolavý) Slovenský dokumentárny seriál (2025). Každý rok sa v srdci Európy odohráva jedno z najmonumentálnejších prírodných predstavení prírody. Státisíce žeriavov popolavých sa počas dlhej migrácie do Afriky zastavujú na rozľahlých nížinách maďarského Národného parku Hortobágy. Keďže tu nemajú prirodzených nepriateľov, nachádzajú tu bezpečné útočisko, vzácnu oázu pokoja. Nad týmto hlučným ansámblom sa však začína vznášať nová, tichá hrozba. Je to práve globálne otepľovanie, ktoré môže čoskoro definitívne zatiahnuť oponu za týmto... každoročným predstavením.",
-          "category": ""
-        },
-        {
-          "start": "20261125235000 +0000",
-          "stop": "20261126001500 +0000",
-          "title": "Krimi",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261125235000 +0000",
-          "stop": "20261126000500 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
-          "category": ""
-        },
-        {
-          "start": "20261126000000 +0000",
-          "stop": "20261126003000 +0000",
-          "title": "Krimi",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261126000000 +0000",
-          "stop": "20261126015000 +0000",
-          "title": "Zabijákova žena & bodyguard",
-          "description": "Osobní strážce Michael Bryce plánuje klidný odpočinek u moře, než se ale rozkouká, je proti své vůli opět ve službě. Ocitne se uprostřed divoké přestřelky, které vévodí manželka jeho nedávného chráněnce, nájemného zabijáka Dariuse Kincaida. Nejdříve je potřeba zachránit Kincaida ze spárů pomstychtivých mafiánů, hned nato dostane prapodivná trojice za úkol zachránit celou Evropu.. Michael Bryce, který je dočasně suspendován, nemá licenci ani jako bodyguard. Zatímco čeká na její obnovení, snaží se odpočívat na dovolené na Capri. Jenže ho vystopuje Sonia Kincaid a požádá o jeho služby. Potřebuje jeho pomoc při osvobození svého manžela, nájemného vraha Dariuse poté, co ho unesli mafiáni. Po záchraně Dariuse jsou Bryce a Kincaid dopadeni agentem Interpolu Bobbym O'Neillem, který je chce využít při hledání bosse teroristů, Řeka Aristotela Papadopoulose. Ten chce zničit... evropskou rozvodnou internetovou síť a tím i celou infrastrukturu, protože Evropská unie plánuje uvalit další sankce na Řecko. Trio se dostane do dalších problémů a Bryce se cítí za jejich jednání zodpovědný. Poté, co získá pomoc od svého nevlastního otce Bryce Seniora, špičkového bodyguarda, je trojice zajata Aristotelovými nohsledy. Ten Soniu velmi dobře zná, oklamala ho, když se do ní upřímně zamiloval. Aristoteles se ji snaží získat zpět a směruje ji proti Dariovi. Darius s Brycem musí uprchnout, aby nepřišli o život. Otec Bryce se ukáže jako zrádce, pracuje pro Aristotela a svoho syna zradí. Bryce a Darius se dohodnou a spolupracují na záchraně Sonii z rukou Aristotela, který odhalí, že ho žena chtěla opět podvést. Po zabití Aristotelových nohsledů naruší Darius a Bryce jeho plán. Chtěl poškodit evropskou energetickou síť. Jsou nuceni bojovat s Aristotelem a Brycovým otcem. Mladý Bryce zabije starého poté, co mu řekl o svém přátelství s Dariusem, zatímco Darius a Sonia zabijí Aristotela. Bryceovi se podaří vypnout ruční ovládání vrtáku, ale loď exploduje. Všichni tři však výbuch přežijí. To už je zde agent O'Neill, který říká, že na poškozené lodi spolu musejí zůstat 48 hodin, než se vše urovná a bude zrušen zatykač na ně. Pak předá Bryceovi k podpisu papíry. Bryce si myslí, že je to nová licence na bodyguarda a podepíše je, aby následně zjistil, že jsou to dokumenty o adopci. Tím se stane synem Sonie a Dariuse. Je zděšený a Darius překvapený. Zatímco Sonia a Darius se v kabině jachty milují, sklíčený Bryce skočí do vln….",
-          "category": "Akční"
-        },
         {
           "start": "20261126000500 +0000",
           "stop": "20261126001000 +0000",
@@ -13296,34 +13198,6 @@
       "name": "Markíza",
       "programmes": [
         {
-          "start": "20261125230000 +0000",
-          "stop": "20261125234000 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E9 — Unten\nHannes je přepracovaný - kromě toho, že řídí provoz restaurace, píše i kuchařku. Hraběnka se rozhodne dopřát mu den oddechu a zorganizuje výlet do historického měděného dolu. Při exkurzi se odpojí od skupiny a najdou v dole vážně zraněného muže, který vzápětí umírá. Hannes je prepracovaný, okrem vedenia reštaurácie píše aj kuchársku knihu. Grófka sa rozhodne dať mu deň voľna a zorganizuje výlet do historickej medenej bane. Počas exkurzie sa oddelí od skupiny a v bani nájde vážne zraneného muža, ktorý krátko nato zomrie. Mŕtvy muž je Radu Gaspar, taxikár podnikateľa Emreho Dumaza, ktorý je už štyri dni nezvestný. Kroisi však zistí, že už 20 rokov žije v Rakúsku pod falošnou identitou. V jeho taxíku objaví papierik s adresou \"Borovo, Ratarská ul.\". V... dedine Borovo neďaleko Vukovaru stál počas juhoslovanských vojen dom na tejto adrese, ktorý Srbi vypálil i - aj s jeho obyvateľmi.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261125232500 +0000",
-          "stop": "20261126002000 +0000",
-          "title": "Kobra 11",
-          "description": "S26 E3 — Schöne neue Welt\nDaniel Schneider nemá dobrý den. V továrně na dieselové motory, kde už 30 let pracuje, se dozvídá, že bude propuštěn - továrnu koupil podnikatel Andersen, který přemýšlí ekologicky a hodlá tu vyrábět elektromobily. Na cestě domů zablokuje Schneiderovo auto na dálnici nepovolená demonstrace ekologických aktivistů, Schneider se s nimi dá do hádky, nakonec dojde k fyzickému napadení, rozzuřený Schneider sedne do auta a při bezohledném odjezdu jednoho demonstranta zraní. Daniel Schneider pracuje v továrni na dieselové motory už tridsať rokov, a práve sa dozvedá, že bude prepustený. Továreň kúpil podnikateľ Anderson, ktorý premýšľa ekologicky a plánuje tu vyrábať elektromobily. Na ceste domov zablokuje Schneiderovo auto na diaľnici nepovolená demonštrácia ekologických aktivistov, pričom rozzúrený Schneider sadne do auta a pri bezohľadnom odchode jedného z demonštrantov zraní. Schneiderova sedemnásťročná dcéra Celine, ktorú celý život sám vychovával, odchádza... na štipendijný pobyt do Brazílie. Schneider o ničom nevedel, ide si to vyjasniť do školy, kde ho pre d budovou pokutuje policajt za nesprávne parkovanie. Schneiderovi definitívne prasknú nervy, policajta zrazí, zoberie mu zbraň a postrelí ho. Od tejto chvíle je na úteku hľadaný Semirom a Vicky.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261125233000 +0000",
-          "stop": "20261126002000 +0000",
-          "title": "Horná Dolná",
-          "description": "S12 E5\nFarár v snahe upevniť postavenie cirkvi v dedine napíše list do Vatikánu. List dá na starosť Sojkovi. A Sojka si to vysvetlí po svojom.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261125234000 +0000",
-          "stop": "20261126002500 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E10 — Mord mit?\nNa stopě zločinu je v malebném Tyrolsku tým detektivů Lukas Roither, Nina Pokorny a starší zkušený kolega Kroisleitner. V proslulém turistickém centru není o zajímavé případy nouze. Zamestnanci eventovej agentúry \"Soundsoweiter\" sa stretnú v Escape Roome s cieľom posilniť tímovú dynamiku. Tento plán sa však úplne zvrtne, keď počas hry zomrie sukničkár Stefan Hilbert. Zároveň sa herný moderátor Roland Tummler za záhadných okolností ocitne v bezvedomí, no podarí sa mu prežiť. Lukas a Nina pri vyšetrovaní narazia nielen na manipuláciu samotného Escape Roomu, ale aj na osobné a pracovné intrigy v agentúre.",
-          "category": "Akční"
-        },
-        {
           "start": "20261126002000 +0000",
           "stop": "20261126011000 +0000",
           "title": "Kobra 11",
@@ -13639,13 +13513,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261126150000 +0000",
-          "stop": "20261126160000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261126160000 +0000",
           "stop": "20261126170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -13664,13 +13531,6 @@
           "stop": "20261126162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
-          "category": ""
-        },
-        {
-          "start": "20261126160000 +0000",
-          "stop": "20261126170000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13723,13 +13583,6 @@
           "category": "Akční"
         },
         {
-          "start": "20261126170000 +0000",
-          "stop": "20261126180000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261126180000 +0000",
           "stop": "20261126185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13751,13 +13604,6 @@
           "category": ""
         },
         {
-          "start": "20261126180000 +0000",
-          "stop": "20261126190000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261126185500 +0000",
           "stop": "20261126195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13776,13 +13622,6 @@
           "stop": "20261126191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
-          "category": ""
-        },
-        {
-          "start": "20261126190000 +0000",
-          "stop": "20261126200000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13828,13 +13667,6 @@
           "category": "Krimi"
         },
         {
-          "start": "20261126200000 +0000",
-          "stop": "20261126210000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261126205500 +0000",
           "stop": "20261126220000 +0000",
           "title": "Vraždy v Karibiku",
@@ -13856,25 +13688,11 @@
           "category": ""
         },
         {
-          "start": "20261126210000 +0000",
-          "stop": "20261126220000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261126220000 +0000",
           "stop": "20261126230000 +0000",
           "title": "Kosti",
           "description": "S4 E9 — Cestující v mikrovlnce\nDoktorka Brennanová a agent Booth letí do Šanghaje na archeologický výzkum. Během cesty však letuška objeví v mikrovlnné troubě spálenou mrtvolu ženy.. Zvláštní agent Seeley Booth doprovází doktorku Temperance Kůstku Brennanovou do Šanghaje, kde se má Kůstka podílet na archeologickém výzkumu. Letuška Kate McNuttová najde během letu v mikrovlnné troubě v kuchyňce spálenou mrtvolu. Kapitán Blake by byl raději, kdyby případ vyšetřovala po přistání čínská policie, ale Kůstka s Boothem tvrdí, že paluba letadla je výsostným americkým územím. Oba se snaží s minimem technických pomůcek přijít záhadě na kloub. Kůstka se přes internet připojí do... laboratoře Jeffersonova institutu, odkud jí kolegové pomáhají. Booth si v kuchyňce všimne vyvěšen ého telefonu. K poslednímu hovoru se přizná letuška Theresa Mingová, volala prý svému příteli na šanghajské letiště. Obětí je menší žena s umělými nehty. Na její lebce je zářez. Podle jeho otisku ženu vrah narazil hlavu na západku trouby a ještě živou ji strčil do mikrovlnky. McNuttová podle neobsazeného sedadla zjistí, že jde o novinářku Elizabeth Jonesovou. Její soused v letadle si prý ničeho nevšiml, protože spal. Booth v letadle pokárá šestnáctiletého Eliho Bilbreye, který potají popíjí alkohol. Jeho otec Arthur ho omlouvá, nechce vyrušit svou těžce nemocnou ženu Ann, která spí. Caroline Julianová z prokuratury mezitím navštíví Howarda Kendella, editora Jonesové. Ten jí řekne, že Jonesová právě dopsala článek o pilotech, kteří nepřiznali, že řídili letadlo opilí. V článku figuruje i kapitán W. Blake. Kapitán prohlásí, že se to stalo výjimečně, v den pohřbu jeho otce, a tvrdí, že Jonesovou vůbec neznal. Kendell se také zmíní o tom, že Jonesová si potrpěla na muže. Naposledy chodila s ženatým mužem jménem Artie..",
           "category": "Komedie"
-        },
-        {
-          "start": "20261126220000 +0000",
-          "stop": "20261126230000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
         },
         {
           "start": "20261126225000 +0000",
@@ -15613,6 +15431,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261129150000 +0000",
+          "stop": "20261129160000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261129150500 +0000",
           "stop": "20261129160000 +0000",
           "title": "Horná Dolná",
@@ -15648,6 +15473,13 @@
           "category": "Komedie"
         },
         {
+          "start": "20261129160000 +0000",
+          "stop": "20261129170000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261129165000 +0000",
           "stop": "20261129180000 +0000",
           "title": "Pán profesor",
@@ -15667,6 +15499,13 @@
           "title": "Polícia Chicago",
           "description": "S10 E16 — Deadlocked\nVoight svedčí v napínavom súdnom procese s neslávne známym drogovým bossom obžalovaným z vraždy.",
           "category": "Akční"
+        },
+        {
+          "start": "20261129170000 +0000",
+          "stop": "20261129180000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261129180000 +0000",
@@ -15690,6 +15529,13 @@
           "category": ""
         },
         {
+          "start": "20261129180000 +0000",
+          "stop": "20261129190000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261129185500 +0000",
           "stop": "20261129195000 +0000",
           "title": "Bez stopy",
@@ -15708,6 +15554,13 @@
           "stop": "20261129191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
+          "category": ""
+        },
+        {
+          "start": "20261129190000 +0000",
+          "stop": "20261129200000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15753,11 +15606,25 @@
           "category": "Krimi"
         },
         {
+          "start": "20261129200000 +0000",
+          "stop": "20261129210000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261129210000 +0000",
           "stop": "20261129220000 +0000",
           "title": "Špecialisti",
           "description": "S1 E165 — Fake news\nSpecialisté vyšetřují případ z prostředí novinářů a politiků, kde ve skutečnosti nic není tak, jak to na první pohled vypadá. Na policii zavolá muž, že právě zavraždil svoji přítelkyni. Když Specialisté dorazí na místo činu, zjistí, že mužem je investigativní novinář Radim Grábl. Kvůli falešné kauze populistického jednoho komunálního politika, kterou před půl rokem zveřejnil, se ocitl ve finančních a psychických potížích. Specialisté rychle přijdou na to, že Radim Grábl vlastně vraždu nespáchal, ale že se za ni cítí morálně zodpovědný. Postupně vychází najevo, že zavražděná Jasmína Humlová byla placenou společnicí,... kterou si někdo najal, aby o psychicky zhrouceném Gráblovi získal bližší informace.",
           "category": "Krimi"
+        },
+        {
+          "start": "20261129210000 +0000",
+          "stop": "20261129220000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261129220000 +0000",
@@ -15778,6 +15645,13 @@
           "stop": "20261129232000 +0000",
           "title": "Partička",
           "description": "Záruka najlepšej zábavy. Petra Polnišová, Lukáš Latinák, Marián Miezga, Robo Jakab a Roman Pomajbo sú absolútni profesionáli, ktorí bez väčších problémov - hoc aj o polnoci, poslepiačky či pospiatky - zahrajú... V podstate úplne čokoľvek! A presne o to v medzičasom už kultovej zábavnej šou Partička ide - nenechať sa zaskočiť hocako absurdne znejúcim zadaním diabolského moderátora Dana Dangla a na veľkú radosť divákov v štúdiu i pred obrazovkami improvizovať ako o život! To, že ide o kráľovsky zábavný test... invenčnosti a talentu všetkých zúčastnených, ale aj poriadny záber na ich nervy, napnuté na prasknutie, hádam ani netreba zvlášť zdôrazňovať. Nik si totiž nemôže byť istý tým, čo sa stane a ako celý večer dopadne, ani len oni sami nie.",
+          "category": ""
+        },
+        {
+          "start": "20261129220000 +0000",
+          "stop": "20261129230000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
