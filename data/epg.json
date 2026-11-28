@@ -1,114 +1,9 @@
 {
-  "updatedAt": "2026-11-27T16:01:44.131991Z",
+  "updatedAt": "2026-11-28T00:59:20.047048Z",
   "channels": {
     "joj": {
       "name": "JOJ",
       "programmes": [
-        {
-          "start": "20261126230000 +0000",
-          "stop": "20261126233000 +0000",
-          "title": "Noviny TV JOJ",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261126230500 +0000",
-          "stop": "20261127000500 +0000",
-          "title": "Hrobári",
-          "description": "S1 E8 — Velikonoce\nMajitelé pohřební služby chtějí vyrobit zázračnou brynzu, aby mohli komunikovat se zesnulými. Akt rozmnožování ovcí se však musí odehrát během velikonočních svátků. Rodina si půjčí berany a snaží se stihnout termín. V rodine Pipasíkovcov aj u psychológa Hunála panuje smútok, nakoľko po konzumácii zázračnej bryndze od ovečky Adriany všetci postupne strácajú kontakt s blízkymi osobami, ktoré sú po smrti. V prípade Pipasíkovcov je to nebohý otec Braňo a pre Hunála ovečka Adriana. Nič však nie je stratené. Akčná rodina na čele s Peťanom nájde baču, ktorý vlastní baranov. Všetci sa môžu zachrániť, veď Adrianine dcéry môžu po stretnutí s baranmi produkovať rovnako zázračné mlieko a bryndzu. Farár Lakatoš je z... celej situácie výrazne nesvoj a apeluje na zdravý rozum všetkých prítomných. Po niekoľkých desiatka ch hodín, dní až mesiacov prináša Hunál novú bryndzu. Obec Haláš čaká nová etapa duchovného života a rodina Pipasíkovcov nebude výnimkou. Rodina Pipasíkovcov poskytuje najlepšiu pohrebnú službu v kraji. Striehnu na každého nebožtíka, aby mali z čoho žiť. Keď majiteľ pohrebníctva Pipasík nečakane umrie, zanechá rodinu v náročnej situácii. Jeho pozostalí sa musia ujať hrobárskeho remesla, zabudnúť na ego a udržať pokope rodinný podnik. Lenže to vôbec nebude také jednoduché. Osemdielna miniséria čiernych komédií z prostredia rodinnej pohrebnej služby pochádza z pera scenáristu Petra Kolečka, autora úspešného seriálu Most.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261126230500 +0000",
-          "stop": "20261126234500 +0000",
-          "title": "Kriminálka Kraj",
-          "description": "S1 E3 — Zmiznutá\nV jezeře se našla mrtvola ženy, která byla už pět let pohřešovaná. Policie se pouští do vyšetřování, které odhalí, že tělo bylo celou dobu v mrazáku. V jezeře svědci objeví mrtvé tělo ženy v plavkách. Napohled jednoznačný případ se zamotá, když policisté zjistí, že oběť nebyla utopena a navíc je už pět let pohřešována. Objasnit záhadnou smrt dlouhodobě pohřešované ženy musí policie. Prvním podezřelým je její manžel, druhým bývalý šéf, který ji obtěžoval a vyhrožoval jí. Postupným vyšetřováním se kruh kolem pachatele zužuje, až ve stresu udělá chybu, která ho definitivně usvědčí z vraždy. Přináší zajímavé případy, v nichž závažné trestné... činy sice páchají obyčejní lidé, ale na jejich realizaci či zahlazení stop vynaloží mimořádnou námahu . Dvojice vyšetřovatelů tak vždy stojí proti inteligentnímu pachateli. Kriminalisté Zuzana Vicenová a Jano Tesár přitom nejsou žádní superhrdinové, ale běžní lidé se svými osobními i pracovními problémy. Stejnými, jaké mají i oběti a pachatelé zločinů, které musí vypátrat a usvědčit. Zároveň nám dovolí nahlédnout i do soukromých životů hlavních hrdinů a jejich vztahů.",
-          "category": "Krimi"
-        },
-        {
-          "start": "20261126230500 +0000",
-          "stop": "20261126231000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261126231000 +0000",
-          "stop": "20261126232000 +0000",
-          "title": "Zabi nudu!",
-          "description": "",
-          "category": "Pro Děti"
-        },
-        {
-          "start": "20261126232000 +0000",
-          "stop": "20261126233000 +0000",
-          "title": "Knihy od Stonožky",
-          "description": "Slovenská relácia (2020). Ponorte sa do sveta fantázie, nazrite na miesta, o ktorých ste ani nesnívali alebo sa naučte čosi nové s parádnymi knihami. Televízia Jojko vám prinesie tipy na pekné, užitočné či nové tituly. Deti sa zabavia a dospelí získajú cenné informácie o tom, ako čítať s deťmi a ako ich viesť k čítaniu. Knižka, to je kamoška.",
-          "category": ""
-        },
-        {
-          "start": "20261126232500 +0000",
-          "stop": "20261127051000 +0000",
-          "title": "Automobilové preteky",
-          "description": "6 hodín v Lone Star Le Mans - MS FIA vo vytrvalostných pretekoch 2026 Záznam Majstrovstiev sveta vo vytrvalostných pretekoch 2026.",
-          "category": ""
-        },
-        {
-          "start": "20261126233000 +0000",
-          "stop": "20261126234000 +0000",
-          "title": "Šport",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261126233000 +0000",
-          "stop": "20261127002500 +0000",
-          "title": "Profesionáli",
-          "description": "S6 E13 — Profesionáli na dovolenke\nV rámci letního udržování občanské sounáležitosti se policisté rozhodnou oslavit Světový den květů a spolu s občany městečka soutěží o nejkrásnější kytici. Hospodský Miňo policisty přemluví i na organizaci soutěže o nejkrásnější zahradu, a jako obvykle tím opět sleduje něco nekalého. V rámci letného udržiavania občianskej spolupatričnosti sa policajti rozhodnú osláviť Svetový deň kvetov spolu s občanmi mestečka súťažou o najkrajšiu kyticu. Krčmár Miňo policajtov prehovorí aj na organizáciu súťaže o najkrajšiu záhradu, a ako zvyčajne tým opäť sleduje niečo nekalé.",
-          "category": "Komedie"
-        },
-        {
-          "start": "20261126233000 +0000",
-          "stop": "20261126235000 +0000",
-          "title": "Fidlivareška",
-          "description": "Haruľa Kde bolo, tam bolo, za tromi horami jabĺk, za tromi vŕškami z tvarohu, kde sa mak lial a mlieko sypalo bola raz jedna vareška. Táto vareška mala čarovnú moc a každý, kto ju stretol, v okamihu vedel variť. Verte či neverte, Fidlikanti ju na svojich cestách stretli a ona ich naučila variť skvelé tradičné slovenské dobroty. Pozorne sledujte a naučte sa ich spolu s nimi. Dobru chuť, fidli-fidli. Slovenská hudobno-náučná relácia, 2021. (do 12 rokov).",
-          "category": ""
-        },
-        {
-          "start": "20261126234000 +0000",
-          "stop": "20261126235000 +0000",
-          "title": "Najlepšie počasie",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261126234500 +0000",
-          "stop": "20261127003000 +0000",
-          "title": "Poldové v akci",
-          "description": "Seriál malých příběhů inspirovaných skutečnými policejními zásahy na základě reálných výjezdů. Polohraný seriál se inspiroval policejními zprávami o skutečných policejních zásazích. Policisté řeší od ukradených kol či souseda, kterého pokousal pes, až po podezření z trestných činů loupeže peněz na benzínové čerpací stanici či podvody na seniorech, rvačky a útoky na manžely nebo rodiče. Mnoho případů slouží jako výstraha, jak se nedat podvést či oklamat zloději a takzvanými profesionálními lháři, kteří denně připravují Slováky o majetek a úspory. Jsou příběhy, které vyvolají úsměv,... protože se končí relativně dobře a smírně, protože viník si přizná chybu, omluví se, prosí kamaráda, so useda, bratra o odpuštění a dostane jen blokovou pokutu. V seriálu uvidíme mnoho známých hereckých tváří, kteří se objeví v postavách policistů i okradených, zbitých či jinak poškozených občanů.",
-          "category": "Drama"
-        },
-        {
-          "start": "20261126234500 +0000",
-          "stop": "20261127004500 +0000",
-          "title": "Hľadači pravdy",
-          "description": "S2 E7 — Mary Magdalene\nMarie Magdaléna. Kajícná hříšnice, apoštolka apoštolů, nebo dokonce Ježíšova tajná manželka? Její obraz byl katolickou církví v průběhu staletí upravován a přetvářen. Kdo byla Máří Magdaléna? Hledači pravdy se pokusí najít odpovědi.",
-          "category": "Historický"
-        },
-        {
-          "start": "20261126235000 +0000",
-          "stop": "20261127001500 +0000",
-          "title": "Krimi",
-          "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261126235000 +0000",
-          "stop": "20261127000500 +0000",
-          "title": "Tani tani s Nely",
-          "description": "Slovenská náučno-zábavná relácia (2019). Roztancujte sa s nami v novej zábavnej relácii! Tanečníčka Nely vás naučí základné kroky rôznych tancov. Dozviete sa, ako bojovať s trémou, prečo je dôležitý pitný režim, čo všetko urobí vaše vystúpenie výnimočným, alebo aké sú rôzne národné tance. Zaspievajte si a zatancujte na veselé pesničky exkluzívne na TV JOJKO.",
-          "category": ""
-        },
         {
           "start": "20261127000500 +0000",
           "stop": "20261127003500 +0000",
@@ -13282,34 +13177,6 @@
       "name": "Markíza",
       "programmes": [
         {
-          "start": "20261126230000 +0000",
-          "stop": "20261126234000 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E11 — Wenn die Maske fĂ¤llt\nNa stopě zločinu je v malebném Tyrolsku tým detektivů Lukas Roither, Nina Pokorny a starší zkušený kolega Kroisleitner. V proslulém turistickém centru není o zajímavé případy nouze. Mimo rušného Kitzbühelského mestského festivalu je zastrelený univerzitný profesor Gilbert Kronheisl. Vrah bol prezlečený za klauna, čo mu umožnilo nepozorovane uniknúť v dave. Lukas a Nina sa pustia do vyšetrovania Kronheislovho života a zistia, že medzi svojimi medickými študentmi nebol práve obľúbený. Jeden z nich, Christof Wiegele, sa práve so svojou klaunskou skupinou nachádza na festivale. No do mesta práve dorazila aj Kronheislova odcudzená manželka Anna, aby vyriešila niekoľko... nevybavených záležitostí.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261126234000 +0000",
-          "stop": "20261127002500 +0000",
-          "title": "Vraždy v Kitzbühele",
-          "description": "S17 E12 — Der Staat bin ich\nNa záznamu z meteorologické kamery z hory Hohe Salve je na louce vidět mrtvý muž v tratolišti krve. Je to třiapadesátiletý Rief Ulrich - podle údajů v jeho občanském průkazu, který si ovšem vyrobil sám. Patřil totiž ke \"svobodným občanům\", policii dobře známým popíračům státu, jejichž organizaci šéfuje Karl-Gorän Andersen. V podezření se ocitne bývalý \"svobodný občan\" Ewald Hornig, který organizaci po smrti své manželky opustill. Jeho žena totiž zahynula při autohavárii a Hornig Andersona a... Riefa obvinil, že nehodu zařídili. Dokonce jim vyhrožoval, že je zabije. Na záberoch z meteorologickej kamery na vrchu Hohe Salve je vidieť mŕtveho muža na lúke v kaluži krvi. Je to Rief Ulrich, päťdesiattriročný - podľa údajov na jeho občianskom preukaze, ktorý si sám vyrobil: je jedným zo \"slobodných občanov\", polícii dobre známych ako popierač štátu, na čele ktorého organizácie stojí Karl-Gorän Andersen, rodený Švéd, ktorý je v policajnej databáze pre podvody. Podozrenie padá na Ewalda Horniga, ktorý sa s Andersenovou organizáciou rozišiel po smrti svojej... manželky. Jeho manželka zahynula pri autonehode a Hornig obvinil Andersena a Riefa, že nehodu zorganizov ali, a dokonca sa im vyhrážal zabitím.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261126235500 +0000",
-          "stop": "20261127005500 +0000",
-          "title": "Kobra 11",
-          "description": "S11 E7 — Am Abgrund\nMaskovaní motocyklisté přepadnou na dálnici auto převážející cennosti a ukradnou z něj kufřík umělých diamantů, které není možné bez zdlouhavých laboratorních testů odlišit od pravých. Maskovaní motocyklisté přepadnou na dálnici auto převážející cennosti a ukradnou z něj kufřík umělých diamantů, které není možné bez zdlouhavých laboratorních testů odlišit od pravých. Kdyby se k nim podařilo sehnat certifikáty pravosti, daly by se prodat jako pravé diamanty. Formuláře jsou ve znalecké laboratoři v nejvyšším patře ostře střežené 120 metrové budovy Cologne Towers. Dostat se dovnitř není snadné a cesta zpátky je ještě těžší.",
-          "category": "Akční"
-        },
-        {
-          "start": "20261126235500 +0000",
-          "stop": "20261127005000 +0000",
-          "title": "Horná Dolná",
-          "description": "S12 E6\nOpäť je tu Veľká noc a ženy majú podozrenie, že ich zase čaká masaker. A hoci muži prisahajú, že nemajú žiadne zlé úmysly, ženy sa pripravujú na boj.",
-          "category": "Komedie"
-        },
-        {
           "start": "20261127002500 +0000",
           "stop": "20261127011000 +0000",
           "title": "Vraždy v Karibiku",
@@ -13611,13 +13478,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261127150000 +0000",
-          "stop": "20261127160000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261127160000 +0000",
           "stop": "20261127170000 +0000",
           "title": "Vraždy v Kitzbühele",
@@ -13636,13 +13496,6 @@
           "stop": "20261127162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
-          "category": ""
-        },
-        {
-          "start": "20261127160000 +0000",
-          "stop": "20261127170000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13695,13 +13548,6 @@
           "category": "Akční"
         },
         {
-          "start": "20261127170000 +0000",
-          "stop": "20261127180000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261127180000 +0000",
           "stop": "20261127185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -13720,13 +13566,6 @@
           "stop": "20261127185500 +0000",
           "title": "Televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
-          "category": ""
-        },
-        {
-          "start": "20261127180000 +0000",
-          "stop": "20261127190000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13755,13 +13594,6 @@
           "stop": "20261127190500 +0000",
           "title": "LOTO, LOTO 5 z 35, Joker, Všetko alebo nič, KENO 10, Keno Joker",
           "description": "",
-          "category": ""
-        },
-        {
-          "start": "20261127190000 +0000",
-          "stop": "20261127200000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -13800,13 +13632,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261127200000 +0000",
-          "stop": "20261127210000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261127202500 +0000",
           "stop": "20261127211000 +0000",
           "title": "Rodinné prípady",
@@ -13821,13 +13646,6 @@
           "category": "Komedie"
         },
         {
-          "start": "20261127210000 +0000",
-          "stop": "20261127220000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
-          "category": ""
-        },
-        {
           "start": "20261127211000 +0000",
           "stop": "20261127215500 +0000",
           "title": "Rodinné prípady",
@@ -13839,13 +13657,6 @@
           "stop": "20261127225500 +0000",
           "title": "Partička",
           "description": "Záruka najlepšej zábavy. Petra Polnišová, Lukáš Latinák, Marián Miezga, Robo Jakab a Roman Pomajbo sú absolútni profesionáli, ktorí bez väčších problémov - hoc aj o polnoci, poslepiačky či pospiatky - zahrajú... V podstate úplne čokoľvek! A presne o to v medzičasom už kultovej zábavnej šou Partička ide - nenechať sa zaskočiť hocako absurdne znejúcim zadaním diabolského moderátora Dana Dangla a na veľkú radosť divákov v štúdiu i pred obrazovkami improvizovať ako o život! To, že ide o kráľovsky zábavný test... invenčnosti a talentu všetkých zúčastnených, ale aj poriadny záber na ich nervy, napnuté na prasknutie, hádam ani netreba zvlášť zdôrazňovať. Nik si totiž nemôže byť istý tým, čo sa stane a ako celý večer dopadne, ani len oni sami nie.",
-          "category": ""
-        },
-        {
-          "start": "20261127220000 +0000",
-          "stop": "20261127230000 +0000",
-          "title": "No Data",
-          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15501,6 +15312,13 @@
           "category": ""
         },
         {
+          "start": "20261130150000 +0000",
+          "stop": "20261130160000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261130150500 +0000",
           "stop": "20261130160000 +0000",
           "title": "Kosti",
@@ -15526,6 +15344,13 @@
           "stop": "20261130162500 +0000",
           "title": "Prvé televízne noviny",
           "description": "Aktuálne a dynamické informácie z politickej a spoločensko-kultúrnej sféry z domova i zo zahraničia.",
+          "category": ""
+        },
+        {
+          "start": "20261130160000 +0000",
+          "stop": "20261130170000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15578,6 +15403,13 @@
           "category": "Akční"
         },
         {
+          "start": "20261130170000 +0000",
+          "stop": "20261130180000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261130180000 +0000",
           "stop": "20261130185500 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15599,6 +15431,13 @@
           "category": ""
         },
         {
+          "start": "20261130180000 +0000",
+          "stop": "20261130190000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261130185500 +0000",
           "stop": "20261130195000 +0000",
           "title": "NCIS - Námorný vyšetrovací úrad",
@@ -15617,6 +15456,13 @@
           "stop": "20261130191500 +0000",
           "title": "Počasie",
           "description": "Aktuálna predpoveď počasia na najbližšie dni.",
+          "category": ""
+        },
+        {
+          "start": "20261130190000 +0000",
+          "stop": "20261130200000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
           "category": ""
         },
         {
@@ -15662,6 +15508,13 @@
           "category": "Krimi"
         },
         {
+          "start": "20261130200000 +0000",
+          "stop": "20261130210000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
           "start": "20261130205000 +0000",
           "stop": "20261130220500 +0000",
           "title": "Farma",
@@ -15681,6 +15534,20 @@
           "title": "Vraždy v Karibiku",
           "description": "S2 E2 — Les Salines\nMélissa si všimne horiace auto a okamžite sa pustí do prenasledovania podpaľača. Keď sa jej podarí podozrivú osobu zadržať, čaká ju poriadny šok. Zistí totiž, že ide o jej vlastnú dcéru Chloé. Tá sa prizná, že sa chcela pomstiť Loicovi Fabreovi, ktorého na videu šíriacom sa internetom vidno, ako týra psa. Situácia sa však ešte viac skomplikuje, keď neďaleko miesta požiaru objavia bezvládne telo práve tohto muža.",
           "category": "Krimi"
+        },
+        {
+          "start": "20261130210000 +0000",
+          "stop": "20261130220000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
+        },
+        {
+          "start": "20261130220000 +0000",
+          "stop": "20261130230000 +0000",
+          "title": "No Data",
+          "description": "https://iptv-epg.org/help",
+          "category": ""
         },
         {
           "start": "20261130220500 +0000",
